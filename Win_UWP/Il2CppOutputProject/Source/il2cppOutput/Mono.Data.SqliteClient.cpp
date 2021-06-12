@@ -1,0 +1,10806 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+#include <stdint.h>
+
+
+template <typename R, typename T1>
+struct VirtFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
+struct VirtFuncInvoker5
+{
+	typedef R (*Func)(void*, T1, T2, T3, T4, T5, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+struct VirtActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct VirtActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename T1, typename T2>
+struct VirtActionInvoker2
+{
+	typedef void (*Action)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Globalization.CultureInfo>
+struct Dictionary_2_t5B8303F2C9869A39ED3E03C0FBB09F817E479402;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
+struct Dictionary_2_t1DDD2F48B87E022F599DF2452A49BB70BE95A7F8;
+// System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo>
+struct Dictionary_2_t0015CBF964B0687CBB5ECFDDE06671A8F3DDE4BC;
+// System.Collections.Generic.Dictionary`2<System.String,System.Int32>
+struct Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162;
+// System.Collections.Generic.Dictionary`2<System.String,System.Object>
+struct Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399;
+// System.EventHandler`1<System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs>
+struct EventHandler_1_t7F26BD2270AD4531F2328FD1382278E975249DF1;
+// System.Collections.Generic.IEqualityComparer`1<System.String>
+struct IEqualityComparer_1_tE6A65C5E45E33FD7D9849FD0914DE3AD32B68050;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Int32>
+struct KeyCollection_t61F8738ED346768CC112B2E27863BF9F73C76D90;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Int32>
+struct ValueCollection_t17EEB7B2EDD3CB5222C660D7E739F803986BF025;
+// System.Collections.Generic.Dictionary`2/Entry<System.String,System.Int32>[]
+struct EntryU5BU5D_tABFC31237D6642B5D4C1DBA234CA37EE851EB0AE;
+// System.Byte[]
+struct ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726;
+// System.Char[]
+struct CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34;
+// System.Int32[]
+struct Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32;
+// System.IntPtr[]
+struct IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6;
+// System.Object[]
+struct ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE;
+// System.Data.Common.SchemaInfo[]
+struct SchemaInfoU5BU5D_t74FB36EB2FE6D68C94F0AEDFD0B1AC7526D14BEA;
+// System.Diagnostics.StackTrace[]
+struct StackTraceU5BU5D_t4AD999C288CB6D1F38A299D12B1598D606588971;
+// System.String[]
+struct StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A;
+// System.Type[]
+struct TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755;
+// System.Collections.Hashtable/bucket[]
+struct bucketU5BU5D_tFE956DAEFB1D1C86A13EF247D7367BF60B55E190;
+// System.AppDomain
+struct AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A;
+// System.AppDomainSetup
+struct AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8;
+// System.ApplicationException
+struct ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407;
+// System.Collections.ArrayList
+struct ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575;
+// System.AssemblyLoadEventHandler
+struct AssemblyLoadEventHandler_tE06B38463937F6FBCCECF4DF6519F83C1683FE0C;
+// System.Reflection.Binder
+struct Binder_t2BEE27FD84737D1E79BC47FD67F6D3DD2F2DDA30;
+// System.Globalization.Calendar
+struct Calendar_t3D638AEAB45F029DF47138EDA4CF9A7CBBB1C32A;
+// System.Globalization.CodePageDataItem
+struct CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E;
+// System.Globalization.CompareInfo
+struct CompareInfo_t4AB62EC32E8AF1E469E315620C7E3FB8B0CAE0C9;
+// System.ComponentModel.Component
+struct Component_t015539CFEAEEBFD7619041FE006475373E0D71DF;
+// System.Globalization.CultureData
+struct CultureData_t53CDF1C5F789A28897415891667799420D3C5529;
+// System.Globalization.CultureInfo
+struct CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98;
+// System.Globalization.DateTimeFormatInfo
+struct DateTimeFormatInfo_t0B9F6CA631A51CFC98A3C6031CF8069843137C90;
+// System.Data.Common.DbCommand
+struct DbCommand_tB125F25AD82F85EA3DC7AA8C0556C4788E5D72CC;
+// System.Data.Common.DbConnection
+struct DbConnection_t10FE0E1B88AE954D5CDB74A512B018A8D2185B50;
+// System.Data.Common.DbDataReader
+struct DbDataReader_t50481AE1497CEE437BDA56F2E92B6567D3222C45;
+// System.Data.Common.DbDataRecord
+struct DbDataRecord_t02A7715354313B29BA4878743EBBECFA9884AA70;
+// System.Data.Common.DbEnumerator
+struct DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0;
+// System.Data.Common.DbParameter
+struct DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3;
+// System.Data.Common.DbParameterCollection
+struct DbParameterCollection_t53857899F148EF54A7C90F169557DD134B5297D2;
+// System.Text.DecoderFallback
+struct DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D;
+// System.Data.DuplicateNameException
+struct DuplicateNameException_t4305734127CC4324A913DE2E4CD9B38697E80C3C;
+// System.Text.EncoderFallback
+struct EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4;
+// System.Text.Encoding
+struct Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827;
+// System.EventHandler
+struct EventHandler_t084491E53EC706ACA0A15CA17488C075B4ECA44B;
+// System.ComponentModel.EventHandlerList
+struct EventHandlerList_t085C99C5BEAB950B4B76BB13379FBCA0AA75A714;
+// System.Exception
+struct Exception_t;
+// System.Data.ProviderBase.FieldNameLookup
+struct FieldNameLookup_t1F09FBFC400175E9455F7739B1062AC9C93ADF39;
+// System.Collections.Hashtable
+struct Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC;
+// System.Collections.ICollection
+struct ICollection_tC1E1DED86C0A66845675392606B302452210D5DA;
+// System.Data.IDataReader
+struct IDataReader_tCA82A5B3AE1C412FA8C38F54929D4C42EC0E027B;
+// System.Data.IDbTransaction
+struct IDbTransaction_tB1332AB728C114EF3297126AB32531A13E655E53;
+// System.Collections.IDictionary
+struct IDictionary_t99871C56B8EC2452AC5C4CF3831695E617B89D3A;
+// System.Collections.IEnumerator
+struct IEnumerator_t5956F3AFB7ECF1117E3BC5890E7FC7B7F7A04105;
+// System.Collections.IEqualityComparer
+struct IEqualityComparer_t6C4C1F04B21BDE1E4B84BD6EC7DE494C186D6C68;
+// System.ComponentModel.ISite
+struct ISite_tC1E55EC6FA743BE8C9D79C838308E788B90C8790;
+// System.IndexOutOfRangeException
+struct IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD;
+// System.InvalidCastException
+struct InvalidCastException_tD99F9FF94C3859C78E90F68C2F77A1558BCAF463;
+// System.InvalidOperationException
+struct InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB;
+// System.Reflection.MemberFilter
+struct MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81;
+// System.NotSupportedException
+struct NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339;
+// System.Globalization.NumberFormatInfo
+struct NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D;
+// System.OutOfMemoryException
+struct OutOfMemoryException_t2671AB315BD130A49A1592BAD0AEE9F2D37667AC;
+// System.ComponentModel.PropertyDescriptorCollection
+struct PropertyDescriptorCollection_t0BB7AE0048C13582B255B7D574F323B4B01D272F;
+// System.ResolveEventHandler
+struct ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089;
+// System.Runtime.Serialization.SafeSerializationManager
+struct SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F;
+// Mono.Data.SqliteClient.SqliteBusyException
+struct SqliteBusyException_t7455C7CF0AB66A467541BA3F308BA168B65F9591;
+// Mono.Data.SqliteClient.SqliteCommand
+struct SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC;
+// Mono.Data.SqliteClient.SqliteConnection
+struct SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180;
+// Mono.Data.SqliteClient.SqliteDataReader
+struct SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585;
+// Mono.Data.SqliteClient.SqliteExecutionException
+struct SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826;
+// Mono.Data.SqliteClient.SqliteParameter
+struct SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE;
+// Mono.Data.SqliteClient.SqliteParameterCollection
+struct SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236;
+// Mono.Data.SqliteClient.SqliteSyntaxException
+struct SqliteSyntaxException_tB92508EB582FC96CA42A679099FE4E6D39D1B028;
+// System.String
+struct String_t;
+// System.StringComparer
+struct StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6;
+// System.Globalization.TextInfo
+struct TextInfo_tE823D0684BFE8B203501C9B2B38585E8F06E872C;
+// System.Type
+struct Type_t;
+// System.UnhandledExceptionEventHandler
+struct UnhandledExceptionEventHandler_t1DF125A860ED9B70F24ADFA6CB0781533A23DA64;
+// System.Void
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
+
+IL2CPP_EXTERN_C RuntimeClass* ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DllNotFoundException_tD2224C1993151B8CCF9938FD62649816CF977596_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DuplicateNameException_t4305734127CC4324A913DE2E4CD9B38697E80C3C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EntryPointNotFoundException_tD0666CDCBD81C969BAAC14899569BFED2E05F9DC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Enum_t23B90B40F60E677A8025267341651C94AE079CDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int16_tD0F031114106263BB459DA1F099FF9F42691295A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IntPtr_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InvalidCastException_tD99F9FF94C3859C78E90F68C2F77A1558BCAF463_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OutOfMemoryException_t2671AB315BD130A49A1592BAD0AEE9F2D37667AC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SqliteBusyException_t7455C7CF0AB66A467541BA3F308BA168B65F9591_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SqliteError_t5E07D210399EFAFAEAF6FE3479BAB43D409061D4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SqliteSyntaxException_tB92508EB582FC96CA42A679099FE4E6D39D1B028_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UInt32_tE60352A06233E4E69DD198BCC67142159F686B15_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral033E60898D7CB96785479B0796BE7C988BCC2A99;
+IL2CPP_EXTERN_C String_t* _stringLiteral0BA8CB3B900ECEF5E697192B8CDA6B626EB0CE72;
+IL2CPP_EXTERN_C String_t* _stringLiteral0BE11E57278B4DB1404B685496A04A9ACD355655;
+IL2CPP_EXTERN_C String_t* _stringLiteral10C63C8C602DD5E38BE4A758C90EBAC324CD3E69;
+IL2CPP_EXTERN_C String_t* _stringLiteral1A34317206F4C945567B0FAE326B4F51F3CC7F25;
+IL2CPP_EXTERN_C String_t* _stringLiteral1D7B559D2443B7B91D8C57B59220774176D04300;
+IL2CPP_EXTERN_C String_t* _stringLiteral218F5A08519088A96BE3C1074984C53EA49F1CCA;
+IL2CPP_EXTERN_C String_t* _stringLiteral29988D0F9BCADFABFF66CBF5AB73096D1CAE3128;
+IL2CPP_EXTERN_C String_t* _stringLiteral2DCB4520E1C185B41BB3802B36713A4F9EC300E5;
+IL2CPP_EXTERN_C String_t* _stringLiteral34809DE2AF8C211C4AFD423B678EA4FE9C979661;
+IL2CPP_EXTERN_C String_t* _stringLiteral40459E82C4E7EB843C48BDF464CD9981D893BD8F;
+IL2CPP_EXTERN_C String_t* _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D;
+IL2CPP_EXTERN_C String_t* _stringLiteral4AB0148932BC6F04ABC10C5A7FCA8268C12803A1;
+IL2CPP_EXTERN_C String_t* _stringLiteral57A934726E1ABC46ADF2AC8C318B9EA9E3737734;
+IL2CPP_EXTERN_C String_t* _stringLiteral67812293BC824A8E954F8E1F0C06BF572BB0E267;
+IL2CPP_EXTERN_C String_t* _stringLiteral6855F4EC54AF75D6CAC8881791FBD2C863F2C1C9;
+IL2CPP_EXTERN_C String_t* _stringLiteral69DFC6635B03CD70D7D9663FFED9983C4F65FF4A;
+IL2CPP_EXTERN_C String_t* _stringLiteral85E42CBEA6DB3EB66A8B7FBF62E1E7A459746305;
+IL2CPP_EXTERN_C String_t* _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1;
+IL2CPP_EXTERN_C String_t* _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D;
+IL2CPP_EXTERN_C String_t* _stringLiteral9A62305734B1A5D8C56B0791FEB96BCDDD1CD15E;
+IL2CPP_EXTERN_C String_t* _stringLiteral9CD611E4263DAED3CF79312C8723B54F04B87C80;
+IL2CPP_EXTERN_C String_t* _stringLiteralAA1BD856BF4C631F29ECEBD6F9435466DC0DC410;
+IL2CPP_EXTERN_C String_t* _stringLiteralAF248E82BE9EBA1ADBF067429FAEE5A5B6E05A74;
+IL2CPP_EXTERN_C String_t* _stringLiteralB0A1C47352664275E2D7F477FA4C62FC016B575F;
+IL2CPP_EXTERN_C String_t* _stringLiteralBB2A78A6285DFBD1D7D3FAB7E0AC580B5E9A2ACB;
+IL2CPP_EXTERN_C String_t* _stringLiteralBFCC6EE94F1B7AA05A04750903E25F93A7188AE0;
+IL2CPP_EXTERN_C String_t* _stringLiteralC2396630C87BA70DDF492CA145DFF5E28C22E02F;
+IL2CPP_EXTERN_C String_t* _stringLiteralD2D2F8D3F9F04A081FFBE6B2AF7917BAAADFC052;
+IL2CPP_EXTERN_C String_t* _stringLiteralD8EBD7967F74FCB93694E539E94675EBBD4BF0F8;
+IL2CPP_EXTERN_C String_t* _stringLiteralDD88E702DF24C95E646911BB9F8A30895F324632;
+IL2CPP_EXTERN_C String_t* _stringLiteralE10CE76A36830983737AFC7AB5662B41A8D7111B;
+IL2CPP_EXTERN_C String_t* _stringLiteralE7650EB4C8EF6F4B045B8E8747677ECDDEF6AA10;
+IL2CPP_EXTERN_C String_t* _stringLiteralEB425272F15000B0768E90D527E79C72582C7427;
+IL2CPP_EXTERN_C String_t* _stringLiteralF483BB41B365F0A179F43346D41EEB96309A932D;
+IL2CPP_EXTERN_C String_t* _stringLiteralF969F20B3C62D5C6F7538D8F52456DABCD9E36AD;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m8E06A6DF244254BF419D7EC23A9A6809E19A544D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mEC554451CB98B6F31912A513825E0ACFD4FC2763_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteBusyException__ctor_m0E1780138F838BF1DC009E9D14BD433679331E59_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteBusyException__ctor_m3862658BFB505E51DF640E32D88F74966D0F2DB4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_BindParameters2_m2893F5CB474BD2F0A2188C19B2FE2CC669E4C41A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_BindParameters3_mD602783596D5B40E84D484AEB79BC694FE050D8E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_ExecuteDbDataReader_mC38B15F235E560699BD0548C15B14839BD441B81_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_ExecuteNonQuery_m90DA6DC338F79D12CAE5D0F3B3A208CE8327004D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_ExecuteReader_mD8719573BB58E881ECC3A9EB1235D3065D29BF62_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_ExecuteReader_mFFF64886D2E6723F3FD759E94A70E84F1544C39E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_ExecuteStatement_m5A4F7C7A988E1A69F4C8662D1446FE92A3D8F8AE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_ExecuteStatement_m6FDC1D86394FD2F5B784E2FA19AC7D1D78EEA645_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_GetError3_mB64AE1CF2BE40AA2C149B7EE4C6510687CA2ED47_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_GetNextStatement_m46D3F89553D501B691E6FE9F6D4ECB559C0D11A5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_NumChanges_mD5E4F9280B608005BC030C69FF0CCD3480FEDFD4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_Prepare_mA96C48EE0D718AC858950C0312D343E91D38C33C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_System_ICloneable_Clone_m9DCB102478D8BBFAF743658FB472E87F79208AFA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand__ctor_m2370D22FD9E24D3D3856EECF763727A9332D3377_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand__ctor_m81A36E2A4032FA72FA0B04210813596E3E022720_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_get_Connection_mB77B8039C94F54974733BE438ACAB932DFA4C67F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_get_Parameters_m5EAB97EC3B384D103C64954BAE5EBB7538247474_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteCommand_set_CommandText_m5C83BD2B2A86BEC3D23749866056ADDAE40351C4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_Close_m501F49077F676ED812FF9C6F10C823FF226868B0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_CreateDbCommand_m9F2E0246836FE2E9954CDDD36923C1346279D5DA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_Dispose_mA4D7CD4B20D545E99977E7BC54D8D1452785EC83_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_EndExec_m1B71FE695A8013BCED44FFC797823D197ED77CBD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_Open_mAEBA1431FD08ABC090ADB8CBA543AA2E162ED312_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_SetConnectionString_m78023990B36009EA31D38A6F50D2A83154F3F2E7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_StartExec_mB6D85C48B597AACB2D3E603100A25886E8B0E100_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_System_ICloneable_Clone_m72C8C95DE557561EA354A6BBE7904C9E52346D5B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection__ctor_m4F39F738B1489643FCBF021FAAAE2715F189C807_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection__ctor_m9DF7CBF2B6D9BD5AD91D93B0E1B5021F78A78A0F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_get_ConnectionString_m8A36B1D3438D219C9DC758FD9D1EA9C376A7160B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_get_Encoding_mF525ACEB8976522154441A2B59D650DA573C8983_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_get_State_m2E4211728800DD13837F0D5521C4A56D07713537_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteConnection_set_ConnectionString_m4C3CB8D9B87612F940D0C78A1698C2E269BCFB73_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_Close_m2C8A9579991AE740D789C3817E7D000B0F46D6E8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_Dispose_m042AF43AFA5F7B148D84CD088F33E042F96E1A42_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_GetDataTypeName_m274D7A5BD798E1900232DD775C70E5C9354EDC0C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_GetEnumerator_mBCD2ED6AB41E080A1CBD255F7B5341636AC21089_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_GetFieldType_m95673D28938C89F7EBC25C0A4F7EF7AB3030CA36_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_GetInt16_m680067F2C629A6B230D551492A5F7F8F15689E5B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_GetInt32_mE174501AC71744D5DFC79958F81066311D0E6206_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_GetName_mA731E7C88CB1393855BF747778D1C2AA41588524_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_GetString_mFA9EF94F08D6E4C77E11CF3F917C5BA0014E8620_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_GetValues_mCF37A002BC1120DD10ECFD47E846371643EE2564_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_NextResult_m950246136B40CD0AEEC6EB9AE3E54724FEBE59EC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_Read_m0668643CA9D2A818C45A14E819FA09F7F6D8AF9C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_ReadingDone_m064B51F206282C3A3D8A5AE139D8A8C5B7B7A2AC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_ReadpVm_m16B4AF70FE7F0BC232B7C902F32CCB9DB7D9FE0D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader__ctor_mB2D09F3C29E238C1B631550D411B06C18A045C33_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_get_FieldCount_mE83806333A638C20DE5E4015EB6EAB35469854A2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteDataReader_get_IsClosed_mC8F14D127CD786554C99CE8B8477B67E8AAAEDF9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteExecutionException__ctor_m3A3B66D4A49F04B2EA59BB300C31D6347D9AFC37_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteExecutionException__ctor_mE9C1E2F542B576520BE2F74E26594E02DA496AE3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_Add_mC88B6DA034A84D1141557C7FC1713F8B97BC46BB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_CheckSqliteParam_m03C31337D8EFB5C8310C18E1438A421D13765B37_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_Clear_mB760CAF67968877C7479059B74EB1D8D248FA6EA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_Contains_m14DBD2738A084C514815FC2E335DE50846FA61A8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_Contains_m62517C17077CFD2BC850A5AB403EF496B6767C24_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_Contains_mCF1EA1FE612593C7AD883318D448046246FFF89E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_CopyTo_mCD2BB75B3275C4CE306EA33809C97D1CCEA593D8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_GenerateParameterName_m3092583911FDFA444DCA87958003F4AEA41580AC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_GetEnumerator_m67E8DF93561359415111D53F60A5E68CFDA33C8F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_GetParameter_m26CC57C0010FAA5515124E440B19A2685A4D4A1D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_GetParameter_mE8DA436DA0BE8BF2C3AAF37E0D98FB1A7800068E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_IndexOf_m1FFCA8D408C146993DD7095263DC483CA1BBC5F6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_IndexOf_m7F01C695E1231A84A03FC365F18751EA68CBD21B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_IndexOf_m8864DCFD632B6DAB35853B905570A05294A01F09_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_Insert_m4FA0B258D1198C302A844303AA50FB8A73CC04AE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_RecreateNamedHash_m8A426FC3F58A72AF5CBC44DB194A4A10A4EA9C66_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_RemoveAt_m6C52042C6897FE095BCE072A88D2672C93BEF393_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_RemoveAt_mAFCECCE1A86F799A0C5BF76D034541C766CCC755_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_RemoveAt_mC1762147FB22E6D1BFD08A677828BCD4A7E609CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_Remove_mB9B8EFB19C044C9047EFB1FF5FBB26449091CF45_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_SetParameter_m06BA9BF65DDB9C36F8C57692C7D0ACB9D8673841_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection__ctor_m5CDB4E61EBDFE9AD1D46E91C610AAC96C7181F0E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_get_Count_m38B1A02B4F3C09F7911F2FE4DD6617FF0B0B403E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_get_IsFixedSize_m990C2015E861FA08F5C990C9ECB80C4F926F386B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_get_IsReadOnly_m3F1361D6BCEC89F2251EE5C1A03675BE1878B551_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_get_IsSynchronized_m7FA7C63E5D6216508BF8E5CDC7677A7B99680D47_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_get_SyncRoot_m09ED30CEB1E59F126FD11CD2681E42BDEAE9C3BB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameterCollection_isPrefixed_mD2A6838DB480763E862FCF400934E3F133276B72_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameter_get_ParameterName_m15CBAC7272DA5FC3C2EB216F24CB066D2EDA8999_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameter_get_Value_m76D08FC48771D6160CF63F25E582BE466030E901_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteParameter_set_ParameterName_m3C713C4CAE387BC74DD8EAA3D9B8D52E9E9B0090_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SqliteSyntaxException__ctor_mA0032B5695AD023A02E16A553C1F66624565D731_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Sqlite_HeapToString_m903FD8CB0B0768F70B04E1D7D53E1F4DD7061C42_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Sqlite_StringToHeap_m0CBA3B5B4A3041A4223A917392AD91DAC709F95A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StringComparer_get_InvariantCultureIgnoreCase_m091360FF9FE3516559AFF706AF431E6FD4CCF2C2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Int16_tD0F031114106263BB459DA1F099FF9F42691295A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* String_t_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* UInt32_tE60352A06233E4E69DD198BCC67142159F686B15_0_0_0_var;
+struct CultureData_t53CDF1C5F789A28897415891667799420D3C5529_marshaled_com;
+struct CultureData_t53CDF1C5F789A28897415891667799420D3C5529_marshaled_pinvoke;
+struct CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_marshaled_com;
+struct CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726;
+struct CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34;
+struct Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32;
+struct ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE;
+struct StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <Module>
+struct  U3CModuleU3E_t6E29E4CA62AAE6B8D91B76CD2D23244DF44B5996 
+{
+public:
+
+public:
+};
+
+
+// System.Object
+
+
+// System.Collections.Generic.Dictionary`2<System.String,System.Int32>
+struct  Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162  : public RuntimeObject
+{
+public:
+	// System.Int32[] System.Collections.Generic.Dictionary`2::buckets
+	Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* ___buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::entries
+	EntryU5BU5D_tABFC31237D6642B5D4C1DBA234CA37EE851EB0AE* ___entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::count
+	int32_t ___count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::version
+	int32_t ___version_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::freeList
+	int32_t ___freeList_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::freeCount
+	int32_t ___freeCount_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::comparer
+	RuntimeObject* ___comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::keys
+	KeyCollection_t61F8738ED346768CC112B2E27863BF9F73C76D90 * ___keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::values
+	ValueCollection_t17EEB7B2EDD3CB5222C660D7E739F803986BF025 * ___values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject * ____syncRoot_9;
+
+public:
+	inline static int32_t get_offset_of_buckets_0() { return static_cast<int32_t>(offsetof(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162, ___buckets_0)); }
+	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* get_buckets_0() const { return ___buckets_0; }
+	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32** get_address_of_buckets_0() { return &___buckets_0; }
+	inline void set_buckets_0(Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* value)
+	{
+		___buckets_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___buckets_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_entries_1() { return static_cast<int32_t>(offsetof(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162, ___entries_1)); }
+	inline EntryU5BU5D_tABFC31237D6642B5D4C1DBA234CA37EE851EB0AE* get_entries_1() const { return ___entries_1; }
+	inline EntryU5BU5D_tABFC31237D6642B5D4C1DBA234CA37EE851EB0AE** get_address_of_entries_1() { return &___entries_1; }
+	inline void set_entries_1(EntryU5BU5D_tABFC31237D6642B5D4C1DBA234CA37EE851EB0AE* value)
+	{
+		___entries_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___entries_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_count_2() { return static_cast<int32_t>(offsetof(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162, ___count_2)); }
+	inline int32_t get_count_2() const { return ___count_2; }
+	inline int32_t* get_address_of_count_2() { return &___count_2; }
+	inline void set_count_2(int32_t value)
+	{
+		___count_2 = value;
+	}
+
+	inline static int32_t get_offset_of_version_3() { return static_cast<int32_t>(offsetof(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162, ___version_3)); }
+	inline int32_t get_version_3() const { return ___version_3; }
+	inline int32_t* get_address_of_version_3() { return &___version_3; }
+	inline void set_version_3(int32_t value)
+	{
+		___version_3 = value;
+	}
+
+	inline static int32_t get_offset_of_freeList_4() { return static_cast<int32_t>(offsetof(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162, ___freeList_4)); }
+	inline int32_t get_freeList_4() const { return ___freeList_4; }
+	inline int32_t* get_address_of_freeList_4() { return &___freeList_4; }
+	inline void set_freeList_4(int32_t value)
+	{
+		___freeList_4 = value;
+	}
+
+	inline static int32_t get_offset_of_freeCount_5() { return static_cast<int32_t>(offsetof(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162, ___freeCount_5)); }
+	inline int32_t get_freeCount_5() const { return ___freeCount_5; }
+	inline int32_t* get_address_of_freeCount_5() { return &___freeCount_5; }
+	inline void set_freeCount_5(int32_t value)
+	{
+		___freeCount_5 = value;
+	}
+
+	inline static int32_t get_offset_of_comparer_6() { return static_cast<int32_t>(offsetof(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162, ___comparer_6)); }
+	inline RuntimeObject* get_comparer_6() const { return ___comparer_6; }
+	inline RuntimeObject** get_address_of_comparer_6() { return &___comparer_6; }
+	inline void set_comparer_6(RuntimeObject* value)
+	{
+		___comparer_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___comparer_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_keys_7() { return static_cast<int32_t>(offsetof(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162, ___keys_7)); }
+	inline KeyCollection_t61F8738ED346768CC112B2E27863BF9F73C76D90 * get_keys_7() const { return ___keys_7; }
+	inline KeyCollection_t61F8738ED346768CC112B2E27863BF9F73C76D90 ** get_address_of_keys_7() { return &___keys_7; }
+	inline void set_keys_7(KeyCollection_t61F8738ED346768CC112B2E27863BF9F73C76D90 * value)
+	{
+		___keys_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___keys_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_values_8() { return static_cast<int32_t>(offsetof(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162, ___values_8)); }
+	inline ValueCollection_t17EEB7B2EDD3CB5222C660D7E739F803986BF025 * get_values_8() const { return ___values_8; }
+	inline ValueCollection_t17EEB7B2EDD3CB5222C660D7E739F803986BF025 ** get_address_of_values_8() { return &___values_8; }
+	inline void set_values_8(ValueCollection_t17EEB7B2EDD3CB5222C660D7E739F803986BF025 * value)
+	{
+		___values_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___values_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__syncRoot_9() { return static_cast<int32_t>(offsetof(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162, ____syncRoot_9)); }
+	inline RuntimeObject * get__syncRoot_9() const { return ____syncRoot_9; }
+	inline RuntimeObject ** get_address_of__syncRoot_9() { return &____syncRoot_9; }
+	inline void set__syncRoot_9(RuntimeObject * value)
+	{
+		____syncRoot_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____syncRoot_9), (void*)value);
+	}
+};
+
+
+// System.AppDomainSetup
+struct  AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8  : public RuntimeObject
+{
+public:
+	// System.String System.AppDomainSetup::application_base
+	String_t* ___application_base_0;
+	// System.String System.AppDomainSetup::application_name
+	String_t* ___application_name_1;
+	// System.String System.AppDomainSetup::cache_path
+	String_t* ___cache_path_2;
+	// System.String System.AppDomainSetup::configuration_file
+	String_t* ___configuration_file_3;
+	// System.String System.AppDomainSetup::dynamic_base
+	String_t* ___dynamic_base_4;
+	// System.String System.AppDomainSetup::license_file
+	String_t* ___license_file_5;
+	// System.String System.AppDomainSetup::private_bin_path
+	String_t* ___private_bin_path_6;
+	// System.String System.AppDomainSetup::private_bin_path_probe
+	String_t* ___private_bin_path_probe_7;
+	// System.String System.AppDomainSetup::shadow_copy_directories
+	String_t* ___shadow_copy_directories_8;
+	// System.String System.AppDomainSetup::shadow_copy_files
+	String_t* ___shadow_copy_files_9;
+	// System.Boolean System.AppDomainSetup::publisher_policy
+	bool ___publisher_policy_10;
+	// System.Boolean System.AppDomainSetup::path_changed
+	bool ___path_changed_11;
+	// System.Int32 System.AppDomainSetup::loader_optimization
+	int32_t ___loader_optimization_12;
+	// System.Boolean System.AppDomainSetup::disallow_binding_redirects
+	bool ___disallow_binding_redirects_13;
+	// System.Boolean System.AppDomainSetup::disallow_code_downloads
+	bool ___disallow_code_downloads_14;
+	// System.Object System.AppDomainSetup::_activationArguments
+	RuntimeObject * ____activationArguments_15;
+	// System.Object System.AppDomainSetup::domain_initializer
+	RuntimeObject * ___domain_initializer_16;
+	// System.Object System.AppDomainSetup::application_trust
+	RuntimeObject * ___application_trust_17;
+	// System.String[] System.AppDomainSetup::domain_initializer_args
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___domain_initializer_args_18;
+	// System.Boolean System.AppDomainSetup::disallow_appbase_probe
+	bool ___disallow_appbase_probe_19;
+	// System.Byte[] System.AppDomainSetup::configuration_bytes
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___configuration_bytes_20;
+	// System.Byte[] System.AppDomainSetup::serialized_non_primitives
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___serialized_non_primitives_21;
+	// System.String System.AppDomainSetup::<TargetFrameworkName>k__BackingField
+	String_t* ___U3CTargetFrameworkNameU3Ek__BackingField_22;
+
+public:
+	inline static int32_t get_offset_of_application_base_0() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___application_base_0)); }
+	inline String_t* get_application_base_0() const { return ___application_base_0; }
+	inline String_t** get_address_of_application_base_0() { return &___application_base_0; }
+	inline void set_application_base_0(String_t* value)
+	{
+		___application_base_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___application_base_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_application_name_1() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___application_name_1)); }
+	inline String_t* get_application_name_1() const { return ___application_name_1; }
+	inline String_t** get_address_of_application_name_1() { return &___application_name_1; }
+	inline void set_application_name_1(String_t* value)
+	{
+		___application_name_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___application_name_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_cache_path_2() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___cache_path_2)); }
+	inline String_t* get_cache_path_2() const { return ___cache_path_2; }
+	inline String_t** get_address_of_cache_path_2() { return &___cache_path_2; }
+	inline void set_cache_path_2(String_t* value)
+	{
+		___cache_path_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___cache_path_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_configuration_file_3() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___configuration_file_3)); }
+	inline String_t* get_configuration_file_3() const { return ___configuration_file_3; }
+	inline String_t** get_address_of_configuration_file_3() { return &___configuration_file_3; }
+	inline void set_configuration_file_3(String_t* value)
+	{
+		___configuration_file_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___configuration_file_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_dynamic_base_4() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___dynamic_base_4)); }
+	inline String_t* get_dynamic_base_4() const { return ___dynamic_base_4; }
+	inline String_t** get_address_of_dynamic_base_4() { return &___dynamic_base_4; }
+	inline void set_dynamic_base_4(String_t* value)
+	{
+		___dynamic_base_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___dynamic_base_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_license_file_5() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___license_file_5)); }
+	inline String_t* get_license_file_5() const { return ___license_file_5; }
+	inline String_t** get_address_of_license_file_5() { return &___license_file_5; }
+	inline void set_license_file_5(String_t* value)
+	{
+		___license_file_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___license_file_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_private_bin_path_6() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___private_bin_path_6)); }
+	inline String_t* get_private_bin_path_6() const { return ___private_bin_path_6; }
+	inline String_t** get_address_of_private_bin_path_6() { return &___private_bin_path_6; }
+	inline void set_private_bin_path_6(String_t* value)
+	{
+		___private_bin_path_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___private_bin_path_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_private_bin_path_probe_7() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___private_bin_path_probe_7)); }
+	inline String_t* get_private_bin_path_probe_7() const { return ___private_bin_path_probe_7; }
+	inline String_t** get_address_of_private_bin_path_probe_7() { return &___private_bin_path_probe_7; }
+	inline void set_private_bin_path_probe_7(String_t* value)
+	{
+		___private_bin_path_probe_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___private_bin_path_probe_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_shadow_copy_directories_8() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___shadow_copy_directories_8)); }
+	inline String_t* get_shadow_copy_directories_8() const { return ___shadow_copy_directories_8; }
+	inline String_t** get_address_of_shadow_copy_directories_8() { return &___shadow_copy_directories_8; }
+	inline void set_shadow_copy_directories_8(String_t* value)
+	{
+		___shadow_copy_directories_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___shadow_copy_directories_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_shadow_copy_files_9() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___shadow_copy_files_9)); }
+	inline String_t* get_shadow_copy_files_9() const { return ___shadow_copy_files_9; }
+	inline String_t** get_address_of_shadow_copy_files_9() { return &___shadow_copy_files_9; }
+	inline void set_shadow_copy_files_9(String_t* value)
+	{
+		___shadow_copy_files_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___shadow_copy_files_9), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_publisher_policy_10() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___publisher_policy_10)); }
+	inline bool get_publisher_policy_10() const { return ___publisher_policy_10; }
+	inline bool* get_address_of_publisher_policy_10() { return &___publisher_policy_10; }
+	inline void set_publisher_policy_10(bool value)
+	{
+		___publisher_policy_10 = value;
+	}
+
+	inline static int32_t get_offset_of_path_changed_11() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___path_changed_11)); }
+	inline bool get_path_changed_11() const { return ___path_changed_11; }
+	inline bool* get_address_of_path_changed_11() { return &___path_changed_11; }
+	inline void set_path_changed_11(bool value)
+	{
+		___path_changed_11 = value;
+	}
+
+	inline static int32_t get_offset_of_loader_optimization_12() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___loader_optimization_12)); }
+	inline int32_t get_loader_optimization_12() const { return ___loader_optimization_12; }
+	inline int32_t* get_address_of_loader_optimization_12() { return &___loader_optimization_12; }
+	inline void set_loader_optimization_12(int32_t value)
+	{
+		___loader_optimization_12 = value;
+	}
+
+	inline static int32_t get_offset_of_disallow_binding_redirects_13() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___disallow_binding_redirects_13)); }
+	inline bool get_disallow_binding_redirects_13() const { return ___disallow_binding_redirects_13; }
+	inline bool* get_address_of_disallow_binding_redirects_13() { return &___disallow_binding_redirects_13; }
+	inline void set_disallow_binding_redirects_13(bool value)
+	{
+		___disallow_binding_redirects_13 = value;
+	}
+
+	inline static int32_t get_offset_of_disallow_code_downloads_14() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___disallow_code_downloads_14)); }
+	inline bool get_disallow_code_downloads_14() const { return ___disallow_code_downloads_14; }
+	inline bool* get_address_of_disallow_code_downloads_14() { return &___disallow_code_downloads_14; }
+	inline void set_disallow_code_downloads_14(bool value)
+	{
+		___disallow_code_downloads_14 = value;
+	}
+
+	inline static int32_t get_offset_of__activationArguments_15() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ____activationArguments_15)); }
+	inline RuntimeObject * get__activationArguments_15() const { return ____activationArguments_15; }
+	inline RuntimeObject ** get_address_of__activationArguments_15() { return &____activationArguments_15; }
+	inline void set__activationArguments_15(RuntimeObject * value)
+	{
+		____activationArguments_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____activationArguments_15), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_domain_initializer_16() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___domain_initializer_16)); }
+	inline RuntimeObject * get_domain_initializer_16() const { return ___domain_initializer_16; }
+	inline RuntimeObject ** get_address_of_domain_initializer_16() { return &___domain_initializer_16; }
+	inline void set_domain_initializer_16(RuntimeObject * value)
+	{
+		___domain_initializer_16 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___domain_initializer_16), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_application_trust_17() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___application_trust_17)); }
+	inline RuntimeObject * get_application_trust_17() const { return ___application_trust_17; }
+	inline RuntimeObject ** get_address_of_application_trust_17() { return &___application_trust_17; }
+	inline void set_application_trust_17(RuntimeObject * value)
+	{
+		___application_trust_17 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___application_trust_17), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_domain_initializer_args_18() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___domain_initializer_args_18)); }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_domain_initializer_args_18() const { return ___domain_initializer_args_18; }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_domain_initializer_args_18() { return &___domain_initializer_args_18; }
+	inline void set_domain_initializer_args_18(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
+	{
+		___domain_initializer_args_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___domain_initializer_args_18), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_disallow_appbase_probe_19() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___disallow_appbase_probe_19)); }
+	inline bool get_disallow_appbase_probe_19() const { return ___disallow_appbase_probe_19; }
+	inline bool* get_address_of_disallow_appbase_probe_19() { return &___disallow_appbase_probe_19; }
+	inline void set_disallow_appbase_probe_19(bool value)
+	{
+		___disallow_appbase_probe_19 = value;
+	}
+
+	inline static int32_t get_offset_of_configuration_bytes_20() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___configuration_bytes_20)); }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_configuration_bytes_20() const { return ___configuration_bytes_20; }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_configuration_bytes_20() { return &___configuration_bytes_20; }
+	inline void set_configuration_bytes_20(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
+	{
+		___configuration_bytes_20 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___configuration_bytes_20), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_serialized_non_primitives_21() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___serialized_non_primitives_21)); }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_serialized_non_primitives_21() const { return ___serialized_non_primitives_21; }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_serialized_non_primitives_21() { return &___serialized_non_primitives_21; }
+	inline void set_serialized_non_primitives_21(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
+	{
+		___serialized_non_primitives_21 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___serialized_non_primitives_21), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CTargetFrameworkNameU3Ek__BackingField_22() { return static_cast<int32_t>(offsetof(AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8, ___U3CTargetFrameworkNameU3Ek__BackingField_22)); }
+	inline String_t* get_U3CTargetFrameworkNameU3Ek__BackingField_22() const { return ___U3CTargetFrameworkNameU3Ek__BackingField_22; }
+	inline String_t** get_address_of_U3CTargetFrameworkNameU3Ek__BackingField_22() { return &___U3CTargetFrameworkNameU3Ek__BackingField_22; }
+	inline void set_U3CTargetFrameworkNameU3Ek__BackingField_22(String_t* value)
+	{
+		___U3CTargetFrameworkNameU3Ek__BackingField_22 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CTargetFrameworkNameU3Ek__BackingField_22), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.AppDomainSetup
+struct AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8_marshaled_pinvoke
+{
+	char* ___application_base_0;
+	char* ___application_name_1;
+	char* ___cache_path_2;
+	char* ___configuration_file_3;
+	char* ___dynamic_base_4;
+	char* ___license_file_5;
+	char* ___private_bin_path_6;
+	char* ___private_bin_path_probe_7;
+	char* ___shadow_copy_directories_8;
+	char* ___shadow_copy_files_9;
+	int32_t ___publisher_policy_10;
+	int32_t ___path_changed_11;
+	int32_t ___loader_optimization_12;
+	int32_t ___disallow_binding_redirects_13;
+	int32_t ___disallow_code_downloads_14;
+	Il2CppIUnknown* ____activationArguments_15;
+	Il2CppIUnknown* ___domain_initializer_16;
+	Il2CppIUnknown* ___application_trust_17;
+	char** ___domain_initializer_args_18;
+	int32_t ___disallow_appbase_probe_19;
+	Il2CppSafeArray/*NONE*/* ___configuration_bytes_20;
+	Il2CppSafeArray/*NONE*/* ___serialized_non_primitives_21;
+	char* ___U3CTargetFrameworkNameU3Ek__BackingField_22;
+};
+// Native definition for COM marshalling of System.AppDomainSetup
+struct AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8_marshaled_com
+{
+	Il2CppChar* ___application_base_0;
+	Il2CppChar* ___application_name_1;
+	Il2CppChar* ___cache_path_2;
+	Il2CppChar* ___configuration_file_3;
+	Il2CppChar* ___dynamic_base_4;
+	Il2CppChar* ___license_file_5;
+	Il2CppChar* ___private_bin_path_6;
+	Il2CppChar* ___private_bin_path_probe_7;
+	Il2CppChar* ___shadow_copy_directories_8;
+	Il2CppChar* ___shadow_copy_files_9;
+	int32_t ___publisher_policy_10;
+	int32_t ___path_changed_11;
+	int32_t ___loader_optimization_12;
+	int32_t ___disallow_binding_redirects_13;
+	int32_t ___disallow_code_downloads_14;
+	Il2CppIUnknown* ____activationArguments_15;
+	Il2CppIUnknown* ___domain_initializer_16;
+	Il2CppIUnknown* ___application_trust_17;
+	Il2CppChar** ___domain_initializer_args_18;
+	int32_t ___disallow_appbase_probe_19;
+	Il2CppSafeArray/*NONE*/* ___configuration_bytes_20;
+	Il2CppSafeArray/*NONE*/* ___serialized_non_primitives_21;
+	Il2CppChar* ___U3CTargetFrameworkNameU3Ek__BackingField_22;
+};
+struct Il2CppArrayBounds;
+
+// System.Array
+
+
+// System.Collections.ArrayList
+struct  ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575  : public RuntimeObject
+{
+public:
+	// System.Object[] System.Collections.ArrayList::_items
+	ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ____items_0;
+	// System.Int32 System.Collections.ArrayList::_size
+	int32_t ____size_1;
+	// System.Int32 System.Collections.ArrayList::_version
+	int32_t ____version_2;
+	// System.Object System.Collections.ArrayList::_syncRoot
+	RuntimeObject * ____syncRoot_3;
+
+public:
+	inline static int32_t get_offset_of__items_0() { return static_cast<int32_t>(offsetof(ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575, ____items_0)); }
+	inline ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* get__items_0() const { return ____items_0; }
+	inline ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE** get_address_of__items_0() { return &____items_0; }
+	inline void set__items_0(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* value)
+	{
+		____items_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____items_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__size_1() { return static_cast<int32_t>(offsetof(ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575, ____size_1)); }
+	inline int32_t get__size_1() const { return ____size_1; }
+	inline int32_t* get_address_of__size_1() { return &____size_1; }
+	inline void set__size_1(int32_t value)
+	{
+		____size_1 = value;
+	}
+
+	inline static int32_t get_offset_of__version_2() { return static_cast<int32_t>(offsetof(ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575, ____version_2)); }
+	inline int32_t get__version_2() const { return ____version_2; }
+	inline int32_t* get_address_of__version_2() { return &____version_2; }
+	inline void set__version_2(int32_t value)
+	{
+		____version_2 = value;
+	}
+
+	inline static int32_t get_offset_of__syncRoot_3() { return static_cast<int32_t>(offsetof(ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575, ____syncRoot_3)); }
+	inline RuntimeObject * get__syncRoot_3() const { return ____syncRoot_3; }
+	inline RuntimeObject ** get_address_of__syncRoot_3() { return &____syncRoot_3; }
+	inline void set__syncRoot_3(RuntimeObject * value)
+	{
+		____syncRoot_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____syncRoot_3), (void*)value);
+	}
+};
+
+struct ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575_StaticFields
+{
+public:
+	// System.Object[] System.Collections.ArrayList::emptyArray
+	ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___emptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_emptyArray_4() { return static_cast<int32_t>(offsetof(ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575_StaticFields, ___emptyArray_4)); }
+	inline ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* get_emptyArray_4() const { return ___emptyArray_4; }
+	inline ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE** get_address_of_emptyArray_4() { return &___emptyArray_4; }
+	inline void set_emptyArray_4(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* value)
+	{
+		___emptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___emptyArray_4), (void*)value);
+	}
+};
+
+
+// System.Globalization.CultureInfo
+struct  CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98  : public RuntimeObject
+{
+public:
+	// System.Boolean System.Globalization.CultureInfo::m_isReadOnly
+	bool ___m_isReadOnly_3;
+	// System.Int32 System.Globalization.CultureInfo::cultureID
+	int32_t ___cultureID_4;
+	// System.Int32 System.Globalization.CultureInfo::parent_lcid
+	int32_t ___parent_lcid_5;
+	// System.Int32 System.Globalization.CultureInfo::datetime_index
+	int32_t ___datetime_index_6;
+	// System.Int32 System.Globalization.CultureInfo::number_index
+	int32_t ___number_index_7;
+	// System.Int32 System.Globalization.CultureInfo::default_calendar_type
+	int32_t ___default_calendar_type_8;
+	// System.Boolean System.Globalization.CultureInfo::m_useUserOverride
+	bool ___m_useUserOverride_9;
+	// System.Globalization.NumberFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::numInfo
+	NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * ___numInfo_10;
+	// System.Globalization.DateTimeFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::dateTimeInfo
+	DateTimeFormatInfo_t0B9F6CA631A51CFC98A3C6031CF8069843137C90 * ___dateTimeInfo_11;
+	// System.Globalization.TextInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::textInfo
+	TextInfo_tE823D0684BFE8B203501C9B2B38585E8F06E872C * ___textInfo_12;
+	// System.String System.Globalization.CultureInfo::m_name
+	String_t* ___m_name_13;
+	// System.String System.Globalization.CultureInfo::englishname
+	String_t* ___englishname_14;
+	// System.String System.Globalization.CultureInfo::nativename
+	String_t* ___nativename_15;
+	// System.String System.Globalization.CultureInfo::iso3lang
+	String_t* ___iso3lang_16;
+	// System.String System.Globalization.CultureInfo::iso2lang
+	String_t* ___iso2lang_17;
+	// System.String System.Globalization.CultureInfo::win3lang
+	String_t* ___win3lang_18;
+	// System.String System.Globalization.CultureInfo::territory
+	String_t* ___territory_19;
+	// System.String[] System.Globalization.CultureInfo::native_calendar_names
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___native_calendar_names_20;
+	// System.Globalization.CompareInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::compareInfo
+	CompareInfo_t4AB62EC32E8AF1E469E315620C7E3FB8B0CAE0C9 * ___compareInfo_21;
+	// System.Void* System.Globalization.CultureInfo::textinfo_data
+	void* ___textinfo_data_22;
+	// System.Int32 System.Globalization.CultureInfo::m_dataItem
+	int32_t ___m_dataItem_23;
+	// System.Globalization.Calendar System.Globalization.CultureInfo::calendar
+	Calendar_t3D638AEAB45F029DF47138EDA4CF9A7CBBB1C32A * ___calendar_24;
+	// System.Globalization.CultureInfo System.Globalization.CultureInfo::parent_culture
+	CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * ___parent_culture_25;
+	// System.Boolean System.Globalization.CultureInfo::constructed
+	bool ___constructed_26;
+	// System.Byte[] System.Globalization.CultureInfo::cached_serialized_form
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___cached_serialized_form_27;
+	// System.Globalization.CultureData System.Globalization.CultureInfo::m_cultureData
+	CultureData_t53CDF1C5F789A28897415891667799420D3C5529 * ___m_cultureData_28;
+	// System.Boolean System.Globalization.CultureInfo::m_isInherited
+	bool ___m_isInherited_29;
+
+public:
+	inline static int32_t get_offset_of_m_isReadOnly_3() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___m_isReadOnly_3)); }
+	inline bool get_m_isReadOnly_3() const { return ___m_isReadOnly_3; }
+	inline bool* get_address_of_m_isReadOnly_3() { return &___m_isReadOnly_3; }
+	inline void set_m_isReadOnly_3(bool value)
+	{
+		___m_isReadOnly_3 = value;
+	}
+
+	inline static int32_t get_offset_of_cultureID_4() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___cultureID_4)); }
+	inline int32_t get_cultureID_4() const { return ___cultureID_4; }
+	inline int32_t* get_address_of_cultureID_4() { return &___cultureID_4; }
+	inline void set_cultureID_4(int32_t value)
+	{
+		___cultureID_4 = value;
+	}
+
+	inline static int32_t get_offset_of_parent_lcid_5() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___parent_lcid_5)); }
+	inline int32_t get_parent_lcid_5() const { return ___parent_lcid_5; }
+	inline int32_t* get_address_of_parent_lcid_5() { return &___parent_lcid_5; }
+	inline void set_parent_lcid_5(int32_t value)
+	{
+		___parent_lcid_5 = value;
+	}
+
+	inline static int32_t get_offset_of_datetime_index_6() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___datetime_index_6)); }
+	inline int32_t get_datetime_index_6() const { return ___datetime_index_6; }
+	inline int32_t* get_address_of_datetime_index_6() { return &___datetime_index_6; }
+	inline void set_datetime_index_6(int32_t value)
+	{
+		___datetime_index_6 = value;
+	}
+
+	inline static int32_t get_offset_of_number_index_7() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___number_index_7)); }
+	inline int32_t get_number_index_7() const { return ___number_index_7; }
+	inline int32_t* get_address_of_number_index_7() { return &___number_index_7; }
+	inline void set_number_index_7(int32_t value)
+	{
+		___number_index_7 = value;
+	}
+
+	inline static int32_t get_offset_of_default_calendar_type_8() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___default_calendar_type_8)); }
+	inline int32_t get_default_calendar_type_8() const { return ___default_calendar_type_8; }
+	inline int32_t* get_address_of_default_calendar_type_8() { return &___default_calendar_type_8; }
+	inline void set_default_calendar_type_8(int32_t value)
+	{
+		___default_calendar_type_8 = value;
+	}
+
+	inline static int32_t get_offset_of_m_useUserOverride_9() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___m_useUserOverride_9)); }
+	inline bool get_m_useUserOverride_9() const { return ___m_useUserOverride_9; }
+	inline bool* get_address_of_m_useUserOverride_9() { return &___m_useUserOverride_9; }
+	inline void set_m_useUserOverride_9(bool value)
+	{
+		___m_useUserOverride_9 = value;
+	}
+
+	inline static int32_t get_offset_of_numInfo_10() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___numInfo_10)); }
+	inline NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * get_numInfo_10() const { return ___numInfo_10; }
+	inline NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D ** get_address_of_numInfo_10() { return &___numInfo_10; }
+	inline void set_numInfo_10(NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * value)
+	{
+		___numInfo_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___numInfo_10), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_dateTimeInfo_11() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___dateTimeInfo_11)); }
+	inline DateTimeFormatInfo_t0B9F6CA631A51CFC98A3C6031CF8069843137C90 * get_dateTimeInfo_11() const { return ___dateTimeInfo_11; }
+	inline DateTimeFormatInfo_t0B9F6CA631A51CFC98A3C6031CF8069843137C90 ** get_address_of_dateTimeInfo_11() { return &___dateTimeInfo_11; }
+	inline void set_dateTimeInfo_11(DateTimeFormatInfo_t0B9F6CA631A51CFC98A3C6031CF8069843137C90 * value)
+	{
+		___dateTimeInfo_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___dateTimeInfo_11), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_textInfo_12() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___textInfo_12)); }
+	inline TextInfo_tE823D0684BFE8B203501C9B2B38585E8F06E872C * get_textInfo_12() const { return ___textInfo_12; }
+	inline TextInfo_tE823D0684BFE8B203501C9B2B38585E8F06E872C ** get_address_of_textInfo_12() { return &___textInfo_12; }
+	inline void set_textInfo_12(TextInfo_tE823D0684BFE8B203501C9B2B38585E8F06E872C * value)
+	{
+		___textInfo_12 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___textInfo_12), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_name_13() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___m_name_13)); }
+	inline String_t* get_m_name_13() const { return ___m_name_13; }
+	inline String_t** get_address_of_m_name_13() { return &___m_name_13; }
+	inline void set_m_name_13(String_t* value)
+	{
+		___m_name_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_name_13), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_englishname_14() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___englishname_14)); }
+	inline String_t* get_englishname_14() const { return ___englishname_14; }
+	inline String_t** get_address_of_englishname_14() { return &___englishname_14; }
+	inline void set_englishname_14(String_t* value)
+	{
+		___englishname_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___englishname_14), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_nativename_15() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___nativename_15)); }
+	inline String_t* get_nativename_15() const { return ___nativename_15; }
+	inline String_t** get_address_of_nativename_15() { return &___nativename_15; }
+	inline void set_nativename_15(String_t* value)
+	{
+		___nativename_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___nativename_15), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_iso3lang_16() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___iso3lang_16)); }
+	inline String_t* get_iso3lang_16() const { return ___iso3lang_16; }
+	inline String_t** get_address_of_iso3lang_16() { return &___iso3lang_16; }
+	inline void set_iso3lang_16(String_t* value)
+	{
+		___iso3lang_16 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___iso3lang_16), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_iso2lang_17() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___iso2lang_17)); }
+	inline String_t* get_iso2lang_17() const { return ___iso2lang_17; }
+	inline String_t** get_address_of_iso2lang_17() { return &___iso2lang_17; }
+	inline void set_iso2lang_17(String_t* value)
+	{
+		___iso2lang_17 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___iso2lang_17), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_win3lang_18() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___win3lang_18)); }
+	inline String_t* get_win3lang_18() const { return ___win3lang_18; }
+	inline String_t** get_address_of_win3lang_18() { return &___win3lang_18; }
+	inline void set_win3lang_18(String_t* value)
+	{
+		___win3lang_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___win3lang_18), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_territory_19() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___territory_19)); }
+	inline String_t* get_territory_19() const { return ___territory_19; }
+	inline String_t** get_address_of_territory_19() { return &___territory_19; }
+	inline void set_territory_19(String_t* value)
+	{
+		___territory_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___territory_19), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_native_calendar_names_20() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___native_calendar_names_20)); }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_native_calendar_names_20() const { return ___native_calendar_names_20; }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_native_calendar_names_20() { return &___native_calendar_names_20; }
+	inline void set_native_calendar_names_20(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
+	{
+		___native_calendar_names_20 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___native_calendar_names_20), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_compareInfo_21() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___compareInfo_21)); }
+	inline CompareInfo_t4AB62EC32E8AF1E469E315620C7E3FB8B0CAE0C9 * get_compareInfo_21() const { return ___compareInfo_21; }
+	inline CompareInfo_t4AB62EC32E8AF1E469E315620C7E3FB8B0CAE0C9 ** get_address_of_compareInfo_21() { return &___compareInfo_21; }
+	inline void set_compareInfo_21(CompareInfo_t4AB62EC32E8AF1E469E315620C7E3FB8B0CAE0C9 * value)
+	{
+		___compareInfo_21 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___compareInfo_21), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_textinfo_data_22() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___textinfo_data_22)); }
+	inline void* get_textinfo_data_22() const { return ___textinfo_data_22; }
+	inline void** get_address_of_textinfo_data_22() { return &___textinfo_data_22; }
+	inline void set_textinfo_data_22(void* value)
+	{
+		___textinfo_data_22 = value;
+	}
+
+	inline static int32_t get_offset_of_m_dataItem_23() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___m_dataItem_23)); }
+	inline int32_t get_m_dataItem_23() const { return ___m_dataItem_23; }
+	inline int32_t* get_address_of_m_dataItem_23() { return &___m_dataItem_23; }
+	inline void set_m_dataItem_23(int32_t value)
+	{
+		___m_dataItem_23 = value;
+	}
+
+	inline static int32_t get_offset_of_calendar_24() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___calendar_24)); }
+	inline Calendar_t3D638AEAB45F029DF47138EDA4CF9A7CBBB1C32A * get_calendar_24() const { return ___calendar_24; }
+	inline Calendar_t3D638AEAB45F029DF47138EDA4CF9A7CBBB1C32A ** get_address_of_calendar_24() { return &___calendar_24; }
+	inline void set_calendar_24(Calendar_t3D638AEAB45F029DF47138EDA4CF9A7CBBB1C32A * value)
+	{
+		___calendar_24 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___calendar_24), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_parent_culture_25() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___parent_culture_25)); }
+	inline CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * get_parent_culture_25() const { return ___parent_culture_25; }
+	inline CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 ** get_address_of_parent_culture_25() { return &___parent_culture_25; }
+	inline void set_parent_culture_25(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * value)
+	{
+		___parent_culture_25 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___parent_culture_25), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_constructed_26() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___constructed_26)); }
+	inline bool get_constructed_26() const { return ___constructed_26; }
+	inline bool* get_address_of_constructed_26() { return &___constructed_26; }
+	inline void set_constructed_26(bool value)
+	{
+		___constructed_26 = value;
+	}
+
+	inline static int32_t get_offset_of_cached_serialized_form_27() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___cached_serialized_form_27)); }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_cached_serialized_form_27() const { return ___cached_serialized_form_27; }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_cached_serialized_form_27() { return &___cached_serialized_form_27; }
+	inline void set_cached_serialized_form_27(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
+	{
+		___cached_serialized_form_27 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___cached_serialized_form_27), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_cultureData_28() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___m_cultureData_28)); }
+	inline CultureData_t53CDF1C5F789A28897415891667799420D3C5529 * get_m_cultureData_28() const { return ___m_cultureData_28; }
+	inline CultureData_t53CDF1C5F789A28897415891667799420D3C5529 ** get_address_of_m_cultureData_28() { return &___m_cultureData_28; }
+	inline void set_m_cultureData_28(CultureData_t53CDF1C5F789A28897415891667799420D3C5529 * value)
+	{
+		___m_cultureData_28 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_cultureData_28), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_isInherited_29() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98, ___m_isInherited_29)); }
+	inline bool get_m_isInherited_29() const { return ___m_isInherited_29; }
+	inline bool* get_address_of_m_isInherited_29() { return &___m_isInherited_29; }
+	inline void set_m_isInherited_29(bool value)
+	{
+		___m_isInherited_29 = value;
+	}
+};
+
+struct CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_StaticFields
+{
+public:
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::invariant_culture_info
+	CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * ___invariant_culture_info_0;
+	// System.Object System.Globalization.CultureInfo::shared_table_lock
+	RuntimeObject * ___shared_table_lock_1;
+	// System.Globalization.CultureInfo System.Globalization.CultureInfo::default_current_culture
+	CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * ___default_current_culture_2;
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::s_DefaultThreadCurrentUICulture
+	CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * ___s_DefaultThreadCurrentUICulture_33;
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::s_DefaultThreadCurrentCulture
+	CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * ___s_DefaultThreadCurrentCulture_34;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Globalization.CultureInfo> System.Globalization.CultureInfo::shared_by_number
+	Dictionary_2_t5B8303F2C9869A39ED3E03C0FBB09F817E479402 * ___shared_by_number_35;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo> System.Globalization.CultureInfo::shared_by_name
+	Dictionary_2_t0015CBF964B0687CBB5ECFDDE06671A8F3DDE4BC * ___shared_by_name_36;
+	// System.Boolean System.Globalization.CultureInfo::IsTaiwanSku
+	bool ___IsTaiwanSku_37;
+
+public:
+	inline static int32_t get_offset_of_invariant_culture_info_0() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_StaticFields, ___invariant_culture_info_0)); }
+	inline CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * get_invariant_culture_info_0() const { return ___invariant_culture_info_0; }
+	inline CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 ** get_address_of_invariant_culture_info_0() { return &___invariant_culture_info_0; }
+	inline void set_invariant_culture_info_0(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * value)
+	{
+		___invariant_culture_info_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___invariant_culture_info_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_shared_table_lock_1() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_StaticFields, ___shared_table_lock_1)); }
+	inline RuntimeObject * get_shared_table_lock_1() const { return ___shared_table_lock_1; }
+	inline RuntimeObject ** get_address_of_shared_table_lock_1() { return &___shared_table_lock_1; }
+	inline void set_shared_table_lock_1(RuntimeObject * value)
+	{
+		___shared_table_lock_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___shared_table_lock_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_default_current_culture_2() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_StaticFields, ___default_current_culture_2)); }
+	inline CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * get_default_current_culture_2() const { return ___default_current_culture_2; }
+	inline CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 ** get_address_of_default_current_culture_2() { return &___default_current_culture_2; }
+	inline void set_default_current_culture_2(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * value)
+	{
+		___default_current_culture_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___default_current_culture_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_s_DefaultThreadCurrentUICulture_33() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_StaticFields, ___s_DefaultThreadCurrentUICulture_33)); }
+	inline CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * get_s_DefaultThreadCurrentUICulture_33() const { return ___s_DefaultThreadCurrentUICulture_33; }
+	inline CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 ** get_address_of_s_DefaultThreadCurrentUICulture_33() { return &___s_DefaultThreadCurrentUICulture_33; }
+	inline void set_s_DefaultThreadCurrentUICulture_33(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * value)
+	{
+		___s_DefaultThreadCurrentUICulture_33 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_DefaultThreadCurrentUICulture_33), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_s_DefaultThreadCurrentCulture_34() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_StaticFields, ___s_DefaultThreadCurrentCulture_34)); }
+	inline CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * get_s_DefaultThreadCurrentCulture_34() const { return ___s_DefaultThreadCurrentCulture_34; }
+	inline CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 ** get_address_of_s_DefaultThreadCurrentCulture_34() { return &___s_DefaultThreadCurrentCulture_34; }
+	inline void set_s_DefaultThreadCurrentCulture_34(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * value)
+	{
+		___s_DefaultThreadCurrentCulture_34 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_DefaultThreadCurrentCulture_34), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_shared_by_number_35() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_StaticFields, ___shared_by_number_35)); }
+	inline Dictionary_2_t5B8303F2C9869A39ED3E03C0FBB09F817E479402 * get_shared_by_number_35() const { return ___shared_by_number_35; }
+	inline Dictionary_2_t5B8303F2C9869A39ED3E03C0FBB09F817E479402 ** get_address_of_shared_by_number_35() { return &___shared_by_number_35; }
+	inline void set_shared_by_number_35(Dictionary_2_t5B8303F2C9869A39ED3E03C0FBB09F817E479402 * value)
+	{
+		___shared_by_number_35 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___shared_by_number_35), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_shared_by_name_36() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_StaticFields, ___shared_by_name_36)); }
+	inline Dictionary_2_t0015CBF964B0687CBB5ECFDDE06671A8F3DDE4BC * get_shared_by_name_36() const { return ___shared_by_name_36; }
+	inline Dictionary_2_t0015CBF964B0687CBB5ECFDDE06671A8F3DDE4BC ** get_address_of_shared_by_name_36() { return &___shared_by_name_36; }
+	inline void set_shared_by_name_36(Dictionary_2_t0015CBF964B0687CBB5ECFDDE06671A8F3DDE4BC * value)
+	{
+		___shared_by_name_36 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___shared_by_name_36), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_IsTaiwanSku_37() { return static_cast<int32_t>(offsetof(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_StaticFields, ___IsTaiwanSku_37)); }
+	inline bool get_IsTaiwanSku_37() const { return ___IsTaiwanSku_37; }
+	inline bool* get_address_of_IsTaiwanSku_37() { return &___IsTaiwanSku_37; }
+	inline void set_IsTaiwanSku_37(bool value)
+	{
+		___IsTaiwanSku_37 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.Globalization.CultureInfo
+struct CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_marshaled_pinvoke
+{
+	int32_t ___m_isReadOnly_3;
+	int32_t ___cultureID_4;
+	int32_t ___parent_lcid_5;
+	int32_t ___datetime_index_6;
+	int32_t ___number_index_7;
+	int32_t ___default_calendar_type_8;
+	int32_t ___m_useUserOverride_9;
+	NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * ___numInfo_10;
+	DateTimeFormatInfo_t0B9F6CA631A51CFC98A3C6031CF8069843137C90 * ___dateTimeInfo_11;
+	TextInfo_tE823D0684BFE8B203501C9B2B38585E8F06E872C * ___textInfo_12;
+	char* ___m_name_13;
+	char* ___englishname_14;
+	char* ___nativename_15;
+	char* ___iso3lang_16;
+	char* ___iso2lang_17;
+	char* ___win3lang_18;
+	char* ___territory_19;
+	char** ___native_calendar_names_20;
+	CompareInfo_t4AB62EC32E8AF1E469E315620C7E3FB8B0CAE0C9 * ___compareInfo_21;
+	void* ___textinfo_data_22;
+	int32_t ___m_dataItem_23;
+	Calendar_t3D638AEAB45F029DF47138EDA4CF9A7CBBB1C32A * ___calendar_24;
+	CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_marshaled_pinvoke* ___parent_culture_25;
+	int32_t ___constructed_26;
+	Il2CppSafeArray/*NONE*/* ___cached_serialized_form_27;
+	CultureData_t53CDF1C5F789A28897415891667799420D3C5529_marshaled_pinvoke* ___m_cultureData_28;
+	int32_t ___m_isInherited_29;
+};
+// Native definition for COM marshalling of System.Globalization.CultureInfo
+struct CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_marshaled_com
+{
+	int32_t ___m_isReadOnly_3;
+	int32_t ___cultureID_4;
+	int32_t ___parent_lcid_5;
+	int32_t ___datetime_index_6;
+	int32_t ___number_index_7;
+	int32_t ___default_calendar_type_8;
+	int32_t ___m_useUserOverride_9;
+	NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * ___numInfo_10;
+	DateTimeFormatInfo_t0B9F6CA631A51CFC98A3C6031CF8069843137C90 * ___dateTimeInfo_11;
+	TextInfo_tE823D0684BFE8B203501C9B2B38585E8F06E872C * ___textInfo_12;
+	Il2CppChar* ___m_name_13;
+	Il2CppChar* ___englishname_14;
+	Il2CppChar* ___nativename_15;
+	Il2CppChar* ___iso3lang_16;
+	Il2CppChar* ___iso2lang_17;
+	Il2CppChar* ___win3lang_18;
+	Il2CppChar* ___territory_19;
+	Il2CppChar** ___native_calendar_names_20;
+	CompareInfo_t4AB62EC32E8AF1E469E315620C7E3FB8B0CAE0C9 * ___compareInfo_21;
+	void* ___textinfo_data_22;
+	int32_t ___m_dataItem_23;
+	Calendar_t3D638AEAB45F029DF47138EDA4CF9A7CBBB1C32A * ___calendar_24;
+	CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_marshaled_com* ___parent_culture_25;
+	int32_t ___constructed_26;
+	Il2CppSafeArray/*NONE*/* ___cached_serialized_form_27;
+	CultureData_t53CDF1C5F789A28897415891667799420D3C5529_marshaled_com* ___m_cultureData_28;
+	int32_t ___m_isInherited_29;
+};
+
+// System.DBNull
+struct  DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28_StaticFields
+{
+public:
+	// System.DBNull System.DBNull::Value
+	DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28 * ___Value_0;
+
+public:
+	inline static int32_t get_offset_of_Value_0() { return static_cast<int32_t>(offsetof(DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28_StaticFields, ___Value_0)); }
+	inline DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28 * get_Value_0() const { return ___Value_0; }
+	inline DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28 ** get_address_of_Value_0() { return &___Value_0; }
+	inline void set_Value_0(DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28 * value)
+	{
+		___Value_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Value_0), (void*)value);
+	}
+};
+
+
+// System.Data.Common.DbEnumerator
+struct  DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0  : public RuntimeObject
+{
+public:
+	// System.Data.IDataReader System.Data.Common.DbEnumerator::_reader
+	RuntimeObject* ____reader_0;
+	// System.Data.Common.DbDataRecord System.Data.Common.DbEnumerator::_current
+	DbDataRecord_t02A7715354313B29BA4878743EBBECFA9884AA70 * ____current_1;
+	// System.Data.Common.SchemaInfo[] System.Data.Common.DbEnumerator::_schemaInfo
+	SchemaInfoU5BU5D_t74FB36EB2FE6D68C94F0AEDFD0B1AC7526D14BEA* ____schemaInfo_2;
+	// System.ComponentModel.PropertyDescriptorCollection System.Data.Common.DbEnumerator::_descriptors
+	PropertyDescriptorCollection_t0BB7AE0048C13582B255B7D574F323B4B01D272F * ____descriptors_3;
+	// System.Data.ProviderBase.FieldNameLookup System.Data.Common.DbEnumerator::_fieldNameLookup
+	FieldNameLookup_t1F09FBFC400175E9455F7739B1062AC9C93ADF39 * ____fieldNameLookup_4;
+	// System.Boolean System.Data.Common.DbEnumerator::_closeReader
+	bool ____closeReader_5;
+
+public:
+	inline static int32_t get_offset_of__reader_0() { return static_cast<int32_t>(offsetof(DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0, ____reader_0)); }
+	inline RuntimeObject* get__reader_0() const { return ____reader_0; }
+	inline RuntimeObject** get_address_of__reader_0() { return &____reader_0; }
+	inline void set__reader_0(RuntimeObject* value)
+	{
+		____reader_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____reader_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__current_1() { return static_cast<int32_t>(offsetof(DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0, ____current_1)); }
+	inline DbDataRecord_t02A7715354313B29BA4878743EBBECFA9884AA70 * get__current_1() const { return ____current_1; }
+	inline DbDataRecord_t02A7715354313B29BA4878743EBBECFA9884AA70 ** get_address_of__current_1() { return &____current_1; }
+	inline void set__current_1(DbDataRecord_t02A7715354313B29BA4878743EBBECFA9884AA70 * value)
+	{
+		____current_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____current_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__schemaInfo_2() { return static_cast<int32_t>(offsetof(DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0, ____schemaInfo_2)); }
+	inline SchemaInfoU5BU5D_t74FB36EB2FE6D68C94F0AEDFD0B1AC7526D14BEA* get__schemaInfo_2() const { return ____schemaInfo_2; }
+	inline SchemaInfoU5BU5D_t74FB36EB2FE6D68C94F0AEDFD0B1AC7526D14BEA** get_address_of__schemaInfo_2() { return &____schemaInfo_2; }
+	inline void set__schemaInfo_2(SchemaInfoU5BU5D_t74FB36EB2FE6D68C94F0AEDFD0B1AC7526D14BEA* value)
+	{
+		____schemaInfo_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____schemaInfo_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__descriptors_3() { return static_cast<int32_t>(offsetof(DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0, ____descriptors_3)); }
+	inline PropertyDescriptorCollection_t0BB7AE0048C13582B255B7D574F323B4B01D272F * get__descriptors_3() const { return ____descriptors_3; }
+	inline PropertyDescriptorCollection_t0BB7AE0048C13582B255B7D574F323B4B01D272F ** get_address_of__descriptors_3() { return &____descriptors_3; }
+	inline void set__descriptors_3(PropertyDescriptorCollection_t0BB7AE0048C13582B255B7D574F323B4B01D272F * value)
+	{
+		____descriptors_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____descriptors_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__fieldNameLookup_4() { return static_cast<int32_t>(offsetof(DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0, ____fieldNameLookup_4)); }
+	inline FieldNameLookup_t1F09FBFC400175E9455F7739B1062AC9C93ADF39 * get__fieldNameLookup_4() const { return ____fieldNameLookup_4; }
+	inline FieldNameLookup_t1F09FBFC400175E9455F7739B1062AC9C93ADF39 ** get_address_of__fieldNameLookup_4() { return &____fieldNameLookup_4; }
+	inline void set__fieldNameLookup_4(FieldNameLookup_t1F09FBFC400175E9455F7739B1062AC9C93ADF39 * value)
+	{
+		____fieldNameLookup_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____fieldNameLookup_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__closeReader_5() { return static_cast<int32_t>(offsetof(DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0, ____closeReader_5)); }
+	inline bool get__closeReader_5() const { return ____closeReader_5; }
+	inline bool* get_address_of__closeReader_5() { return &____closeReader_5; }
+	inline void set__closeReader_5(bool value)
+	{
+		____closeReader_5 = value;
+	}
+};
+
+
+// System.Text.Encoding
+struct  Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827  : public RuntimeObject
+{
+public:
+	// System.Int32 System.Text.Encoding::m_codePage
+	int32_t ___m_codePage_9;
+	// System.Globalization.CodePageDataItem System.Text.Encoding::dataItem
+	CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * ___dataItem_10;
+	// System.Boolean System.Text.Encoding::m_deserializedFromEverett
+	bool ___m_deserializedFromEverett_11;
+	// System.Boolean System.Text.Encoding::m_isReadOnly
+	bool ___m_isReadOnly_12;
+	// System.Text.EncoderFallback System.Text.Encoding::encoderFallback
+	EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * ___encoderFallback_13;
+	// System.Text.DecoderFallback System.Text.Encoding::decoderFallback
+	DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * ___decoderFallback_14;
+
+public:
+	inline static int32_t get_offset_of_m_codePage_9() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_codePage_9)); }
+	inline int32_t get_m_codePage_9() const { return ___m_codePage_9; }
+	inline int32_t* get_address_of_m_codePage_9() { return &___m_codePage_9; }
+	inline void set_m_codePage_9(int32_t value)
+	{
+		___m_codePage_9 = value;
+	}
+
+	inline static int32_t get_offset_of_dataItem_10() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___dataItem_10)); }
+	inline CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * get_dataItem_10() const { return ___dataItem_10; }
+	inline CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E ** get_address_of_dataItem_10() { return &___dataItem_10; }
+	inline void set_dataItem_10(CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * value)
+	{
+		___dataItem_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___dataItem_10), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_deserializedFromEverett_11() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_deserializedFromEverett_11)); }
+	inline bool get_m_deserializedFromEverett_11() const { return ___m_deserializedFromEverett_11; }
+	inline bool* get_address_of_m_deserializedFromEverett_11() { return &___m_deserializedFromEverett_11; }
+	inline void set_m_deserializedFromEverett_11(bool value)
+	{
+		___m_deserializedFromEverett_11 = value;
+	}
+
+	inline static int32_t get_offset_of_m_isReadOnly_12() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_isReadOnly_12)); }
+	inline bool get_m_isReadOnly_12() const { return ___m_isReadOnly_12; }
+	inline bool* get_address_of_m_isReadOnly_12() { return &___m_isReadOnly_12; }
+	inline void set_m_isReadOnly_12(bool value)
+	{
+		___m_isReadOnly_12 = value;
+	}
+
+	inline static int32_t get_offset_of_encoderFallback_13() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___encoderFallback_13)); }
+	inline EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * get_encoderFallback_13() const { return ___encoderFallback_13; }
+	inline EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 ** get_address_of_encoderFallback_13() { return &___encoderFallback_13; }
+	inline void set_encoderFallback_13(EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * value)
+	{
+		___encoderFallback_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___encoderFallback_13), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_decoderFallback_14() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___decoderFallback_14)); }
+	inline DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * get_decoderFallback_14() const { return ___decoderFallback_14; }
+	inline DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D ** get_address_of_decoderFallback_14() { return &___decoderFallback_14; }
+	inline void set_decoderFallback_14(DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * value)
+	{
+		___decoderFallback_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___decoderFallback_14), (void*)value);
+	}
+};
+
+struct Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields
+{
+public:
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::defaultEncoding
+	Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___defaultEncoding_0;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::unicodeEncoding
+	Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___unicodeEncoding_1;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::bigEndianUnicode
+	Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___bigEndianUnicode_2;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf7Encoding
+	Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___utf7Encoding_3;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf8Encoding
+	Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___utf8Encoding_4;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf32Encoding
+	Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___utf32Encoding_5;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::asciiEncoding
+	Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___asciiEncoding_6;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::latin1Encoding
+	Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___latin1Encoding_7;
+	// System.Collections.Hashtable modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
+	Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * ___encodings_8;
+	// System.Object System.Text.Encoding::s_InternalSyncObject
+	RuntimeObject * ___s_InternalSyncObject_15;
+
+public:
+	inline static int32_t get_offset_of_defaultEncoding_0() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___defaultEncoding_0)); }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * get_defaultEncoding_0() const { return ___defaultEncoding_0; }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 ** get_address_of_defaultEncoding_0() { return &___defaultEncoding_0; }
+	inline void set_defaultEncoding_0(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * value)
+	{
+		___defaultEncoding_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___defaultEncoding_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_unicodeEncoding_1() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___unicodeEncoding_1)); }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * get_unicodeEncoding_1() const { return ___unicodeEncoding_1; }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 ** get_address_of_unicodeEncoding_1() { return &___unicodeEncoding_1; }
+	inline void set_unicodeEncoding_1(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * value)
+	{
+		___unicodeEncoding_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___unicodeEncoding_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_bigEndianUnicode_2() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___bigEndianUnicode_2)); }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * get_bigEndianUnicode_2() const { return ___bigEndianUnicode_2; }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 ** get_address_of_bigEndianUnicode_2() { return &___bigEndianUnicode_2; }
+	inline void set_bigEndianUnicode_2(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * value)
+	{
+		___bigEndianUnicode_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___bigEndianUnicode_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_utf7Encoding_3() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___utf7Encoding_3)); }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * get_utf7Encoding_3() const { return ___utf7Encoding_3; }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 ** get_address_of_utf7Encoding_3() { return &___utf7Encoding_3; }
+	inline void set_utf7Encoding_3(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * value)
+	{
+		___utf7Encoding_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___utf7Encoding_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_utf8Encoding_4() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___utf8Encoding_4)); }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * get_utf8Encoding_4() const { return ___utf8Encoding_4; }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 ** get_address_of_utf8Encoding_4() { return &___utf8Encoding_4; }
+	inline void set_utf8Encoding_4(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * value)
+	{
+		___utf8Encoding_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___utf8Encoding_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_utf32Encoding_5() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___utf32Encoding_5)); }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * get_utf32Encoding_5() const { return ___utf32Encoding_5; }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 ** get_address_of_utf32Encoding_5() { return &___utf32Encoding_5; }
+	inline void set_utf32Encoding_5(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * value)
+	{
+		___utf32Encoding_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___utf32Encoding_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_asciiEncoding_6() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___asciiEncoding_6)); }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * get_asciiEncoding_6() const { return ___asciiEncoding_6; }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 ** get_address_of_asciiEncoding_6() { return &___asciiEncoding_6; }
+	inline void set_asciiEncoding_6(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * value)
+	{
+		___asciiEncoding_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___asciiEncoding_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_latin1Encoding_7() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___latin1Encoding_7)); }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * get_latin1Encoding_7() const { return ___latin1Encoding_7; }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 ** get_address_of_latin1Encoding_7() { return &___latin1Encoding_7; }
+	inline void set_latin1Encoding_7(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * value)
+	{
+		___latin1Encoding_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___latin1Encoding_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_encodings_8() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___encodings_8)); }
+	inline Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * get_encodings_8() const { return ___encodings_8; }
+	inline Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC ** get_address_of_encodings_8() { return &___encodings_8; }
+	inline void set_encodings_8(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * value)
+	{
+		___encodings_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___encodings_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_s_InternalSyncObject_15() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___s_InternalSyncObject_15)); }
+	inline RuntimeObject * get_s_InternalSyncObject_15() const { return ___s_InternalSyncObject_15; }
+	inline RuntimeObject ** get_address_of_s_InternalSyncObject_15() { return &___s_InternalSyncObject_15; }
+	inline void set_s_InternalSyncObject_15(RuntimeObject * value)
+	{
+		___s_InternalSyncObject_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_InternalSyncObject_15), (void*)value);
+	}
+};
+
+
+// System.MarshalByRefObject
+struct  MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8  : public RuntimeObject
+{
+public:
+	// System.Object System.MarshalByRefObject::_identity
+	RuntimeObject * ____identity_0;
+
+public:
+	inline static int32_t get_offset_of__identity_0() { return static_cast<int32_t>(offsetof(MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8, ____identity_0)); }
+	inline RuntimeObject * get__identity_0() const { return ____identity_0; }
+	inline RuntimeObject ** get_address_of__identity_0() { return &____identity_0; }
+	inline void set__identity_0(RuntimeObject * value)
+	{
+		____identity_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____identity_0), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.MarshalByRefObject
+struct MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8_marshaled_pinvoke
+{
+	Il2CppIUnknown* ____identity_0;
+};
+// Native definition for COM marshalling of System.MarshalByRefObject
+struct MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8_marshaled_com
+{
+	Il2CppIUnknown* ____identity_0;
+};
+
+// System.Reflection.MemberInfo
+struct  MemberInfo_t  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+
+// System.IO.Path
+struct  Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields
+{
+public:
+	// System.Char[] System.IO.Path::InvalidPathChars
+	CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* ___InvalidPathChars_0;
+	// System.Char System.IO.Path::AltDirectorySeparatorChar
+	Il2CppChar ___AltDirectorySeparatorChar_1;
+	// System.Char System.IO.Path::DirectorySeparatorChar
+	Il2CppChar ___DirectorySeparatorChar_2;
+	// System.Char System.IO.Path::PathSeparator
+	Il2CppChar ___PathSeparator_3;
+	// System.String System.IO.Path::DirectorySeparatorStr
+	String_t* ___DirectorySeparatorStr_4;
+	// System.Char System.IO.Path::VolumeSeparatorChar
+	Il2CppChar ___VolumeSeparatorChar_5;
+	// System.Char[] System.IO.Path::PathSeparatorChars
+	CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* ___PathSeparatorChars_6;
+	// System.Boolean System.IO.Path::dirEqualsVolume
+	bool ___dirEqualsVolume_7;
+	// System.Char[] System.IO.Path::trimEndCharsWindows
+	CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* ___trimEndCharsWindows_8;
+	// System.Char[] System.IO.Path::trimEndCharsUnix
+	CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* ___trimEndCharsUnix_9;
+
+public:
+	inline static int32_t get_offset_of_InvalidPathChars_0() { return static_cast<int32_t>(offsetof(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields, ___InvalidPathChars_0)); }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* get_InvalidPathChars_0() const { return ___InvalidPathChars_0; }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34** get_address_of_InvalidPathChars_0() { return &___InvalidPathChars_0; }
+	inline void set_InvalidPathChars_0(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* value)
+	{
+		___InvalidPathChars_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___InvalidPathChars_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_AltDirectorySeparatorChar_1() { return static_cast<int32_t>(offsetof(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields, ___AltDirectorySeparatorChar_1)); }
+	inline Il2CppChar get_AltDirectorySeparatorChar_1() const { return ___AltDirectorySeparatorChar_1; }
+	inline Il2CppChar* get_address_of_AltDirectorySeparatorChar_1() { return &___AltDirectorySeparatorChar_1; }
+	inline void set_AltDirectorySeparatorChar_1(Il2CppChar value)
+	{
+		___AltDirectorySeparatorChar_1 = value;
+	}
+
+	inline static int32_t get_offset_of_DirectorySeparatorChar_2() { return static_cast<int32_t>(offsetof(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields, ___DirectorySeparatorChar_2)); }
+	inline Il2CppChar get_DirectorySeparatorChar_2() const { return ___DirectorySeparatorChar_2; }
+	inline Il2CppChar* get_address_of_DirectorySeparatorChar_2() { return &___DirectorySeparatorChar_2; }
+	inline void set_DirectorySeparatorChar_2(Il2CppChar value)
+	{
+		___DirectorySeparatorChar_2 = value;
+	}
+
+	inline static int32_t get_offset_of_PathSeparator_3() { return static_cast<int32_t>(offsetof(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields, ___PathSeparator_3)); }
+	inline Il2CppChar get_PathSeparator_3() const { return ___PathSeparator_3; }
+	inline Il2CppChar* get_address_of_PathSeparator_3() { return &___PathSeparator_3; }
+	inline void set_PathSeparator_3(Il2CppChar value)
+	{
+		___PathSeparator_3 = value;
+	}
+
+	inline static int32_t get_offset_of_DirectorySeparatorStr_4() { return static_cast<int32_t>(offsetof(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields, ___DirectorySeparatorStr_4)); }
+	inline String_t* get_DirectorySeparatorStr_4() const { return ___DirectorySeparatorStr_4; }
+	inline String_t** get_address_of_DirectorySeparatorStr_4() { return &___DirectorySeparatorStr_4; }
+	inline void set_DirectorySeparatorStr_4(String_t* value)
+	{
+		___DirectorySeparatorStr_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___DirectorySeparatorStr_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_VolumeSeparatorChar_5() { return static_cast<int32_t>(offsetof(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields, ___VolumeSeparatorChar_5)); }
+	inline Il2CppChar get_VolumeSeparatorChar_5() const { return ___VolumeSeparatorChar_5; }
+	inline Il2CppChar* get_address_of_VolumeSeparatorChar_5() { return &___VolumeSeparatorChar_5; }
+	inline void set_VolumeSeparatorChar_5(Il2CppChar value)
+	{
+		___VolumeSeparatorChar_5 = value;
+	}
+
+	inline static int32_t get_offset_of_PathSeparatorChars_6() { return static_cast<int32_t>(offsetof(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields, ___PathSeparatorChars_6)); }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* get_PathSeparatorChars_6() const { return ___PathSeparatorChars_6; }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34** get_address_of_PathSeparatorChars_6() { return &___PathSeparatorChars_6; }
+	inline void set_PathSeparatorChars_6(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* value)
+	{
+		___PathSeparatorChars_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___PathSeparatorChars_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_dirEqualsVolume_7() { return static_cast<int32_t>(offsetof(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields, ___dirEqualsVolume_7)); }
+	inline bool get_dirEqualsVolume_7() const { return ___dirEqualsVolume_7; }
+	inline bool* get_address_of_dirEqualsVolume_7() { return &___dirEqualsVolume_7; }
+	inline void set_dirEqualsVolume_7(bool value)
+	{
+		___dirEqualsVolume_7 = value;
+	}
+
+	inline static int32_t get_offset_of_trimEndCharsWindows_8() { return static_cast<int32_t>(offsetof(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields, ___trimEndCharsWindows_8)); }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* get_trimEndCharsWindows_8() const { return ___trimEndCharsWindows_8; }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34** get_address_of_trimEndCharsWindows_8() { return &___trimEndCharsWindows_8; }
+	inline void set_trimEndCharsWindows_8(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* value)
+	{
+		___trimEndCharsWindows_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___trimEndCharsWindows_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_trimEndCharsUnix_9() { return static_cast<int32_t>(offsetof(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields, ___trimEndCharsUnix_9)); }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* get_trimEndCharsUnix_9() const { return ___trimEndCharsUnix_9; }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34** get_address_of_trimEndCharsUnix_9() { return &___trimEndCharsUnix_9; }
+	inline void set_trimEndCharsUnix_9(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* value)
+	{
+		___trimEndCharsUnix_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___trimEndCharsUnix_9), (void*)value);
+	}
+};
+
+
+// Mono.Data.SqliteClient.Sqlite
+struct  Sqlite_tD459B9D3789DC5D19B0B57DAA944C3852A80D7FF  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+
+// System.String
+struct  String_t  : public RuntimeObject
+{
+public:
+	// System.Int32 System.String::m_stringLength
+	int32_t ___m_stringLength_0;
+	// System.Char System.String::m_firstChar
+	Il2CppChar ___m_firstChar_1;
+
+public:
+	inline static int32_t get_offset_of_m_stringLength_0() { return static_cast<int32_t>(offsetof(String_t, ___m_stringLength_0)); }
+	inline int32_t get_m_stringLength_0() const { return ___m_stringLength_0; }
+	inline int32_t* get_address_of_m_stringLength_0() { return &___m_stringLength_0; }
+	inline void set_m_stringLength_0(int32_t value)
+	{
+		___m_stringLength_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_firstChar_1() { return static_cast<int32_t>(offsetof(String_t, ___m_firstChar_1)); }
+	inline Il2CppChar get_m_firstChar_1() const { return ___m_firstChar_1; }
+	inline Il2CppChar* get_address_of_m_firstChar_1() { return &___m_firstChar_1; }
+	inline void set_m_firstChar_1(Il2CppChar value)
+	{
+		___m_firstChar_1 = value;
+	}
+};
+
+struct String_t_StaticFields
+{
+public:
+	// System.String System.String::Empty
+	String_t* ___Empty_5;
+
+public:
+	inline static int32_t get_offset_of_Empty_5() { return static_cast<int32_t>(offsetof(String_t_StaticFields, ___Empty_5)); }
+	inline String_t* get_Empty_5() const { return ___Empty_5; }
+	inline String_t** get_address_of_Empty_5() { return &___Empty_5; }
+	inline void set_Empty_5(String_t* value)
+	{
+		___Empty_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Empty_5), (void*)value);
+	}
+};
+
+
+// System.StringComparer
+struct  StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_StaticFields
+{
+public:
+	// System.StringComparer System.StringComparer::_invariantCulture
+	StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * ____invariantCulture_0;
+	// System.StringComparer System.StringComparer::_invariantCultureIgnoreCase
+	StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * ____invariantCultureIgnoreCase_1;
+	// System.StringComparer System.StringComparer::_ordinal
+	StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * ____ordinal_2;
+	// System.StringComparer System.StringComparer::_ordinalIgnoreCase
+	StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * ____ordinalIgnoreCase_3;
+
+public:
+	inline static int32_t get_offset_of__invariantCulture_0() { return static_cast<int32_t>(offsetof(StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_StaticFields, ____invariantCulture_0)); }
+	inline StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * get__invariantCulture_0() const { return ____invariantCulture_0; }
+	inline StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 ** get_address_of__invariantCulture_0() { return &____invariantCulture_0; }
+	inline void set__invariantCulture_0(StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * value)
+	{
+		____invariantCulture_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____invariantCulture_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__invariantCultureIgnoreCase_1() { return static_cast<int32_t>(offsetof(StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_StaticFields, ____invariantCultureIgnoreCase_1)); }
+	inline StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * get__invariantCultureIgnoreCase_1() const { return ____invariantCultureIgnoreCase_1; }
+	inline StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 ** get_address_of__invariantCultureIgnoreCase_1() { return &____invariantCultureIgnoreCase_1; }
+	inline void set__invariantCultureIgnoreCase_1(StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * value)
+	{
+		____invariantCultureIgnoreCase_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____invariantCultureIgnoreCase_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__ordinal_2() { return static_cast<int32_t>(offsetof(StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_StaticFields, ____ordinal_2)); }
+	inline StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * get__ordinal_2() const { return ____ordinal_2; }
+	inline StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 ** get_address_of__ordinal_2() { return &____ordinal_2; }
+	inline void set__ordinal_2(StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * value)
+	{
+		____ordinal_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____ordinal_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__ordinalIgnoreCase_3() { return static_cast<int32_t>(offsetof(StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_StaticFields, ____ordinalIgnoreCase_3)); }
+	inline StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * get__ordinalIgnoreCase_3() const { return ____ordinalIgnoreCase_3; }
+	inline StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 ** get_address_of__ordinalIgnoreCase_3() { return &____ordinalIgnoreCase_3; }
+	inline void set__ordinalIgnoreCase_3(StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * value)
+	{
+		____ordinalIgnoreCase_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____ordinalIgnoreCase_3), (void*)value);
+	}
+};
+
+
+// System.ValueType
+struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
+{
+};
+
+// System.Boolean
+struct  Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+{
+public:
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37, ___m_value_0)); }
+	inline bool get_m_value_0() const { return ___m_value_0; }
+	inline bool* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(bool value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_StaticFields
+{
+public:
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+
+public:
+	inline static int32_t get_offset_of_TrueString_5() { return static_cast<int32_t>(offsetof(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_StaticFields, ___TrueString_5)); }
+	inline String_t* get_TrueString_5() const { return ___TrueString_5; }
+	inline String_t** get_address_of_TrueString_5() { return &___TrueString_5; }
+	inline void set_TrueString_5(String_t* value)
+	{
+		___TrueString_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TrueString_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_FalseString_6() { return static_cast<int32_t>(offsetof(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_StaticFields, ___FalseString_6)); }
+	inline String_t* get_FalseString_6() const { return ___FalseString_6; }
+	inline String_t** get_address_of_FalseString_6() { return &___FalseString_6; }
+	inline void set_FalseString_6(String_t* value)
+	{
+		___FalseString_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___FalseString_6), (void*)value);
+	}
+};
+
+
+// System.Byte
+struct  Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056 
+{
+public:
+	// System.Byte System.Byte::m_value
+	uint8_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056, ___m_value_0)); }
+	inline uint8_t get_m_value_0() const { return ___m_value_0; }
+	inline uint8_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(uint8_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+
+// System.Char
+struct  Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14 
+{
+public:
+	// System.Char System.Char::m_value
+	Il2CppChar ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14, ___m_value_0)); }
+	inline Il2CppChar get_m_value_0() const { return ___m_value_0; }
+	inline Il2CppChar* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(Il2CppChar value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_StaticFields
+{
+public:
+	// System.Byte[] System.Char::categoryForLatin1
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___categoryForLatin1_3;
+
+public:
+	inline static int32_t get_offset_of_categoryForLatin1_3() { return static_cast<int32_t>(offsetof(Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_StaticFields, ___categoryForLatin1_3)); }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_categoryForLatin1_3() const { return ___categoryForLatin1_3; }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_categoryForLatin1_3() { return &___categoryForLatin1_3; }
+	inline void set_categoryForLatin1_3(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
+	{
+		___categoryForLatin1_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___categoryForLatin1_3), (void*)value);
+	}
+};
+
+
+// System.ComponentModel.Component
+struct  Component_t015539CFEAEEBFD7619041FE006475373E0D71DF  : public MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8
+{
+public:
+	// System.ComponentModel.ISite System.ComponentModel.Component::site
+	RuntimeObject* ___site_2;
+	// System.ComponentModel.EventHandlerList System.ComponentModel.Component::events
+	EventHandlerList_t085C99C5BEAB950B4B76BB13379FBCA0AA75A714 * ___events_3;
+
+public:
+	inline static int32_t get_offset_of_site_2() { return static_cast<int32_t>(offsetof(Component_t015539CFEAEEBFD7619041FE006475373E0D71DF, ___site_2)); }
+	inline RuntimeObject* get_site_2() const { return ___site_2; }
+	inline RuntimeObject** get_address_of_site_2() { return &___site_2; }
+	inline void set_site_2(RuntimeObject* value)
+	{
+		___site_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___site_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_events_3() { return static_cast<int32_t>(offsetof(Component_t015539CFEAEEBFD7619041FE006475373E0D71DF, ___events_3)); }
+	inline EventHandlerList_t085C99C5BEAB950B4B76BB13379FBCA0AA75A714 * get_events_3() const { return ___events_3; }
+	inline EventHandlerList_t085C99C5BEAB950B4B76BB13379FBCA0AA75A714 ** get_address_of_events_3() { return &___events_3; }
+	inline void set_events_3(EventHandlerList_t085C99C5BEAB950B4B76BB13379FBCA0AA75A714 * value)
+	{
+		___events_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___events_3), (void*)value);
+	}
+};
+
+struct Component_t015539CFEAEEBFD7619041FE006475373E0D71DF_StaticFields
+{
+public:
+	// System.Object System.ComponentModel.Component::EventDisposed
+	RuntimeObject * ___EventDisposed_1;
+
+public:
+	inline static int32_t get_offset_of_EventDisposed_1() { return static_cast<int32_t>(offsetof(Component_t015539CFEAEEBFD7619041FE006475373E0D71DF_StaticFields, ___EventDisposed_1)); }
+	inline RuntimeObject * get_EventDisposed_1() const { return ___EventDisposed_1; }
+	inline RuntimeObject ** get_address_of_EventDisposed_1() { return &___EventDisposed_1; }
+	inline void set_EventDisposed_1(RuntimeObject * value)
+	{
+		___EventDisposed_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___EventDisposed_1), (void*)value);
+	}
+};
+
+
+// System.DateTime
+struct  DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 
+{
+public:
+	// System.UInt64 System.DateTime::dateData
+	uint64_t ___dateData_44;
+
+public:
+	inline static int32_t get_offset_of_dateData_44() { return static_cast<int32_t>(offsetof(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405, ___dateData_44)); }
+	inline uint64_t get_dateData_44() const { return ___dateData_44; }
+	inline uint64_t* get_address_of_dateData_44() { return &___dateData_44; }
+	inline void set_dateData_44(uint64_t value)
+	{
+		___dateData_44 = value;
+	}
+};
+
+struct DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields
+{
+public:
+	// System.Int32[] System.DateTime::DaysToMonth365
+	Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* ___DaysToMonth365_29;
+	// System.Int32[] System.DateTime::DaysToMonth366
+	Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* ___DaysToMonth366_30;
+	// System.DateTime System.DateTime::MinValue
+	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___MinValue_31;
+	// System.DateTime System.DateTime::MaxValue
+	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___MaxValue_32;
+
+public:
+	inline static int32_t get_offset_of_DaysToMonth365_29() { return static_cast<int32_t>(offsetof(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields, ___DaysToMonth365_29)); }
+	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* get_DaysToMonth365_29() const { return ___DaysToMonth365_29; }
+	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32** get_address_of_DaysToMonth365_29() { return &___DaysToMonth365_29; }
+	inline void set_DaysToMonth365_29(Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* value)
+	{
+		___DaysToMonth365_29 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___DaysToMonth365_29), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_DaysToMonth366_30() { return static_cast<int32_t>(offsetof(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields, ___DaysToMonth366_30)); }
+	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* get_DaysToMonth366_30() const { return ___DaysToMonth366_30; }
+	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32** get_address_of_DaysToMonth366_30() { return &___DaysToMonth366_30; }
+	inline void set_DaysToMonth366_30(Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* value)
+	{
+		___DaysToMonth366_30 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___DaysToMonth366_30), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_MinValue_31() { return static_cast<int32_t>(offsetof(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields, ___MinValue_31)); }
+	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  get_MinValue_31() const { return ___MinValue_31; }
+	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * get_address_of_MinValue_31() { return &___MinValue_31; }
+	inline void set_MinValue_31(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  value)
+	{
+		___MinValue_31 = value;
+	}
+
+	inline static int32_t get_offset_of_MaxValue_32() { return static_cast<int32_t>(offsetof(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields, ___MaxValue_32)); }
+	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  get_MaxValue_32() const { return ___MaxValue_32; }
+	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * get_address_of_MaxValue_32() { return &___MaxValue_32; }
+	inline void set_MaxValue_32(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  value)
+	{
+		___MaxValue_32 = value;
+	}
+};
+
+
+// System.Data.Common.DbDataReader
+struct  DbDataReader_t50481AE1497CEE437BDA56F2E92B6567D3222C45  : public MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8
+{
+public:
+
+public:
+};
+
+
+// System.Data.Common.DbParameter
+struct  DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3  : public MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8
+{
+public:
+
+public:
+};
+
+
+// System.Data.Common.DbParameterCollection
+struct  DbParameterCollection_t53857899F148EF54A7C90F169557DD134B5297D2  : public MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8
+{
+public:
+
+public:
+};
+
+
+// System.Double
+struct  Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181 
+{
+public:
+	// System.Double System.Double::m_value
+	double ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181, ___m_value_0)); }
+	inline double get_m_value_0() const { return ___m_value_0; }
+	inline double* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(double value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_StaticFields
+{
+public:
+	// System.Double System.Double::NegativeZero
+	double ___NegativeZero_7;
+
+public:
+	inline static int32_t get_offset_of_NegativeZero_7() { return static_cast<int32_t>(offsetof(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_StaticFields, ___NegativeZero_7)); }
+	inline double get_NegativeZero_7() const { return ___NegativeZero_7; }
+	inline double* get_address_of_NegativeZero_7() { return &___NegativeZero_7; }
+	inline void set_NegativeZero_7(double value)
+	{
+		___NegativeZero_7 = value;
+	}
+};
+
+
+// System.Enum
+struct  Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
+{
+public:
+
+public:
+};
+
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_StaticFields
+{
+public:
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* ___enumSeperatorCharArray_0;
+
+public:
+	inline static int32_t get_offset_of_enumSeperatorCharArray_0() { return static_cast<int32_t>(offsetof(Enum_t23B90B40F60E677A8025267341651C94AE079CDA_StaticFields, ___enumSeperatorCharArray_0)); }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* get_enumSeperatorCharArray_0() const { return ___enumSeperatorCharArray_0; }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34** get_address_of_enumSeperatorCharArray_0() { return &___enumSeperatorCharArray_0; }
+	inline void set_enumSeperatorCharArray_0(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* value)
+	{
+		___enumSeperatorCharArray_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___enumSeperatorCharArray_0), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
+{
+};
+
+// System.Int16
+struct  Int16_tD0F031114106263BB459DA1F099FF9F42691295A 
+{
+public:
+	// System.Int16 System.Int16::m_value
+	int16_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Int16_tD0F031114106263BB459DA1F099FF9F42691295A, ___m_value_0)); }
+	inline int16_t get_m_value_0() const { return ___m_value_0; }
+	inline int16_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(int16_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+
+// System.Int32
+struct  Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
+{
+public:
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046, ___m_value_0)); }
+	inline int32_t get_m_value_0() const { return ___m_value_0; }
+	inline int32_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(int32_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+
+// System.Int64
+struct  Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3 
+{
+public:
+	// System.Int64 System.Int64::m_value
+	int64_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3, ___m_value_0)); }
+	inline int64_t get_m_value_0() const { return ___m_value_0; }
+	inline int64_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(int64_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+
+// System.IntPtr
+struct  IntPtr_t 
+{
+public:
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
+	inline void* get_m_value_0() const { return ___m_value_0; }
+	inline void** get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(void* value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct IntPtr_t_StaticFields
+{
+public:
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+
+public:
+	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
+	inline intptr_t get_Zero_1() const { return ___Zero_1; }
+	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
+	inline void set_Zero_1(intptr_t value)
+	{
+		___Zero_1 = value;
+	}
+};
+
+
+// System.SByte
+struct  SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B 
+{
+public:
+	// System.SByte System.SByte::m_value
+	int8_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B, ___m_value_0)); }
+	inline int8_t get_m_value_0() const { return ___m_value_0; }
+	inline int8_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(int8_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+
+// System.Single
+struct  Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E 
+{
+public:
+	// System.Single System.Single::m_value
+	float ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E, ___m_value_0)); }
+	inline float get_m_value_0() const { return ___m_value_0; }
+	inline float* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(float value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+
+// System.UInt16
+struct  UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD 
+{
+public:
+	// System.UInt16 System.UInt16::m_value
+	uint16_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD, ___m_value_0)); }
+	inline uint16_t get_m_value_0() const { return ___m_value_0; }
+	inline uint16_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(uint16_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+
+// System.UInt32
+struct  UInt32_tE60352A06233E4E69DD198BCC67142159F686B15 
+{
+public:
+	// System.UInt32 System.UInt32::m_value
+	uint32_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(UInt32_tE60352A06233E4E69DD198BCC67142159F686B15, ___m_value_0)); }
+	inline uint32_t get_m_value_0() const { return ___m_value_0; }
+	inline uint32_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(uint32_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+
+// System.Void
+struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5__padding[1];
+	};
+
+public:
+};
+
+
+// System.AppDomain
+struct  AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A  : public MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8
+{
+public:
+	// System.IntPtr System.AppDomain::_mono_app_domain
+	intptr_t ____mono_app_domain_1;
+	// System.Object System.AppDomain::_evidence
+	RuntimeObject * ____evidence_6;
+	// System.Object System.AppDomain::_granted
+	RuntimeObject * ____granted_7;
+	// System.Int32 System.AppDomain::_principalPolicy
+	int32_t ____principalPolicy_8;
+	// System.AssemblyLoadEventHandler System.AppDomain::AssemblyLoad
+	AssemblyLoadEventHandler_tE06B38463937F6FBCCECF4DF6519F83C1683FE0C * ___AssemblyLoad_11;
+	// System.ResolveEventHandler System.AppDomain::AssemblyResolve
+	ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * ___AssemblyResolve_12;
+	// System.EventHandler System.AppDomain::DomainUnload
+	EventHandler_t084491E53EC706ACA0A15CA17488C075B4ECA44B * ___DomainUnload_13;
+	// System.EventHandler System.AppDomain::ProcessExit
+	EventHandler_t084491E53EC706ACA0A15CA17488C075B4ECA44B * ___ProcessExit_14;
+	// System.ResolveEventHandler System.AppDomain::ResourceResolve
+	ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * ___ResourceResolve_15;
+	// System.ResolveEventHandler System.AppDomain::TypeResolve
+	ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * ___TypeResolve_16;
+	// System.UnhandledExceptionEventHandler System.AppDomain::UnhandledException
+	UnhandledExceptionEventHandler_t1DF125A860ED9B70F24ADFA6CB0781533A23DA64 * ___UnhandledException_17;
+	// System.EventHandler`1<System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs> System.AppDomain::FirstChanceException
+	EventHandler_1_t7F26BD2270AD4531F2328FD1382278E975249DF1 * ___FirstChanceException_18;
+	// System.Object System.AppDomain::_domain_manager
+	RuntimeObject * ____domain_manager_19;
+	// System.ResolveEventHandler System.AppDomain::ReflectionOnlyAssemblyResolve
+	ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * ___ReflectionOnlyAssemblyResolve_20;
+	// System.Object System.AppDomain::_activation
+	RuntimeObject * ____activation_21;
+	// System.Object System.AppDomain::_applicationIdentity
+	RuntimeObject * ____applicationIdentity_22;
+	// System.Collections.Generic.List`1<System.String> System.AppDomain::compatibility_switch
+	List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * ___compatibility_switch_23;
+
+public:
+	inline static int32_t get_offset_of__mono_app_domain_1() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ____mono_app_domain_1)); }
+	inline intptr_t get__mono_app_domain_1() const { return ____mono_app_domain_1; }
+	inline intptr_t* get_address_of__mono_app_domain_1() { return &____mono_app_domain_1; }
+	inline void set__mono_app_domain_1(intptr_t value)
+	{
+		____mono_app_domain_1 = value;
+	}
+
+	inline static int32_t get_offset_of__evidence_6() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ____evidence_6)); }
+	inline RuntimeObject * get__evidence_6() const { return ____evidence_6; }
+	inline RuntimeObject ** get_address_of__evidence_6() { return &____evidence_6; }
+	inline void set__evidence_6(RuntimeObject * value)
+	{
+		____evidence_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____evidence_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__granted_7() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ____granted_7)); }
+	inline RuntimeObject * get__granted_7() const { return ____granted_7; }
+	inline RuntimeObject ** get_address_of__granted_7() { return &____granted_7; }
+	inline void set__granted_7(RuntimeObject * value)
+	{
+		____granted_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____granted_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__principalPolicy_8() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ____principalPolicy_8)); }
+	inline int32_t get__principalPolicy_8() const { return ____principalPolicy_8; }
+	inline int32_t* get_address_of__principalPolicy_8() { return &____principalPolicy_8; }
+	inline void set__principalPolicy_8(int32_t value)
+	{
+		____principalPolicy_8 = value;
+	}
+
+	inline static int32_t get_offset_of_AssemblyLoad_11() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ___AssemblyLoad_11)); }
+	inline AssemblyLoadEventHandler_tE06B38463937F6FBCCECF4DF6519F83C1683FE0C * get_AssemblyLoad_11() const { return ___AssemblyLoad_11; }
+	inline AssemblyLoadEventHandler_tE06B38463937F6FBCCECF4DF6519F83C1683FE0C ** get_address_of_AssemblyLoad_11() { return &___AssemblyLoad_11; }
+	inline void set_AssemblyLoad_11(AssemblyLoadEventHandler_tE06B38463937F6FBCCECF4DF6519F83C1683FE0C * value)
+	{
+		___AssemblyLoad_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___AssemblyLoad_11), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_AssemblyResolve_12() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ___AssemblyResolve_12)); }
+	inline ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * get_AssemblyResolve_12() const { return ___AssemblyResolve_12; }
+	inline ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 ** get_address_of_AssemblyResolve_12() { return &___AssemblyResolve_12; }
+	inline void set_AssemblyResolve_12(ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * value)
+	{
+		___AssemblyResolve_12 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___AssemblyResolve_12), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_DomainUnload_13() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ___DomainUnload_13)); }
+	inline EventHandler_t084491E53EC706ACA0A15CA17488C075B4ECA44B * get_DomainUnload_13() const { return ___DomainUnload_13; }
+	inline EventHandler_t084491E53EC706ACA0A15CA17488C075B4ECA44B ** get_address_of_DomainUnload_13() { return &___DomainUnload_13; }
+	inline void set_DomainUnload_13(EventHandler_t084491E53EC706ACA0A15CA17488C075B4ECA44B * value)
+	{
+		___DomainUnload_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___DomainUnload_13), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_ProcessExit_14() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ___ProcessExit_14)); }
+	inline EventHandler_t084491E53EC706ACA0A15CA17488C075B4ECA44B * get_ProcessExit_14() const { return ___ProcessExit_14; }
+	inline EventHandler_t084491E53EC706ACA0A15CA17488C075B4ECA44B ** get_address_of_ProcessExit_14() { return &___ProcessExit_14; }
+	inline void set_ProcessExit_14(EventHandler_t084491E53EC706ACA0A15CA17488C075B4ECA44B * value)
+	{
+		___ProcessExit_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ProcessExit_14), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_ResourceResolve_15() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ___ResourceResolve_15)); }
+	inline ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * get_ResourceResolve_15() const { return ___ResourceResolve_15; }
+	inline ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 ** get_address_of_ResourceResolve_15() { return &___ResourceResolve_15; }
+	inline void set_ResourceResolve_15(ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * value)
+	{
+		___ResourceResolve_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ResourceResolve_15), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_TypeResolve_16() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ___TypeResolve_16)); }
+	inline ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * get_TypeResolve_16() const { return ___TypeResolve_16; }
+	inline ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 ** get_address_of_TypeResolve_16() { return &___TypeResolve_16; }
+	inline void set_TypeResolve_16(ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * value)
+	{
+		___TypeResolve_16 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TypeResolve_16), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_UnhandledException_17() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ___UnhandledException_17)); }
+	inline UnhandledExceptionEventHandler_t1DF125A860ED9B70F24ADFA6CB0781533A23DA64 * get_UnhandledException_17() const { return ___UnhandledException_17; }
+	inline UnhandledExceptionEventHandler_t1DF125A860ED9B70F24ADFA6CB0781533A23DA64 ** get_address_of_UnhandledException_17() { return &___UnhandledException_17; }
+	inline void set_UnhandledException_17(UnhandledExceptionEventHandler_t1DF125A860ED9B70F24ADFA6CB0781533A23DA64 * value)
+	{
+		___UnhandledException_17 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___UnhandledException_17), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_FirstChanceException_18() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ___FirstChanceException_18)); }
+	inline EventHandler_1_t7F26BD2270AD4531F2328FD1382278E975249DF1 * get_FirstChanceException_18() const { return ___FirstChanceException_18; }
+	inline EventHandler_1_t7F26BD2270AD4531F2328FD1382278E975249DF1 ** get_address_of_FirstChanceException_18() { return &___FirstChanceException_18; }
+	inline void set_FirstChanceException_18(EventHandler_1_t7F26BD2270AD4531F2328FD1382278E975249DF1 * value)
+	{
+		___FirstChanceException_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___FirstChanceException_18), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__domain_manager_19() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ____domain_manager_19)); }
+	inline RuntimeObject * get__domain_manager_19() const { return ____domain_manager_19; }
+	inline RuntimeObject ** get_address_of__domain_manager_19() { return &____domain_manager_19; }
+	inline void set__domain_manager_19(RuntimeObject * value)
+	{
+		____domain_manager_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____domain_manager_19), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_ReflectionOnlyAssemblyResolve_20() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ___ReflectionOnlyAssemblyResolve_20)); }
+	inline ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * get_ReflectionOnlyAssemblyResolve_20() const { return ___ReflectionOnlyAssemblyResolve_20; }
+	inline ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 ** get_address_of_ReflectionOnlyAssemblyResolve_20() { return &___ReflectionOnlyAssemblyResolve_20; }
+	inline void set_ReflectionOnlyAssemblyResolve_20(ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * value)
+	{
+		___ReflectionOnlyAssemblyResolve_20 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ReflectionOnlyAssemblyResolve_20), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__activation_21() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ____activation_21)); }
+	inline RuntimeObject * get__activation_21() const { return ____activation_21; }
+	inline RuntimeObject ** get_address_of__activation_21() { return &____activation_21; }
+	inline void set__activation_21(RuntimeObject * value)
+	{
+		____activation_21 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____activation_21), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__applicationIdentity_22() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ____applicationIdentity_22)); }
+	inline RuntimeObject * get__applicationIdentity_22() const { return ____applicationIdentity_22; }
+	inline RuntimeObject ** get_address_of__applicationIdentity_22() { return &____applicationIdentity_22; }
+	inline void set__applicationIdentity_22(RuntimeObject * value)
+	{
+		____applicationIdentity_22 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____applicationIdentity_22), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_compatibility_switch_23() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A, ___compatibility_switch_23)); }
+	inline List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * get_compatibility_switch_23() const { return ___compatibility_switch_23; }
+	inline List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 ** get_address_of_compatibility_switch_23() { return &___compatibility_switch_23; }
+	inline void set_compatibility_switch_23(List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * value)
+	{
+		___compatibility_switch_23 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___compatibility_switch_23), (void*)value);
+	}
+};
+
+struct AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A_StaticFields
+{
+public:
+	// System.String System.AppDomain::_process_guid
+	String_t* ____process_guid_2;
+	// System.AppDomain System.AppDomain::default_domain
+	AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A * ___default_domain_10;
+
+public:
+	inline static int32_t get_offset_of__process_guid_2() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A_StaticFields, ____process_guid_2)); }
+	inline String_t* get__process_guid_2() const { return ____process_guid_2; }
+	inline String_t** get_address_of__process_guid_2() { return &____process_guid_2; }
+	inline void set__process_guid_2(String_t* value)
+	{
+		____process_guid_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____process_guid_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_default_domain_10() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A_StaticFields, ___default_domain_10)); }
+	inline AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A * get_default_domain_10() const { return ___default_domain_10; }
+	inline AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A ** get_address_of_default_domain_10() { return &___default_domain_10; }
+	inline void set_default_domain_10(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A * value)
+	{
+		___default_domain_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___default_domain_10), (void*)value);
+	}
+};
+
+struct AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A_ThreadStaticFields
+{
+public:
+	// System.Collections.Generic.Dictionary`2<System.String,System.Object> System.AppDomain::type_resolve_in_progress
+	Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___type_resolve_in_progress_3;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Object> System.AppDomain::assembly_resolve_in_progress
+	Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___assembly_resolve_in_progress_4;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Object> System.AppDomain::assembly_resolve_in_progress_refonly
+	Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * ___assembly_resolve_in_progress_refonly_5;
+	// System.Object System.AppDomain::_principal
+	RuntimeObject * ____principal_9;
+
+public:
+	inline static int32_t get_offset_of_type_resolve_in_progress_3() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A_ThreadStaticFields, ___type_resolve_in_progress_3)); }
+	inline Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * get_type_resolve_in_progress_3() const { return ___type_resolve_in_progress_3; }
+	inline Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 ** get_address_of_type_resolve_in_progress_3() { return &___type_resolve_in_progress_3; }
+	inline void set_type_resolve_in_progress_3(Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * value)
+	{
+		___type_resolve_in_progress_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___type_resolve_in_progress_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_assembly_resolve_in_progress_4() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A_ThreadStaticFields, ___assembly_resolve_in_progress_4)); }
+	inline Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * get_assembly_resolve_in_progress_4() const { return ___assembly_resolve_in_progress_4; }
+	inline Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 ** get_address_of_assembly_resolve_in_progress_4() { return &___assembly_resolve_in_progress_4; }
+	inline void set_assembly_resolve_in_progress_4(Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * value)
+	{
+		___assembly_resolve_in_progress_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___assembly_resolve_in_progress_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_assembly_resolve_in_progress_refonly_5() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A_ThreadStaticFields, ___assembly_resolve_in_progress_refonly_5)); }
+	inline Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * get_assembly_resolve_in_progress_refonly_5() const { return ___assembly_resolve_in_progress_refonly_5; }
+	inline Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 ** get_address_of_assembly_resolve_in_progress_refonly_5() { return &___assembly_resolve_in_progress_refonly_5; }
+	inline void set_assembly_resolve_in_progress_refonly_5(Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * value)
+	{
+		___assembly_resolve_in_progress_refonly_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___assembly_resolve_in_progress_refonly_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__principal_9() { return static_cast<int32_t>(offsetof(AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A_ThreadStaticFields, ____principal_9)); }
+	inline RuntimeObject * get__principal_9() const { return ____principal_9; }
+	inline RuntimeObject ** get_address_of__principal_9() { return &____principal_9; }
+	inline void set__principal_9(RuntimeObject * value)
+	{
+		____principal_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____principal_9), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.AppDomain
+struct AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A_marshaled_pinvoke : public MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8_marshaled_pinvoke
+{
+	intptr_t ____mono_app_domain_1;
+	Il2CppIUnknown* ____evidence_6;
+	Il2CppIUnknown* ____granted_7;
+	int32_t ____principalPolicy_8;
+	Il2CppMethodPointer ___AssemblyLoad_11;
+	Il2CppMethodPointer ___AssemblyResolve_12;
+	Il2CppMethodPointer ___DomainUnload_13;
+	Il2CppMethodPointer ___ProcessExit_14;
+	Il2CppMethodPointer ___ResourceResolve_15;
+	Il2CppMethodPointer ___TypeResolve_16;
+	Il2CppMethodPointer ___UnhandledException_17;
+	Il2CppMethodPointer ___FirstChanceException_18;
+	Il2CppIUnknown* ____domain_manager_19;
+	Il2CppMethodPointer ___ReflectionOnlyAssemblyResolve_20;
+	Il2CppIUnknown* ____activation_21;
+	Il2CppIUnknown* ____applicationIdentity_22;
+	List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * ___compatibility_switch_23;
+};
+// Native definition for COM marshalling of System.AppDomain
+struct AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A_marshaled_com : public MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8_marshaled_com
+{
+	intptr_t ____mono_app_domain_1;
+	Il2CppIUnknown* ____evidence_6;
+	Il2CppIUnknown* ____granted_7;
+	int32_t ____principalPolicy_8;
+	Il2CppMethodPointer ___AssemblyLoad_11;
+	Il2CppMethodPointer ___AssemblyResolve_12;
+	Il2CppMethodPointer ___DomainUnload_13;
+	Il2CppMethodPointer ___ProcessExit_14;
+	Il2CppMethodPointer ___ResourceResolve_15;
+	Il2CppMethodPointer ___TypeResolve_16;
+	Il2CppMethodPointer ___UnhandledException_17;
+	Il2CppMethodPointer ___FirstChanceException_18;
+	Il2CppIUnknown* ____domain_manager_19;
+	Il2CppMethodPointer ___ReflectionOnlyAssemblyResolve_20;
+	Il2CppIUnknown* ____activation_21;
+	Il2CppIUnknown* ____applicationIdentity_22;
+	List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * ___compatibility_switch_23;
+};
+
+// System.Reflection.BindingFlags
+struct  BindingFlags_tAAAB07D9AC588F0D55D844E51D7035E96DF94733 
+{
+public:
+	// System.Int32 System.Reflection.BindingFlags::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(BindingFlags_tAAAB07D9AC588F0D55D844E51D7035E96DF94733, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// System.Data.CommandBehavior
+struct  CommandBehavior_t98EB906BC1C4462CEC1E7230411E76F6A343979B 
+{
+public:
+	// System.Int32 System.Data.CommandBehavior::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(CommandBehavior_t98EB906BC1C4462CEC1E7230411E76F6A343979B, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// System.Data.ConnectionState
+struct  ConnectionState_tFB7A5BDFD714883B113EAAE203076578916C3A43 
+{
+public:
+	// System.Int32 System.Data.ConnectionState::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ConnectionState_tFB7A5BDFD714883B113EAAE203076578916C3A43, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// System.Data.Common.DbCommand
+struct  DbCommand_tB125F25AD82F85EA3DC7AA8C0556C4788E5D72CC  : public Component_t015539CFEAEEBFD7619041FE006475373E0D71DF
+{
+public:
+
+public:
+};
+
+
+// System.Data.Common.DbConnection
+struct  DbConnection_t10FE0E1B88AE954D5CDB74A512B018A8D2185B50  : public Component_t015539CFEAEEBFD7619041FE006475373E0D71DF
+{
+public:
+
+public:
+};
+
+
+// System.Exception
+struct  Exception_t  : public RuntimeObject
+{
+public:
+	// System.String System.Exception::_className
+	String_t* ____className_1;
+	// System.String System.Exception::_message
+	String_t* ____message_2;
+	// System.Collections.IDictionary System.Exception::_data
+	RuntimeObject* ____data_3;
+	// System.Exception System.Exception::_innerException
+	Exception_t * ____innerException_4;
+	// System.String System.Exception::_helpURL
+	String_t* ____helpURL_5;
+	// System.Object System.Exception::_stackTrace
+	RuntimeObject * ____stackTrace_6;
+	// System.String System.Exception::_stackTraceString
+	String_t* ____stackTraceString_7;
+	// System.String System.Exception::_remoteStackTraceString
+	String_t* ____remoteStackTraceString_8;
+	// System.Int32 System.Exception::_remoteStackIndex
+	int32_t ____remoteStackIndex_9;
+	// System.Object System.Exception::_dynamicMethods
+	RuntimeObject * ____dynamicMethods_10;
+	// System.Int32 System.Exception::_HResult
+	int32_t ____HResult_11;
+	// System.String System.Exception::_source
+	String_t* ____source_12;
+	// System.Runtime.Serialization.SafeSerializationManager System.Exception::_safeSerializationManager
+	SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F * ____safeSerializationManager_13;
+	// System.Diagnostics.StackTrace[] System.Exception::captured_traces
+	StackTraceU5BU5D_t4AD999C288CB6D1F38A299D12B1598D606588971* ___captured_traces_14;
+	// System.IntPtr[] System.Exception::native_trace_ips
+	IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* ___native_trace_ips_15;
+
+public:
+	inline static int32_t get_offset_of__className_1() { return static_cast<int32_t>(offsetof(Exception_t, ____className_1)); }
+	inline String_t* get__className_1() const { return ____className_1; }
+	inline String_t** get_address_of__className_1() { return &____className_1; }
+	inline void set__className_1(String_t* value)
+	{
+		____className_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____className_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__message_2() { return static_cast<int32_t>(offsetof(Exception_t, ____message_2)); }
+	inline String_t* get__message_2() const { return ____message_2; }
+	inline String_t** get_address_of__message_2() { return &____message_2; }
+	inline void set__message_2(String_t* value)
+	{
+		____message_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____message_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__data_3() { return static_cast<int32_t>(offsetof(Exception_t, ____data_3)); }
+	inline RuntimeObject* get__data_3() const { return ____data_3; }
+	inline RuntimeObject** get_address_of__data_3() { return &____data_3; }
+	inline void set__data_3(RuntimeObject* value)
+	{
+		____data_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____data_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__innerException_4() { return static_cast<int32_t>(offsetof(Exception_t, ____innerException_4)); }
+	inline Exception_t * get__innerException_4() const { return ____innerException_4; }
+	inline Exception_t ** get_address_of__innerException_4() { return &____innerException_4; }
+	inline void set__innerException_4(Exception_t * value)
+	{
+		____innerException_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____innerException_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__helpURL_5() { return static_cast<int32_t>(offsetof(Exception_t, ____helpURL_5)); }
+	inline String_t* get__helpURL_5() const { return ____helpURL_5; }
+	inline String_t** get_address_of__helpURL_5() { return &____helpURL_5; }
+	inline void set__helpURL_5(String_t* value)
+	{
+		____helpURL_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____helpURL_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__stackTrace_6() { return static_cast<int32_t>(offsetof(Exception_t, ____stackTrace_6)); }
+	inline RuntimeObject * get__stackTrace_6() const { return ____stackTrace_6; }
+	inline RuntimeObject ** get_address_of__stackTrace_6() { return &____stackTrace_6; }
+	inline void set__stackTrace_6(RuntimeObject * value)
+	{
+		____stackTrace_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____stackTrace_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__stackTraceString_7() { return static_cast<int32_t>(offsetof(Exception_t, ____stackTraceString_7)); }
+	inline String_t* get__stackTraceString_7() const { return ____stackTraceString_7; }
+	inline String_t** get_address_of__stackTraceString_7() { return &____stackTraceString_7; }
+	inline void set__stackTraceString_7(String_t* value)
+	{
+		____stackTraceString_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____stackTraceString_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__remoteStackTraceString_8() { return static_cast<int32_t>(offsetof(Exception_t, ____remoteStackTraceString_8)); }
+	inline String_t* get__remoteStackTraceString_8() const { return ____remoteStackTraceString_8; }
+	inline String_t** get_address_of__remoteStackTraceString_8() { return &____remoteStackTraceString_8; }
+	inline void set__remoteStackTraceString_8(String_t* value)
+	{
+		____remoteStackTraceString_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____remoteStackTraceString_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__remoteStackIndex_9() { return static_cast<int32_t>(offsetof(Exception_t, ____remoteStackIndex_9)); }
+	inline int32_t get__remoteStackIndex_9() const { return ____remoteStackIndex_9; }
+	inline int32_t* get_address_of__remoteStackIndex_9() { return &____remoteStackIndex_9; }
+	inline void set__remoteStackIndex_9(int32_t value)
+	{
+		____remoteStackIndex_9 = value;
+	}
+
+	inline static int32_t get_offset_of__dynamicMethods_10() { return static_cast<int32_t>(offsetof(Exception_t, ____dynamicMethods_10)); }
+	inline RuntimeObject * get__dynamicMethods_10() const { return ____dynamicMethods_10; }
+	inline RuntimeObject ** get_address_of__dynamicMethods_10() { return &____dynamicMethods_10; }
+	inline void set__dynamicMethods_10(RuntimeObject * value)
+	{
+		____dynamicMethods_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____dynamicMethods_10), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__HResult_11() { return static_cast<int32_t>(offsetof(Exception_t, ____HResult_11)); }
+	inline int32_t get__HResult_11() const { return ____HResult_11; }
+	inline int32_t* get_address_of__HResult_11() { return &____HResult_11; }
+	inline void set__HResult_11(int32_t value)
+	{
+		____HResult_11 = value;
+	}
+
+	inline static int32_t get_offset_of__source_12() { return static_cast<int32_t>(offsetof(Exception_t, ____source_12)); }
+	inline String_t* get__source_12() const { return ____source_12; }
+	inline String_t** get_address_of__source_12() { return &____source_12; }
+	inline void set__source_12(String_t* value)
+	{
+		____source_12 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____source_12), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__safeSerializationManager_13() { return static_cast<int32_t>(offsetof(Exception_t, ____safeSerializationManager_13)); }
+	inline SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F * get__safeSerializationManager_13() const { return ____safeSerializationManager_13; }
+	inline SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F ** get_address_of__safeSerializationManager_13() { return &____safeSerializationManager_13; }
+	inline void set__safeSerializationManager_13(SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F * value)
+	{
+		____safeSerializationManager_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____safeSerializationManager_13), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_captured_traces_14() { return static_cast<int32_t>(offsetof(Exception_t, ___captured_traces_14)); }
+	inline StackTraceU5BU5D_t4AD999C288CB6D1F38A299D12B1598D606588971* get_captured_traces_14() const { return ___captured_traces_14; }
+	inline StackTraceU5BU5D_t4AD999C288CB6D1F38A299D12B1598D606588971** get_address_of_captured_traces_14() { return &___captured_traces_14; }
+	inline void set_captured_traces_14(StackTraceU5BU5D_t4AD999C288CB6D1F38A299D12B1598D606588971* value)
+	{
+		___captured_traces_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___captured_traces_14), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_native_trace_ips_15() { return static_cast<int32_t>(offsetof(Exception_t, ___native_trace_ips_15)); }
+	inline IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* get_native_trace_ips_15() const { return ___native_trace_ips_15; }
+	inline IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6** get_address_of_native_trace_ips_15() { return &___native_trace_ips_15; }
+	inline void set_native_trace_ips_15(IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* value)
+	{
+		___native_trace_ips_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___native_trace_ips_15), (void*)value);
+	}
+};
+
+struct Exception_t_StaticFields
+{
+public:
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject * ___s_EDILock_0;
+
+public:
+	inline static int32_t get_offset_of_s_EDILock_0() { return static_cast<int32_t>(offsetof(Exception_t_StaticFields, ___s_EDILock_0)); }
+	inline RuntimeObject * get_s_EDILock_0() const { return ___s_EDILock_0; }
+	inline RuntimeObject ** get_address_of_s_EDILock_0() { return &___s_EDILock_0; }
+	inline void set_s_EDILock_0(RuntimeObject * value)
+	{
+		___s_EDILock_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_EDILock_0), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.Exception
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className_1;
+	char* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_pinvoke* ____innerException_4;
+	char* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	char* ____stackTraceString_7;
+	char* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	char* ____source_12;
+	SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F * ____safeSerializationManager_13;
+	StackTraceU5BU5D_t4AD999C288CB6D1F38A299D12B1598D606588971* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+};
+// Native definition for COM marshalling of System.Exception
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className_1;
+	Il2CppChar* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_com* ____innerException_4;
+	Il2CppChar* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	Il2CppChar* ____stackTraceString_7;
+	Il2CppChar* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	Il2CppChar* ____source_12;
+	SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F * ____safeSerializationManager_13;
+	StackTraceU5BU5D_t4AD999C288CB6D1F38A299D12B1598D606588971* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+};
+
+// System.Collections.Hashtable
+struct  Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC  : public RuntimeObject
+{
+public:
+	// System.Collections.Hashtable/bucket[] System.Collections.Hashtable::buckets
+	bucketU5BU5D_tFE956DAEFB1D1C86A13EF247D7367BF60B55E190* ___buckets_0;
+	// System.Int32 System.Collections.Hashtable::count
+	int32_t ___count_1;
+	// System.Int32 System.Collections.Hashtable::occupancy
+	int32_t ___occupancy_2;
+	// System.Int32 System.Collections.Hashtable::loadsize
+	int32_t ___loadsize_3;
+	// System.Single System.Collections.Hashtable::loadFactor
+	float ___loadFactor_4;
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Hashtable::version
+	int32_t ___version_5;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Hashtable::isWriterInProgress
+	bool ___isWriterInProgress_6;
+	// System.Collections.ICollection System.Collections.Hashtable::keys
+	RuntimeObject* ___keys_7;
+	// System.Collections.ICollection System.Collections.Hashtable::values
+	RuntimeObject* ___values_8;
+	// System.Collections.IEqualityComparer System.Collections.Hashtable::_keycomparer
+	RuntimeObject* ____keycomparer_9;
+	// System.Object System.Collections.Hashtable::_syncRoot
+	RuntimeObject * ____syncRoot_10;
+
+public:
+	inline static int32_t get_offset_of_buckets_0() { return static_cast<int32_t>(offsetof(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC, ___buckets_0)); }
+	inline bucketU5BU5D_tFE956DAEFB1D1C86A13EF247D7367BF60B55E190* get_buckets_0() const { return ___buckets_0; }
+	inline bucketU5BU5D_tFE956DAEFB1D1C86A13EF247D7367BF60B55E190** get_address_of_buckets_0() { return &___buckets_0; }
+	inline void set_buckets_0(bucketU5BU5D_tFE956DAEFB1D1C86A13EF247D7367BF60B55E190* value)
+	{
+		___buckets_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___buckets_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_count_1() { return static_cast<int32_t>(offsetof(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC, ___count_1)); }
+	inline int32_t get_count_1() const { return ___count_1; }
+	inline int32_t* get_address_of_count_1() { return &___count_1; }
+	inline void set_count_1(int32_t value)
+	{
+		___count_1 = value;
+	}
+
+	inline static int32_t get_offset_of_occupancy_2() { return static_cast<int32_t>(offsetof(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC, ___occupancy_2)); }
+	inline int32_t get_occupancy_2() const { return ___occupancy_2; }
+	inline int32_t* get_address_of_occupancy_2() { return &___occupancy_2; }
+	inline void set_occupancy_2(int32_t value)
+	{
+		___occupancy_2 = value;
+	}
+
+	inline static int32_t get_offset_of_loadsize_3() { return static_cast<int32_t>(offsetof(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC, ___loadsize_3)); }
+	inline int32_t get_loadsize_3() const { return ___loadsize_3; }
+	inline int32_t* get_address_of_loadsize_3() { return &___loadsize_3; }
+	inline void set_loadsize_3(int32_t value)
+	{
+		___loadsize_3 = value;
+	}
+
+	inline static int32_t get_offset_of_loadFactor_4() { return static_cast<int32_t>(offsetof(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC, ___loadFactor_4)); }
+	inline float get_loadFactor_4() const { return ___loadFactor_4; }
+	inline float* get_address_of_loadFactor_4() { return &___loadFactor_4; }
+	inline void set_loadFactor_4(float value)
+	{
+		___loadFactor_4 = value;
+	}
+
+	inline static int32_t get_offset_of_version_5() { return static_cast<int32_t>(offsetof(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC, ___version_5)); }
+	inline int32_t get_version_5() const { return ___version_5; }
+	inline int32_t* get_address_of_version_5() { return &___version_5; }
+	inline void set_version_5(int32_t value)
+	{
+		___version_5 = value;
+	}
+
+	inline static int32_t get_offset_of_isWriterInProgress_6() { return static_cast<int32_t>(offsetof(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC, ___isWriterInProgress_6)); }
+	inline bool get_isWriterInProgress_6() const { return ___isWriterInProgress_6; }
+	inline bool* get_address_of_isWriterInProgress_6() { return &___isWriterInProgress_6; }
+	inline void set_isWriterInProgress_6(bool value)
+	{
+		___isWriterInProgress_6 = value;
+	}
+
+	inline static int32_t get_offset_of_keys_7() { return static_cast<int32_t>(offsetof(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC, ___keys_7)); }
+	inline RuntimeObject* get_keys_7() const { return ___keys_7; }
+	inline RuntimeObject** get_address_of_keys_7() { return &___keys_7; }
+	inline void set_keys_7(RuntimeObject* value)
+	{
+		___keys_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___keys_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_values_8() { return static_cast<int32_t>(offsetof(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC, ___values_8)); }
+	inline RuntimeObject* get_values_8() const { return ___values_8; }
+	inline RuntimeObject** get_address_of_values_8() { return &___values_8; }
+	inline void set_values_8(RuntimeObject* value)
+	{
+		___values_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___values_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__keycomparer_9() { return static_cast<int32_t>(offsetof(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC, ____keycomparer_9)); }
+	inline RuntimeObject* get__keycomparer_9() const { return ____keycomparer_9; }
+	inline RuntimeObject** get_address_of__keycomparer_9() { return &____keycomparer_9; }
+	inline void set__keycomparer_9(RuntimeObject* value)
+	{
+		____keycomparer_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____keycomparer_9), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__syncRoot_10() { return static_cast<int32_t>(offsetof(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC, ____syncRoot_10)); }
+	inline RuntimeObject * get__syncRoot_10() const { return ____syncRoot_10; }
+	inline RuntimeObject ** get_address_of__syncRoot_10() { return &____syncRoot_10; }
+	inline void set__syncRoot_10(RuntimeObject * value)
+	{
+		____syncRoot_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____syncRoot_10), (void*)value);
+	}
+};
+
+
+// System.RuntimeTypeHandle
+struct  RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9 
+{
+public:
+	// System.IntPtr System.RuntimeTypeHandle::value
+	intptr_t ___value_0;
+
+public:
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9, ___value_0)); }
+	inline intptr_t get_value_0() const { return ___value_0; }
+	inline intptr_t* get_address_of_value_0() { return &___value_0; }
+	inline void set_value_0(intptr_t value)
+	{
+		___value_0 = value;
+	}
+};
+
+
+// Mono.Data.SqliteClient.SqliteDataReader
+struct  SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585  : public DbDataReader_t50481AE1497CEE437BDA56F2E92B6567D3222C45
+{
+public:
+	// Mono.Data.SqliteClient.SqliteCommand Mono.Data.SqliteClient.SqliteDataReader::command
+	SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * ___command_1;
+	// System.Collections.ArrayList Mono.Data.SqliteClient.SqliteDataReader::rows
+	ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * ___rows_2;
+	// System.String[] Mono.Data.SqliteClient.SqliteDataReader::columns
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___columns_3;
+	// System.Collections.Hashtable Mono.Data.SqliteClient.SqliteDataReader::column_names_sens
+	Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * ___column_names_sens_4;
+	// System.Collections.Hashtable Mono.Data.SqliteClient.SqliteDataReader::column_names_insens
+	Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * ___column_names_insens_5;
+	// System.Int32 Mono.Data.SqliteClient.SqliteDataReader::current_row
+	int32_t ___current_row_6;
+	// System.Boolean Mono.Data.SqliteClient.SqliteDataReader::closed
+	bool ___closed_7;
+	// System.Boolean Mono.Data.SqliteClient.SqliteDataReader::reading
+	bool ___reading_8;
+	// System.Int32 Mono.Data.SqliteClient.SqliteDataReader::records_affected
+	int32_t ___records_affected_9;
+	// System.String[] Mono.Data.SqliteClient.SqliteDataReader::decltypes
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___decltypes_10;
+
+public:
+	inline static int32_t get_offset_of_command_1() { return static_cast<int32_t>(offsetof(SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585, ___command_1)); }
+	inline SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * get_command_1() const { return ___command_1; }
+	inline SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC ** get_address_of_command_1() { return &___command_1; }
+	inline void set_command_1(SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * value)
+	{
+		___command_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___command_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_rows_2() { return static_cast<int32_t>(offsetof(SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585, ___rows_2)); }
+	inline ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * get_rows_2() const { return ___rows_2; }
+	inline ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 ** get_address_of_rows_2() { return &___rows_2; }
+	inline void set_rows_2(ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * value)
+	{
+		___rows_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___rows_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_columns_3() { return static_cast<int32_t>(offsetof(SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585, ___columns_3)); }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_columns_3() const { return ___columns_3; }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_columns_3() { return &___columns_3; }
+	inline void set_columns_3(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
+	{
+		___columns_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___columns_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_column_names_sens_4() { return static_cast<int32_t>(offsetof(SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585, ___column_names_sens_4)); }
+	inline Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * get_column_names_sens_4() const { return ___column_names_sens_4; }
+	inline Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC ** get_address_of_column_names_sens_4() { return &___column_names_sens_4; }
+	inline void set_column_names_sens_4(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * value)
+	{
+		___column_names_sens_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___column_names_sens_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_column_names_insens_5() { return static_cast<int32_t>(offsetof(SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585, ___column_names_insens_5)); }
+	inline Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * get_column_names_insens_5() const { return ___column_names_insens_5; }
+	inline Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC ** get_address_of_column_names_insens_5() { return &___column_names_insens_5; }
+	inline void set_column_names_insens_5(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * value)
+	{
+		___column_names_insens_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___column_names_insens_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_current_row_6() { return static_cast<int32_t>(offsetof(SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585, ___current_row_6)); }
+	inline int32_t get_current_row_6() const { return ___current_row_6; }
+	inline int32_t* get_address_of_current_row_6() { return &___current_row_6; }
+	inline void set_current_row_6(int32_t value)
+	{
+		___current_row_6 = value;
+	}
+
+	inline static int32_t get_offset_of_closed_7() { return static_cast<int32_t>(offsetof(SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585, ___closed_7)); }
+	inline bool get_closed_7() const { return ___closed_7; }
+	inline bool* get_address_of_closed_7() { return &___closed_7; }
+	inline void set_closed_7(bool value)
+	{
+		___closed_7 = value;
+	}
+
+	inline static int32_t get_offset_of_reading_8() { return static_cast<int32_t>(offsetof(SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585, ___reading_8)); }
+	inline bool get_reading_8() const { return ___reading_8; }
+	inline bool* get_address_of_reading_8() { return &___reading_8; }
+	inline void set_reading_8(bool value)
+	{
+		___reading_8 = value;
+	}
+
+	inline static int32_t get_offset_of_records_affected_9() { return static_cast<int32_t>(offsetof(SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585, ___records_affected_9)); }
+	inline int32_t get_records_affected_9() const { return ___records_affected_9; }
+	inline int32_t* get_address_of_records_affected_9() { return &___records_affected_9; }
+	inline void set_records_affected_9(int32_t value)
+	{
+		___records_affected_9 = value;
+	}
+
+	inline static int32_t get_offset_of_decltypes_10() { return static_cast<int32_t>(offsetof(SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585, ___decltypes_10)); }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* get_decltypes_10() const { return ___decltypes_10; }
+	inline StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** get_address_of_decltypes_10() { return &___decltypes_10; }
+	inline void set_decltypes_10(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* value)
+	{
+		___decltypes_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___decltypes_10), (void*)value);
+	}
+};
+
+
+// Mono.Data.SqliteClient.SqliteError
+struct  SqliteError_t5E07D210399EFAFAEAF6FE3479BAB43D409061D4 
+{
+public:
+	// System.Int32 Mono.Data.SqliteClient.SqliteError::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(SqliteError_t5E07D210399EFAFAEAF6FE3479BAB43D409061D4, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Mono.Data.SqliteClient.SqliteParameter
+struct  SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE  : public DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3
+{
+public:
+	// System.String Mono.Data.SqliteClient.SqliteParameter::name
+	String_t* ___name_1;
+	// System.Object Mono.Data.SqliteClient.SqliteParameter::param_value
+	RuntimeObject * ___param_value_2;
+
+public:
+	inline static int32_t get_offset_of_name_1() { return static_cast<int32_t>(offsetof(SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE, ___name_1)); }
+	inline String_t* get_name_1() const { return ___name_1; }
+	inline String_t** get_address_of_name_1() { return &___name_1; }
+	inline void set_name_1(String_t* value)
+	{
+		___name_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___name_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_param_value_2() { return static_cast<int32_t>(offsetof(SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE, ___param_value_2)); }
+	inline RuntimeObject * get_param_value_2() const { return ___param_value_2; }
+	inline RuntimeObject ** get_address_of_param_value_2() { return &___param_value_2; }
+	inline void set_param_value_2(RuntimeObject * value)
+	{
+		___param_value_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___param_value_2), (void*)value);
+	}
+};
+
+
+// Mono.Data.SqliteClient.SqliteParameterCollection
+struct  SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236  : public DbParameterCollection_t53857899F148EF54A7C90F169557DD134B5297D2
+{
+public:
+	// System.Collections.ArrayList Mono.Data.SqliteClient.SqliteParameterCollection::numeric_param_list
+	ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * ___numeric_param_list_1;
+	// System.Collections.Hashtable Mono.Data.SqliteClient.SqliteParameterCollection::named_param_hash
+	Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * ___named_param_hash_2;
+
+public:
+	inline static int32_t get_offset_of_numeric_param_list_1() { return static_cast<int32_t>(offsetof(SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236, ___numeric_param_list_1)); }
+	inline ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * get_numeric_param_list_1() const { return ___numeric_param_list_1; }
+	inline ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 ** get_address_of_numeric_param_list_1() { return &___numeric_param_list_1; }
+	inline void set_numeric_param_list_1(ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * value)
+	{
+		___numeric_param_list_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___numeric_param_list_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_named_param_hash_2() { return static_cast<int32_t>(offsetof(SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236, ___named_param_hash_2)); }
+	inline Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * get_named_param_hash_2() const { return ___named_param_hash_2; }
+	inline Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC ** get_address_of_named_param_hash_2() { return &___named_param_hash_2; }
+	inline void set_named_param_hash_2(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * value)
+	{
+		___named_param_hash_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___named_param_hash_2), (void*)value);
+	}
+};
+
+
+// System.StringComparison
+struct  StringComparison_tCC9F72B9B1E2C3C6D2566DD0D3A61E1621048998 
+{
+public:
+	// System.Int32 System.StringComparison::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(StringComparison_tCC9F72B9B1E2C3C6D2566DD0D3A61E1621048998, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// System.ApplicationException
+struct  ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407  : public Exception_t
+{
+public:
+
+public:
+};
+
+
+// Mono.Data.SqliteClient.SqliteCommand
+struct  SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC  : public DbCommand_tB125F25AD82F85EA3DC7AA8C0556C4788E5D72CC
+{
+public:
+	// Mono.Data.SqliteClient.SqliteConnection Mono.Data.SqliteClient.SqliteCommand::parent_conn
+	SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * ___parent_conn_4;
+	// System.Data.IDbTransaction Mono.Data.SqliteClient.SqliteCommand::transaction
+	RuntimeObject* ___transaction_5;
+	// System.String Mono.Data.SqliteClient.SqliteCommand::sql
+	String_t* ___sql_6;
+	// Mono.Data.SqliteClient.SqliteParameterCollection Mono.Data.SqliteClient.SqliteCommand::sql_params
+	SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * ___sql_params_7;
+	// System.Boolean Mono.Data.SqliteClient.SqliteCommand::prepared
+	bool ___prepared_8;
+	// System.Boolean Mono.Data.SqliteClient.SqliteCommand::_designTimeVisible
+	bool ____designTimeVisible_9;
+
+public:
+	inline static int32_t get_offset_of_parent_conn_4() { return static_cast<int32_t>(offsetof(SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC, ___parent_conn_4)); }
+	inline SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * get_parent_conn_4() const { return ___parent_conn_4; }
+	inline SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 ** get_address_of_parent_conn_4() { return &___parent_conn_4; }
+	inline void set_parent_conn_4(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * value)
+	{
+		___parent_conn_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___parent_conn_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_transaction_5() { return static_cast<int32_t>(offsetof(SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC, ___transaction_5)); }
+	inline RuntimeObject* get_transaction_5() const { return ___transaction_5; }
+	inline RuntimeObject** get_address_of_transaction_5() { return &___transaction_5; }
+	inline void set_transaction_5(RuntimeObject* value)
+	{
+		___transaction_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___transaction_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_sql_6() { return static_cast<int32_t>(offsetof(SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC, ___sql_6)); }
+	inline String_t* get_sql_6() const { return ___sql_6; }
+	inline String_t** get_address_of_sql_6() { return &___sql_6; }
+	inline void set_sql_6(String_t* value)
+	{
+		___sql_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___sql_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_sql_params_7() { return static_cast<int32_t>(offsetof(SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC, ___sql_params_7)); }
+	inline SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * get_sql_params_7() const { return ___sql_params_7; }
+	inline SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 ** get_address_of_sql_params_7() { return &___sql_params_7; }
+	inline void set_sql_params_7(SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * value)
+	{
+		___sql_params_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___sql_params_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_prepared_8() { return static_cast<int32_t>(offsetof(SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC, ___prepared_8)); }
+	inline bool get_prepared_8() const { return ___prepared_8; }
+	inline bool* get_address_of_prepared_8() { return &___prepared_8; }
+	inline void set_prepared_8(bool value)
+	{
+		___prepared_8 = value;
+	}
+
+	inline static int32_t get_offset_of__designTimeVisible_9() { return static_cast<int32_t>(offsetof(SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC, ____designTimeVisible_9)); }
+	inline bool get__designTimeVisible_9() const { return ____designTimeVisible_9; }
+	inline bool* get_address_of__designTimeVisible_9() { return &____designTimeVisible_9; }
+	inline void set__designTimeVisible_9(bool value)
+	{
+		____designTimeVisible_9 = value;
+	}
+};
+
+
+// Mono.Data.SqliteClient.SqliteConnection
+struct  SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180  : public DbConnection_t10FE0E1B88AE954D5CDB74A512B018A8D2185B50
+{
+public:
+	// System.String Mono.Data.SqliteClient.SqliteConnection::conn_str
+	String_t* ___conn_str_4;
+	// System.String Mono.Data.SqliteClient.SqliteConnection::db_file
+	String_t* ___db_file_5;
+	// System.Int32 Mono.Data.SqliteClient.SqliteConnection::db_mode
+	int32_t ___db_mode_6;
+	// System.Int32 Mono.Data.SqliteClient.SqliteConnection::db_version
+	int32_t ___db_version_7;
+	// System.IntPtr Mono.Data.SqliteClient.SqliteConnection::sqlite_handle
+	intptr_t ___sqlite_handle_8;
+	// System.Data.ConnectionState Mono.Data.SqliteClient.SqliteConnection::state
+	int32_t ___state_9;
+	// System.Text.Encoding Mono.Data.SqliteClient.SqliteConnection::encoding
+	Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___encoding_10;
+	// System.Int32 Mono.Data.SqliteClient.SqliteConnection::busy_timeout
+	int32_t ___busy_timeout_11;
+	// System.Boolean Mono.Data.SqliteClient.SqliteConnection::disposed
+	bool ___disposed_12;
+
+public:
+	inline static int32_t get_offset_of_conn_str_4() { return static_cast<int32_t>(offsetof(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180, ___conn_str_4)); }
+	inline String_t* get_conn_str_4() const { return ___conn_str_4; }
+	inline String_t** get_address_of_conn_str_4() { return &___conn_str_4; }
+	inline void set_conn_str_4(String_t* value)
+	{
+		___conn_str_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___conn_str_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_db_file_5() { return static_cast<int32_t>(offsetof(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180, ___db_file_5)); }
+	inline String_t* get_db_file_5() const { return ___db_file_5; }
+	inline String_t** get_address_of_db_file_5() { return &___db_file_5; }
+	inline void set_db_file_5(String_t* value)
+	{
+		___db_file_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___db_file_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_db_mode_6() { return static_cast<int32_t>(offsetof(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180, ___db_mode_6)); }
+	inline int32_t get_db_mode_6() const { return ___db_mode_6; }
+	inline int32_t* get_address_of_db_mode_6() { return &___db_mode_6; }
+	inline void set_db_mode_6(int32_t value)
+	{
+		___db_mode_6 = value;
+	}
+
+	inline static int32_t get_offset_of_db_version_7() { return static_cast<int32_t>(offsetof(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180, ___db_version_7)); }
+	inline int32_t get_db_version_7() const { return ___db_version_7; }
+	inline int32_t* get_address_of_db_version_7() { return &___db_version_7; }
+	inline void set_db_version_7(int32_t value)
+	{
+		___db_version_7 = value;
+	}
+
+	inline static int32_t get_offset_of_sqlite_handle_8() { return static_cast<int32_t>(offsetof(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180, ___sqlite_handle_8)); }
+	inline intptr_t get_sqlite_handle_8() const { return ___sqlite_handle_8; }
+	inline intptr_t* get_address_of_sqlite_handle_8() { return &___sqlite_handle_8; }
+	inline void set_sqlite_handle_8(intptr_t value)
+	{
+		___sqlite_handle_8 = value;
+	}
+
+	inline static int32_t get_offset_of_state_9() { return static_cast<int32_t>(offsetof(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180, ___state_9)); }
+	inline int32_t get_state_9() const { return ___state_9; }
+	inline int32_t* get_address_of_state_9() { return &___state_9; }
+	inline void set_state_9(int32_t value)
+	{
+		___state_9 = value;
+	}
+
+	inline static int32_t get_offset_of_encoding_10() { return static_cast<int32_t>(offsetof(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180, ___encoding_10)); }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * get_encoding_10() const { return ___encoding_10; }
+	inline Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 ** get_address_of_encoding_10() { return &___encoding_10; }
+	inline void set_encoding_10(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * value)
+	{
+		___encoding_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___encoding_10), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_busy_timeout_11() { return static_cast<int32_t>(offsetof(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180, ___busy_timeout_11)); }
+	inline int32_t get_busy_timeout_11() const { return ___busy_timeout_11; }
+	inline int32_t* get_address_of_busy_timeout_11() { return &___busy_timeout_11; }
+	inline void set_busy_timeout_11(int32_t value)
+	{
+		___busy_timeout_11 = value;
+	}
+
+	inline static int32_t get_offset_of_disposed_12() { return static_cast<int32_t>(offsetof(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180, ___disposed_12)); }
+	inline bool get_disposed_12() const { return ___disposed_12; }
+	inline bool* get_address_of_disposed_12() { return &___disposed_12; }
+	inline void set_disposed_12(bool value)
+	{
+		___disposed_12 = value;
+	}
+};
+
+struct SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_StaticFields
+{
+public:
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Data.SqliteClient.SqliteConnection::<>f__switch$map0
+	Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * ___U3CU3Ef__switchU24map0_13;
+
+public:
+	inline static int32_t get_offset_of_U3CU3Ef__switchU24map0_13() { return static_cast<int32_t>(offsetof(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_StaticFields, ___U3CU3Ef__switchU24map0_13)); }
+	inline Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * get_U3CU3Ef__switchU24map0_13() const { return ___U3CU3Ef__switchU24map0_13; }
+	inline Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 ** get_address_of_U3CU3Ef__switchU24map0_13() { return &___U3CU3Ef__switchU24map0_13; }
+	inline void set_U3CU3Ef__switchU24map0_13(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * value)
+	{
+		___U3CU3Ef__switchU24map0_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3Ef__switchU24map0_13), (void*)value);
+	}
+};
+
+
+// System.SystemException
+struct  SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62  : public Exception_t
+{
+public:
+
+public:
+};
+
+
+// System.Type
+struct  Type_t  : public MemberInfo_t
+{
+public:
+	// System.RuntimeTypeHandle System.Type::_impl
+	RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  ____impl_9;
+
+public:
+	inline static int32_t get_offset_of__impl_9() { return static_cast<int32_t>(offsetof(Type_t, ____impl_9)); }
+	inline RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  get__impl_9() const { return ____impl_9; }
+	inline RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9 * get_address_of__impl_9() { return &____impl_9; }
+	inline void set__impl_9(RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  value)
+	{
+		____impl_9 = value;
+	}
+};
+
+struct Type_t_StaticFields
+{
+public:
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 * ___FilterAttribute_0;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 * ___FilterName_1;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 * ___FilterNameIgnoreCase_2;
+	// System.Object System.Type::Missing
+	RuntimeObject * ___Missing_3;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_4;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* ___EmptyTypes_5;
+	// System.Reflection.Binder System.Type::defaultBinder
+	Binder_t2BEE27FD84737D1E79BC47FD67F6D3DD2F2DDA30 * ___defaultBinder_6;
+
+public:
+	inline static int32_t get_offset_of_FilterAttribute_0() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterAttribute_0)); }
+	inline MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 * get_FilterAttribute_0() const { return ___FilterAttribute_0; }
+	inline MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 ** get_address_of_FilterAttribute_0() { return &___FilterAttribute_0; }
+	inline void set_FilterAttribute_0(MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 * value)
+	{
+		___FilterAttribute_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___FilterAttribute_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_FilterName_1() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterName_1)); }
+	inline MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 * get_FilterName_1() const { return ___FilterName_1; }
+	inline MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 ** get_address_of_FilterName_1() { return &___FilterName_1; }
+	inline void set_FilterName_1(MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 * value)
+	{
+		___FilterName_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___FilterName_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_FilterNameIgnoreCase_2() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterNameIgnoreCase_2)); }
+	inline MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 * get_FilterNameIgnoreCase_2() const { return ___FilterNameIgnoreCase_2; }
+	inline MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 ** get_address_of_FilterNameIgnoreCase_2() { return &___FilterNameIgnoreCase_2; }
+	inline void set_FilterNameIgnoreCase_2(MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81 * value)
+	{
+		___FilterNameIgnoreCase_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___FilterNameIgnoreCase_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_Missing_3() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Missing_3)); }
+	inline RuntimeObject * get_Missing_3() const { return ___Missing_3; }
+	inline RuntimeObject ** get_address_of_Missing_3() { return &___Missing_3; }
+	inline void set_Missing_3(RuntimeObject * value)
+	{
+		___Missing_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Missing_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_Delimiter_4() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Delimiter_4)); }
+	inline Il2CppChar get_Delimiter_4() const { return ___Delimiter_4; }
+	inline Il2CppChar* get_address_of_Delimiter_4() { return &___Delimiter_4; }
+	inline void set_Delimiter_4(Il2CppChar value)
+	{
+		___Delimiter_4 = value;
+	}
+
+	inline static int32_t get_offset_of_EmptyTypes_5() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___EmptyTypes_5)); }
+	inline TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* get_EmptyTypes_5() const { return ___EmptyTypes_5; }
+	inline TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755** get_address_of_EmptyTypes_5() { return &___EmptyTypes_5; }
+	inline void set_EmptyTypes_5(TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* value)
+	{
+		___EmptyTypes_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___EmptyTypes_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_defaultBinder_6() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___defaultBinder_6)); }
+	inline Binder_t2BEE27FD84737D1E79BC47FD67F6D3DD2F2DDA30 * get_defaultBinder_6() const { return ___defaultBinder_6; }
+	inline Binder_t2BEE27FD84737D1E79BC47FD67F6D3DD2F2DDA30 ** get_address_of_defaultBinder_6() { return &___defaultBinder_6; }
+	inline void set_defaultBinder_6(Binder_t2BEE27FD84737D1E79BC47FD67F6D3DD2F2DDA30 * value)
+	{
+		___defaultBinder_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___defaultBinder_6), (void*)value);
+	}
+};
+
+
+// System.Data.DataException
+struct  DataException_t617EA07995426002043C97B3E9ADFF0C8BB748DF  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+{
+public:
+
+public:
+};
+
+
+// System.IndexOutOfRangeException
+struct  IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+{
+public:
+
+public:
+};
+
+
+// System.InvalidCastException
+struct  InvalidCastException_tD99F9FF94C3859C78E90F68C2F77A1558BCAF463  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+{
+public:
+
+public:
+};
+
+
+// System.InvalidOperationException
+struct  InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+{
+public:
+
+public:
+};
+
+
+// System.NotSupportedException
+struct  NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+{
+public:
+
+public:
+};
+
+
+// System.OutOfMemoryException
+struct  OutOfMemoryException_t2671AB315BD130A49A1592BAD0AEE9F2D37667AC  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+{
+public:
+
+public:
+};
+
+
+// Mono.Data.SqliteClient.SqliteExecutionException
+struct  SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826  : public ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407
+{
+public:
+
+public:
+};
+
+
+// Mono.Data.SqliteClient.SqliteSyntaxException
+struct  SqliteSyntaxException_tB92508EB582FC96CA42A679099FE4E6D39D1B028  : public ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407
+{
+public:
+
+public:
+};
+
+
+// System.TypeLoadException
+struct  TypeLoadException_t57F05DC978AA8B70B0CE1AB2EF99D7F97FE428E7  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+{
+public:
+	// System.String System.TypeLoadException::ClassName
+	String_t* ___ClassName_17;
+	// System.String System.TypeLoadException::AssemblyName
+	String_t* ___AssemblyName_18;
+	// System.String System.TypeLoadException::MessageArg
+	String_t* ___MessageArg_19;
+	// System.Int32 System.TypeLoadException::ResourceId
+	int32_t ___ResourceId_20;
+
+public:
+	inline static int32_t get_offset_of_ClassName_17() { return static_cast<int32_t>(offsetof(TypeLoadException_t57F05DC978AA8B70B0CE1AB2EF99D7F97FE428E7, ___ClassName_17)); }
+	inline String_t* get_ClassName_17() const { return ___ClassName_17; }
+	inline String_t** get_address_of_ClassName_17() { return &___ClassName_17; }
+	inline void set_ClassName_17(String_t* value)
+	{
+		___ClassName_17 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ClassName_17), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_AssemblyName_18() { return static_cast<int32_t>(offsetof(TypeLoadException_t57F05DC978AA8B70B0CE1AB2EF99D7F97FE428E7, ___AssemblyName_18)); }
+	inline String_t* get_AssemblyName_18() const { return ___AssemblyName_18; }
+	inline String_t** get_address_of_AssemblyName_18() { return &___AssemblyName_18; }
+	inline void set_AssemblyName_18(String_t* value)
+	{
+		___AssemblyName_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___AssemblyName_18), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_MessageArg_19() { return static_cast<int32_t>(offsetof(TypeLoadException_t57F05DC978AA8B70B0CE1AB2EF99D7F97FE428E7, ___MessageArg_19)); }
+	inline String_t* get_MessageArg_19() const { return ___MessageArg_19; }
+	inline String_t** get_address_of_MessageArg_19() { return &___MessageArg_19; }
+	inline void set_MessageArg_19(String_t* value)
+	{
+		___MessageArg_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___MessageArg_19), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_ResourceId_20() { return static_cast<int32_t>(offsetof(TypeLoadException_t57F05DC978AA8B70B0CE1AB2EF99D7F97FE428E7, ___ResourceId_20)); }
+	inline int32_t get_ResourceId_20() const { return ___ResourceId_20; }
+	inline int32_t* get_address_of_ResourceId_20() { return &___ResourceId_20; }
+	inline void set_ResourceId_20(int32_t value)
+	{
+		___ResourceId_20 = value;
+	}
+};
+
+
+// System.DllNotFoundException
+struct  DllNotFoundException_tD2224C1993151B8CCF9938FD62649816CF977596  : public TypeLoadException_t57F05DC978AA8B70B0CE1AB2EF99D7F97FE428E7
+{
+public:
+
+public:
+};
+
+
+// System.Data.DuplicateNameException
+struct  DuplicateNameException_t4305734127CC4324A913DE2E4CD9B38697E80C3C  : public DataException_t617EA07995426002043C97B3E9ADFF0C8BB748DF
+{
+public:
+
+public:
+};
+
+
+// System.EntryPointNotFoundException
+struct  EntryPointNotFoundException_tD0666CDCBD81C969BAAC14899569BFED2E05F9DC  : public TypeLoadException_t57F05DC978AA8B70B0CE1AB2EF99D7F97FE428E7
+{
+public:
+
+public:
+};
+
+
+// Mono.Data.SqliteClient.SqliteBusyException
+struct  SqliteBusyException_t7455C7CF0AB66A467541BA3F308BA168B65F9591  : public SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// System.Byte[]
+struct ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+public:
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Char[]
+struct CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppChar m_Items[1];
+
+public:
+	inline Il2CppChar GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Il2CppChar GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.String[]
+struct StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+public:
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// System.Int32[]
+struct Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+public:
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Object[]
+struct ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) RuntimeObject * m_Items[1];
+
+public:
+	inline RuntimeObject * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5CD823F646F17C2F5B1FB501DCDC0FE22BEBA864_gshared (Dictionary_2_t1DDD2F48B87E022F599DF2452A49BB70BE95A7F8 * __this, int32_t ___capacity0, const RuntimeMethod* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::Add(!0,!1)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_mC76EFEFB0C2887C50A750B1D65544825CF580BEA_gshared (Dictionary_2_t1DDD2F48B87E022F599DF2452A49BB70BE95A7F8 * __this, RuntimeObject * ___key0, int32_t ___value1, const RuntimeMethod* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::TryGetValue(!0,!1&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mD30FE5F3EA63CD6831E4AA9E6901323436D6F9A4_gshared (Dictionary_2_t1DDD2F48B87E022F599DF2452A49BB70BE95A7F8 * __this, RuntimeObject * ___key0, int32_t* ___value1, const RuntimeMethod* method);
+
+// System.IntPtr System.Runtime.InteropServices.Marshal::StringToHGlobalAnsi(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Marshal_StringToHGlobalAnsi_m93F128CD5BBA32D779BB8F49474F8371B6B473DB (String_t* ___s0, const RuntimeMethod* method);
+// System.Char[] System.String::ToCharArray()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* String_ToCharArray_m33E93AEB7086CBEBDFA5730EAAC49686F144089C (String_t* __this, const RuntimeMethod* method);
+// System.Void System.NotSupportedException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90 (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * __this, String_t* ___message0, const RuntimeMethod* method);
+// System.IntPtr System.Runtime.InteropServices.Marshal::AllocHGlobal(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Marshal_AllocHGlobal_mED1B623D229DB8FAB58D187E4E73D3DA2E8AE6EC (int32_t ___cb0, const RuntimeMethod* method);
+// System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method);
+// System.Void System.OutOfMemoryException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OutOfMemoryException__ctor_m761B42AF958A3E2A683664D4BC21DE3A11AB9C0B (OutOfMemoryException_t2671AB315BD130A49A1592BAD0AEE9F2D37667AC * __this, const RuntimeMethod* method);
+// System.Void System.Runtime.InteropServices.Marshal::Copy(System.Byte[],System.Int32,System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_Copy_m05D5F5A9F9BA4C1B748AAE7266B3C0E9D9EE2012 (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___source0, int32_t ___startIndex1, intptr_t ___destination2, int32_t ___length3, const RuntimeMethod* method);
+// System.Void System.Runtime.InteropServices.Marshal::FreeHGlobal(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_FreeHGlobal_m53FC4846F5D3106BA25B52C321005C227E424F72 (intptr_t ___hglobal0, const RuntimeMethod* method);
+// System.String System.Runtime.InteropServices.Marshal::PtrToStringAnsi(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Marshal_PtrToStringAnsi_m75BAFD813E1B985A654946F05159CFA46E34F5AA (intptr_t ___ptr0, const RuntimeMethod* method);
+// System.Byte System.Runtime.InteropServices.Marshal::ReadByte(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Marshal_ReadByte_mA0E9E8CE64BFEEA553E2ADB92201A4187F3BCFCA (intptr_t ___ptr0, int32_t ___ofs1, const RuntimeMethod* method);
+// System.Void* System.IntPtr::op_Explicit(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* IntPtr_op_Explicit_mE8B472FDC632CBD121F7ADF4F94546D6610BACDD (intptr_t ___value0, const RuntimeMethod* method);
+// System.String System.String::CreateString(System.SByte*,System.Int32,System.Int32,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_CreateString_m9636360FEBE95705BBD46CF8D4DCDCFCDAE269A6 (String_t* __this, int8_t* ___value0, int32_t ___startIndex1, int32_t ___length2, Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___enc3, const RuntimeMethod* method);
+// System.Int32 System.String::get_Length()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline (String_t* __this, const RuntimeMethod* method);
+// System.Char System.String::get_Chars(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar String_get_Chars_m9B1A5E4C8D70AA33A60F03735AF7B77AB9DBBA70 (String_t* __this, int32_t ___index0, const RuntimeMethod* method);
+// System.String System.String::Substring(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B (String_t* __this, int32_t ___startIndex0, int32_t ___length1, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteBusyException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteBusyException__ctor_m3862658BFB505E51DF640E32D88F74966D0F2DB4 (SqliteBusyException_t7455C7CF0AB66A467541BA3F308BA168B65F9591 * __this, String_t* ___message0, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteExecutionException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteExecutionException__ctor_mE9C1E2F542B576520BE2F74E26594E02DA496AE3 (SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826 * __this, String_t* ___message0, const RuntimeMethod* method);
+// System.Void System.Data.Common.DbCommand::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DbCommand__ctor_m83F726F81AC564060FBFA052B4B49D609D70E7CD (DbCommand_tB125F25AD82F85EA3DC7AA8C0556C4788E5D72CC * __this, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteCommand::.ctor(System.String,Mono.Data.SqliteClient.SqliteConnection,System.Data.IDbTransaction)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand__ctor_m81A36E2A4032FA72FA0B04210813596E3E022720 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, String_t* ___sqlText0, SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * ___dbConn1, RuntimeObject* ___trans2, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection__ctor_m5CDB4E61EBDFE9AD1D46E91C610AAC96C7181F0E (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method);
+// System.Int32 Mono.Data.SqliteClient.SqliteConnection::get_Version()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method);
+// System.IntPtr Mono.Data.SqliteClient.SqliteConnection::get_Handle()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_inline (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method);
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_changes(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_changes_m78702B54BF23331D45447C8D459595FD8F98B58D (intptr_t ___handle0, const RuntimeMethod* method);
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite_changes(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite_changes_mDF9F5D9421D87C8F9DDA90799246EE777561A932 (intptr_t ___handle0, const RuntimeMethod* method);
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_bind_parameter_count(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_parameter_count_mF1868344E33B0B2B493C3CBCAE2A4FF22383823B (intptr_t ___pStmt0, const RuntimeMethod* method);
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_bind_parameter_name(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_bind_parameter_name_mDA48033B8D97D3B38A1ACE69AA34BA6D4AA0D245 (intptr_t ___pStmt0, int32_t ___n1, const RuntimeMethod* method);
+// System.Text.Encoding System.Text.Encoding::get_UTF8()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * Encoding_get_UTF8_mC877FB3137BBD566AEE7B15F9BF61DC4EF8F5E5E (const RuntimeMethod* method);
+// System.String Mono.Data.SqliteClient.Sqlite::HeapToString(System.IntPtr,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Sqlite_HeapToString_m903FD8CB0B0768F70B04E1D7D53E1F4DD7061C42 (intptr_t ___p0, Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___encoding1, const RuntimeMethod* method);
+// System.Data.Common.DbParameter System.Data.Common.DbParameterCollection::get_Item(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * DbParameterCollection_get_Item_m87A14BECEE5234975C0FD0D146EB2E8B1912C31C (DbParameterCollection_t53857899F148EF54A7C90F169557DD134B5297D2 * __this, String_t* ___parameterName0, const RuntimeMethod* method);
+// System.Data.Common.DbParameter System.Data.Common.DbParameterCollection::get_Item(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * DbParameterCollection_get_Item_m5323131A014AFC17F21DA0BECB22482F33BE0332 (DbParameterCollection_t53857899F148EF54A7C90F169557DD134B5297D2 * __this, int32_t ___index0, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_null(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_null_mA5E20EF91D9964FA6F5915DBDBA23A2539DA6C00 (intptr_t ___pStmt0, int32_t ___n1, const RuntimeMethod* method);
+// System.Type System.Object::GetType()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B (RuntimeObject * __this, const RuntimeMethod* method);
+// System.Type System.Enum::GetUnderlyingType(System.Type)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * Enum_GetUnderlyingType_m8BD5EDDA4C9A15C2988B27DD48314AC3C16F7A53 (Type_t * ___enumType0, const RuntimeMethod* method);
+// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E (RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  ___handle0, const RuntimeMethod* method);
+// System.IntPtr System.IntPtr::op_Explicit(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IntPtr_op_Explicit_m9092E57CE669E7B9CCDCF5ADD6DFB758D6545FBF (int32_t ___value0, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_text16(System.IntPtr,System.Int32,System.String,System.Int32,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_text16_m133C5532808414C1BFB586F1705C0C0F14DB7569 (intptr_t ___pStmt0, int32_t ___n1, String_t* ___value2, int32_t ___length3, intptr_t ___freetype4, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_int(System.IntPtr,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_int_mAF43BC9234C315DFEE0B1CCA3B406BE0631AA2AA (intptr_t ___pStmt0, int32_t ___n1, int32_t ___value2, const RuntimeMethod* method);
+// System.Int64 System.DateTime::ToFileTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DateTime_ToFileTime_mF5AE8D0291727D395D3FEF4F32109437B361345E (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * __this, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_int64(System.IntPtr,System.Int32,System.Int64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_int64_m73F52FD75847A3987230B87D5783EC8B90A81A20 (intptr_t ___pStmt0, int32_t ___n1, int64_t ___value2, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_double(System.IntPtr,System.Int32,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_double_m6E23A121939519A561DC319A6E2376EABA539DA5 (intptr_t ___pStmt0, int32_t ___n1, double ___value2, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_blob(System.IntPtr,System.Int32,System.Byte[],System.Int32,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_blob_m3CE1663E09144CB015514DDFF4A3A31263578DB5 (intptr_t ___pStmt0, int32_t ___n1, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___blob2, int32_t ___length3, intptr_t ___freetype4, const RuntimeMethod* method);
+// System.Void System.ApplicationException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationException__ctor_mF8E9704C91C2F1912909448E5BABFE9EC61D4E8F (ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 * __this, String_t* ___message0, const RuntimeMethod* method);
+// System.String System.String::Concat(System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m4D0DDA7FEDB75304E5FDAF8489A0478EE58A45F2 (RuntimeObject * ___arg00, RuntimeObject * ___arg11, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_prepare16(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_prepare16_mA4F5527DD59D7A4A017766670A13C68678CDE7B1 (intptr_t ___sqlite_handle0, intptr_t ___zSql1, int32_t ___zSqllen2, intptr_t* ___pVm3, intptr_t* ___pzTail4, const RuntimeMethod* method);
+// System.String Mono.Data.SqliteClient.SqliteCommand::GetError3()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqliteCommand_GetError3_mB64AE1CF2BE40AA2C149B7EE4C6510687CA2ED47 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteSyntaxException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteSyntaxException__ctor_mA0032B5695AD023A02E16A553C1F66624565D731 (SqliteSyntaxException_tB92508EB582FC96CA42A679099FE4E6D39D1B028 * __this, String_t* ___message0, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite_compile(System.IntPtr,System.IntPtr,System.IntPtr&,System.IntPtr&,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite_compile_m250C491DCD4185B543232DA3BE526F2EB71F407B (intptr_t ___sqlite_handle0, intptr_t ___zSql1, intptr_t* ___pzTail2, intptr_t* ___pVm3, intptr_t* ___errstr4, const RuntimeMethod* method);
+// System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.Sqlite::sqliteFree(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sqlite_sqliteFree_m0DA0466B9075011C1DE906C1EE9B877A3FD44419 (intptr_t ___ptr0, const RuntimeMethod* method);
+// System.Boolean Mono.Data.SqliteClient.SqliteCommand::ExecuteStatement(System.IntPtr,System.Int32&,System.IntPtr&,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteCommand_ExecuteStatement_m5A4F7C7A988E1A69F4C8662D1446FE92A3D8F8AE (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, intptr_t ___pStmt0, int32_t* ___cols1, intptr_t* ___pazValue2, intptr_t* ___pazColName3, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_step(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_step_m922E8B614012BAF09040741EDFB9D874D9B2792E (intptr_t ___pVm0, const RuntimeMethod* method);
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_column_count(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_column_count_mFD1A5DB44B512AFFD485A6F26822DC175A592AA5 (intptr_t ___pVm0, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite_step(System.IntPtr,System.Int32&,System.IntPtr&,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite_step_m104CE1812D87F7E16C5A76AE7C9B7F77942F3589 (intptr_t ___pVm0, int32_t* ___pN1, intptr_t* ___pazValue2, intptr_t* ___pazColName3, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteExecutionException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteExecutionException__ctor_m3A3B66D4A49F04B2EA59BB300C31D6347D9AFC37 (SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826 * __this, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteBusyException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteBusyException__ctor_m0E1780138F838BF1DC009E9D14BD433679331E59 (SqliteBusyException_t7455C7CF0AB66A467541BA3F308BA168B65F9591 * __this, const RuntimeMethod* method);
+// System.Boolean System.Char::IsLetterOrDigit(System.Char)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Char_IsLetterOrDigit_m1C9B58CBEB1A3909369234582FA308E3C85F34D6 (Il2CppChar ___c0, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteParameterCollection Mono.Data.SqliteClient.SqliteCommand::get_Parameters()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * SqliteCommand_get_Parameters_m5EAB97EC3B384D103C64954BAE5EBB7538247474 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method);
+// System.String System.Convert::ToString(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Convert_ToString_m27BA6FF6E38081A1A16F6C13D007713B656AA148 (RuntimeObject * ___value0, const RuntimeMethod* method);
+// System.String System.String::Replace(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_m98184150DC4E2FBDF13E723BF5B7353D9602AC4D (String_t* __this, String_t* ___oldValue0, String_t* ___newValue1, const RuntimeMethod* method);
+// System.String System.String::Concat(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method);
+// System.String System.String::Remove(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Remove_mA7DE3D6FE3344FD65108B33BD1DE8020D22ADAC0 (String_t* __this, int32_t ___startIndex0, int32_t ___count1, const RuntimeMethod* method);
+// System.String System.String::Insert(System.Int32,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Insert_m6F5335C84ACB178D4141772E1D7F2EB7811990EB (String_t* __this, int32_t ___startIndex0, String_t* ___value1, const RuntimeMethod* method);
+// System.String Mono.Data.SqliteClient.SqliteCommand::BindParameters2()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqliteCommand_BindParameters2_m2893F5CB474BD2F0A2188C19B2FE2CC669E4C41A (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteDataReader Mono.Data.SqliteClient.SqliteCommand::ExecuteReader(System.Data.CommandBehavior,System.Boolean,System.Int32&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * SqliteCommand_ExecuteReader_mFFF64886D2E6723F3FD759E94A70E84F1544C39E (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, int32_t ___behavior0, bool ___want_results1, int32_t* ___rows_affected2, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteDataReader Mono.Data.SqliteClient.SqliteCommand::ExecuteReader(System.Data.CommandBehavior)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * SqliteCommand_ExecuteReader_mD8719573BB58E881ECC3A9EB1235D3065D29BF62 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, int32_t ___behavior0, const RuntimeMethod* method);
+// System.String System.String::Trim()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Trim_m3FEC641D7046124B7F381701903B50B5171DE0A2 (String_t* __this, const RuntimeMethod* method);
+// System.Text.Encoding Mono.Data.SqliteClient.SqliteConnection::get_Encoding()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * SqliteConnection_get_Encoding_mF525ACEB8976522154441A2B59D650DA573C8983_inline (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method);
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::StringToHeap(System.String,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_StringToHeap_m0CBA3B5B4A3041A4223A917392AD91DAC709F95A (String_t* ___s0, Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___encoding1, const RuntimeMethod* method);
+// System.IntPtr System.Runtime.InteropServices.Marshal::StringToHGlobalUni(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Marshal_StringToHGlobalUni_m6D553625AC0C1DB91F1E3331641ECA72A223DA44 (String_t* ___s0, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteConnection::StartExec()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection_StartExec_mB6D85C48B597AACB2D3E603100A25886E8B0E100 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteCommand::GetNextStatement(System.IntPtr,System.IntPtr&,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand_GetNextStatement_m46D3F89553D501B691E6FE9F6D4ECB559C0D11A5 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, intptr_t ___pzStart0, intptr_t* ___pzTail1, intptr_t* ___pStmt2, const RuntimeMethod* method);
+// System.Void System.Exception::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m0E9BEC861F6DBED197960E5BA23149543B1D7F5B (Exception_t * __this, const RuntimeMethod* method);
+// System.Byte System.Runtime.InteropServices.Marshal::ReadByte(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Marshal_ReadByte_m86777C2D6B99630D8A034AF784C5B5944B3EAB0C (intptr_t ___ptr0, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteCommand::BindParameters3(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand_BindParameters3_mD602783596D5B40E84D484AEB79BC694FE050D8E (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, intptr_t ___pStmt0, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteDataReader::.ctor(Mono.Data.SqliteClient.SqliteCommand,System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteDataReader__ctor_mB2D09F3C29E238C1B631550D411B06C18A045C33 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * ___cmd0, intptr_t ___pVm1, int32_t ___version2, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteCommand::ExecuteStatement(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand_ExecuteStatement_m6FDC1D86394FD2F5B784E2FA19AC7D1D78EEA645 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, intptr_t ___pStmt0, const RuntimeMethod* method);
+// System.Int32 Mono.Data.SqliteClient.SqliteCommand::NumChanges()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteCommand_NumChanges_mD5E4F9280B608005BC030C69FF0CCD3480FEDFD4 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_finalize(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_finalize_m9BA18273204E099CAAFC7869895E895CC3423C10 (intptr_t ___pVm0, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite_finalize(System.IntPtr,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite_finalize_m5C68FF291E51AE91B5840725839470F4E8285843 (intptr_t ___pVm0, intptr_t* ___pzErrMsg1, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteConnection::EndExec()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection_EndExec_m1B71FE695A8013BCED44FFC797823D197ED77CBD (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method);
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_errmsg16(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_errmsg16_m4DAC563C7852B9FF5EF75BA2540465754A4EEAB7 (intptr_t ___sqlite_handle0, const RuntimeMethod* method);
+// System.String System.Runtime.InteropServices.Marshal::PtrToStringUni(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Marshal_PtrToStringUni_m4CA386E4B7F073C4FC9F73F8CADC7249655CD645 (intptr_t ___ptr0, const RuntimeMethod* method);
+// System.Void System.Data.Common.DbConnection::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DbConnection__ctor_mB44477AD408CACC38FEBBC38312AFF400B18CE21 (DbConnection_t10FE0E1B88AE954D5CDB74A512B018A8D2185B50 * __this, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteConnection::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection__ctor_m4F39F738B1489643FCBF021FAAAE2715F189C807 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteConnection::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection__ctor_m9DF7CBF2B6D9BD5AD91D93B0E1B5021F78A78A0F (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, String_t* ___connstring0, const RuntimeMethod* method);
+// System.Void System.ComponentModel.Component::Dispose(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Component_Dispose_m41A6868E474C0937E68618E171C8169ECE2A9347 (Component_t015539CFEAEEBFD7619041FE006475373E0D71DF * __this, bool ___disposing0, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteConnection::SetConnectionString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection_SetConnectionString_m78023990B36009EA31D38A6F50D2A83154F3F2E7 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, String_t* ___connstring0, const RuntimeMethod* method);
+// System.Boolean System.String::op_Inequality(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Inequality_mDDA2DDED3E7EF042987EB7180EE3E88105F0AAE2 (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method);
+// System.String[] System.String::Split(System.Char[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* String_Split_m2C74DC2B85B322998094BEDE787C378822E1F28B (String_t* __this, CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* ___separator0, const RuntimeMethod* method);
+// System.Void System.InvalidOperationException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mC012CE552988309733C896F3FEA8249171E4402E (InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB * __this, String_t* ___message0, const RuntimeMethod* method);
+// System.Globalization.CultureInfo System.Globalization.CultureInfo::get_InvariantCulture()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * CultureInfo_get_InvariantCulture_m9FAAFAF8A00091EE1FCB7098AD3F163ECDF02164 (const RuntimeMethod* method);
+// System.String System.String::ToLower(System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToLower_m31AAE50F084C9F7ECE9201944F237D2310C79235 (String_t* __this, CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * ___culture0, const RuntimeMethod* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::.ctor(System.Int32)
+inline void Dictionary_2__ctor_mEC554451CB98B6F31912A513825E0ACFD4FC2763 (Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * __this, int32_t ___capacity0, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 *, int32_t, const RuntimeMethod*))Dictionary_2__ctor_m5CD823F646F17C2F5B1FB501DCDC0FE22BEBA864_gshared)(__this, ___capacity0, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1)
+inline void Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466 (Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * __this, String_t* ___key0, int32_t ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 *, String_t*, int32_t, const RuntimeMethod*))Dictionary_2_Add_mC76EFEFB0C2887C50A750B1D65544825CF580BEA_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&)
+inline bool Dictionary_2_TryGetValue_m8E06A6DF244254BF419D7EC23A9A6809E19A544D (Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * __this, String_t* ___key0, int32_t* ___value1, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 *, String_t*, int32_t*, const RuntimeMethod*))Dictionary_2_TryGetValue_mD30FE5F3EA63CD6831E4AA9E6901323436D6F9A4_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Boolean System.String::StartsWith(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mDE2FF98CAFFD13F88EDEB6C40158DDF840BFCF12 (String_t* __this, String_t* ___value0, const RuntimeMethod* method);
+// System.String System.String::Substring(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB6B87FD76552BBF6D4E2B9F07F857FE051DCE190 (String_t* __this, int32_t ___startIndex0, const RuntimeMethod* method);
+// System.Boolean System.String::StartsWith(System.String,System.StringComparison)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mEA750A0572C706249CDD826681741B7DD733381E (String_t* __this, String_t* ___value0, int32_t ___comparisonType1, const RuntimeMethod* method);
+// System.AppDomain System.AppDomain::get_CurrentDomain()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A * AppDomain_get_CurrentDomain_mC2FE307811914289CBBDEFEFF6175FCE2E96A55E (const RuntimeMethod* method);
+// System.AppDomainSetup System.AppDomain::get_SetupInformation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8 * AppDomain_get_SetupInformation_m45DBC7C2D8892E4993D9B1AE39A3EA5F839FD99E (AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A * __this, const RuntimeMethod* method);
+// System.String System.String::Format(System.String,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66 (String_t* ___format0, RuntimeObject * ___arg01, RuntimeObject * ___arg12, const RuntimeMethod* method);
+// System.String System.AppDomainSetup::get_ApplicationBase()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppDomainSetup_get_ApplicationBase_m819DC36F6F1DAFF007FFEFBE43969BCAAA3E1DB0 (AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8 * __this, const RuntimeMethod* method);
+// System.String System.IO.Path::Combine(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_mC22E47A9BB232F02ED3B6B5F6DD53338D37782EF (String_t* ___path10, String_t* ___path21, const RuntimeMethod* method);
+// System.Int32 System.Convert::ToInt32(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Convert_ToInt32_mA1C10AB2A7C95E9DCAC473D1D88C74D60FA240ED (String_t* ___value0, const RuntimeMethod* method);
+// System.Text.Encoding System.Text.Encoding::GetEncoding(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * Encoding_GetEncoding_mD5352F1522341280E9025D16463E63916549F9E3 (String_t* ___name0, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.Sqlite::sqlite3_close(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sqlite_sqlite3_close_m37251E201D4AA3C1241BDD84ED982B28202BAC08 (intptr_t ___sqlite_handle0, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.Sqlite::sqlite_close(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sqlite_sqlite_close_m02F9CE14F1F1B9FF4F656A26664F2F1C111E7556 (intptr_t ___sqlite_handle0, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteCommand::.ctor(System.String,Mono.Data.SqliteClient.SqliteConnection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand__ctor_m2370D22FD9E24D3D3856EECF763727A9332D3377 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, String_t* ___sqlText0, SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * ___dbConn1, const RuntimeMethod* method);
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite_open(System.String,System.Int32,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite_open_mFF5736EFB1204EC4ACF3745E661A8A566A57DD95 (String_t* ___dbname0, int32_t ___db_mode1, intptr_t* ___errstr2, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.Sqlite::sqlite_busy_timeout(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sqlite_sqlite_busy_timeout_m148E49C7F09BF772F6D8DD97175B848C7D6619E4 (intptr_t ___handle0, int32_t ___ms1, const RuntimeMethod* method);
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_open16(System.String,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_open16_m5E6AF85ED5C1ADB2B49D1BE8BDF96BB2E06FAD85 (String_t* ___dbname0, intptr_t* ___handle1, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.Sqlite::sqlite3_busy_timeout(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sqlite_sqlite3_busy_timeout_m92F556918BDD447B5F390CC0BAB6C86EC82C2307 (intptr_t ___handle0, int32_t ___ms1, const RuntimeMethod* method);
+// System.Void System.Data.Common.DbDataReader::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DbDataReader__ctor_m828A5CA10B067C9A5D4C5FAB01F8AEB110054DF3 (DbDataReader_t50481AE1497CEE437BDA56F2E92B6567D3222C45 * __this, const RuntimeMethod* method);
+// System.Void System.Collections.ArrayList::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayList__ctor_m6847CFECD6BDC2AD10A4AC9852A572B88B8D6B1B (ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * __this, const RuntimeMethod* method);
+// System.Void System.Collections.Hashtable::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Hashtable__ctor_m2D9C25FB57ACD33B0DF8391D38A165975A1D9A91 (Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * __this, const RuntimeMethod* method);
+// System.StringComparer System.StringComparer::get_InvariantCultureIgnoreCase()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * StringComparer_get_InvariantCultureIgnoreCase_m091360FF9FE3516559AFF706AF431E6FD4CCF2C2_inline (const RuntimeMethod* method);
+// System.Void System.Collections.Hashtable::.ctor(System.Collections.IEqualityComparer)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Hashtable__ctor_m112ADCD5297836A75FD5BFB576F7B14174FCC802 (Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * __this, RuntimeObject* ___equalityComparer0, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteDataReader::ReadpVm(System.IntPtr,System.Int32,Mono.Data.SqliteClient.SqliteCommand)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteDataReader_ReadpVm_m16B4AF70FE7F0BC232B7C902F32CCB9DB7D9FE0D (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, intptr_t ___pVm0, int32_t ___version1, SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * ___cmd2, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteDataReader::ReadingDone()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteDataReader_ReadingDone_m064B51F206282C3A3D8A5AE139D8A8C5B7B7A2AC (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, const RuntimeMethod* method);
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_column_decltype16(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_column_decltype16_m9A12E6F1B8F41821C023FE67B15F2788D7932988 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method);
+// System.Boolean System.String::op_Equality(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method);
+// System.Int32 System.IntPtr::get_Size()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntPtr_get_Size_mD8038A1C440DE87E685F4D879DC80A6704D9C77B (const RuntimeMethod* method);
+// System.IntPtr System.Runtime.InteropServices.Marshal::ReadIntPtr(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Marshal_ReadIntPtr_mD346139A9C1580DC394446F749B49BD4E06FDA5F (intptr_t ___ptr0, int32_t ___ofs1, const RuntimeMethod* method);
+// Mono.Data.SqliteClient.SqliteConnection Mono.Data.SqliteClient.SqliteCommand::get_Connection()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * SqliteCommand_get_Connection_mB77B8039C94F54974733BE438ACAB932DFA4C67F_inline (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method);
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_column_name16(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_column_name16_m331FC95B5CEEF66B053E3FF26D12D172A2BCDB37 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method);
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_column_type(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_column_type_m50FB6F9AF3C305ED5198B2DA0215C4656E86C69A (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method);
+// System.Int64 Mono.Data.SqliteClient.Sqlite::sqlite3_column_int64(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Sqlite_sqlite3_column_int64_m973D46F18BF62A21E5A4F5266E1B71043D754525 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method);
+// System.DateTime System.DateTime::FromFileTime(System.Int64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  DateTime_FromFileTime_mDA04D67C55893D90DEB6419D27BE549AAC70A140 (int64_t ___fileTime0, const RuntimeMethod* method);
+// System.Double Mono.Data.SqliteClient.Sqlite::sqlite3_column_double(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Sqlite_sqlite3_column_double_m069E5BD9971746E31ADAD905FC9B47BD45EF4795 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method);
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_column_text16(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_column_text16_m502344165EDF126E315A74BC55AB1EE48F9F8C05 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method);
+// System.DateTime System.DateTime::Parse(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  DateTime_Parse_m15F41E956747FC3E7EEBB24E45AA8733C1966989 (String_t* ___s0, const RuntimeMethod* method);
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_column_bytes16(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_column_bytes16_m31706E846411B294E7CE6F994A2B6D894445A887 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method);
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_column_blob(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_column_blob_mCF629D8D360C67B57AE07084E305C74747E1644E (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method);
+// System.Void System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Byte[],System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_Copy_m057A8067BF7212A361510EA26B24022990A07AC0 (intptr_t ___source0, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___destination1, int32_t ___startIndex2, int32_t ___length3, const RuntimeMethod* method);
+// System.Void System.Data.Common.DbEnumerator::.ctor(System.Data.IDataReader)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DbEnumerator__ctor_mF119906D6677EEF51005C9148E5ED43AC7D964C2 (DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0 * __this, RuntimeObject* ___reader0, const RuntimeMethod* method);
+// System.Int16 System.Convert::ToInt16(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t Convert_ToInt16_mAA2FFC6486323ABB30E8D9B387FB3B56250BBFCC (RuntimeObject * ___value0, const RuntimeMethod* method);
+// System.Int32 System.Convert::ToInt32(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Convert_ToInt32_mFFEDED67681E3EC8705BCA890BBC206514431B4A (RuntimeObject * ___value0, const RuntimeMethod* method);
+// System.Int32 System.Math::Min(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Min_m4C6E1589800A3AA57C1F430C3903847E8D7B4574 (int32_t ___val10, int32_t ___val21, const RuntimeMethod* method);
+// System.Void System.Data.Common.DbParameterCollection::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DbParameterCollection__ctor_mD775A4D557C57801A6029E3495146B6372E0CE02 (DbParameterCollection_t53857899F148EF54A7C90F169557DD134B5297D2 * __this, const RuntimeMethod* method);
+// System.Void System.InvalidCastException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidCastException__ctor_m50103CBF0C211B93BF46697875413A10B5A5C5A3 (InvalidCastException_tD99F9FF94C3859C78E90F68C2F77A1558BCAF463 * __this, String_t* ___message0, const RuntimeMethod* method);
+// System.String Mono.Data.SqliteClient.SqliteParameterCollection::GenerateParameterName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqliteParameterCollection_GenerateParameterName_m3092583911FDFA444DCA87958003F4AEA41580AC (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method);
+// System.String System.Int32::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411 (int32_t* __this, const RuntimeMethod* method);
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method);
+// System.Void System.IndexOutOfRangeException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IndexOutOfRangeException__ctor_mC5747EC0E0F49AAD1AD782ACC7A0CCD80D192FEF (IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD * __this, String_t* ___message0, const RuntimeMethod* method);
+// System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::isPrefixed(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteParameterCollection_isPrefixed_mD2A6838DB480763E862FCF400934E3F133276B72 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, String_t* ___parameterName0, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::CheckSqliteParam(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_CheckSqliteParam_m03C31337D8EFB5C8310C18E1438A421D13765B37 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, RuntimeObject * ___value0, const RuntimeMethod* method);
+// System.Void System.Data.DuplicateNameException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DuplicateNameException__ctor_m238DD46B4F973CEA2F8C4AB7D5A37A5E527D93B7 (DuplicateNameException_t4305734127CC4324A913DE2E4CD9B38697E80C3C * __this, String_t* ___s0, const RuntimeMethod* method);
+// System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::Contains(Mono.Data.SqliteClient.SqliteParameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteParameterCollection_Contains_m62517C17077CFD2BC850A5AB403EF496B6767C24 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * ___param0, const RuntimeMethod* method);
+// System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::IndexOf(Mono.Data.SqliteClient.SqliteParameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteParameterCollection_IndexOf_m8864DCFD632B6DAB35853B905570A05294A01F09 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * ___param0, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::RecreateNamedHash()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_RecreateNamedHash_m8A426FC3F58A72AF5CBC44DB194A4A10A4EA9C66 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method);
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::RemoveAt(Mono.Data.SqliteClient.SqliteParameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_RemoveAt_m6C52042C6897FE095BCE072A88D2672C93BEF393 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * ___param0, const RuntimeMethod* method);
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL sqlite_open(char*, int32_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL sqlite_close(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite_changes(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL sqliteFree(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite_compile(intptr_t, intptr_t, intptr_t*, intptr_t*, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite_step(intptr_t, int32_t*, intptr_t*, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite_finalize(intptr_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL sqlite_busy_timeout(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_open16(Il2CppChar*, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL sqlite3_close(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL sqlite3_errmsg16(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_changes(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_prepare16(intptr_t, intptr_t, int32_t, intptr_t*, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_step(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_finalize(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL sqlite3_column_name16(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL sqlite3_column_text16(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL sqlite3_column_blob(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_column_bytes16(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_column_count(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_column_type(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int64_t DEFAULT_CALL sqlite3_column_int64(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C double DEFAULT_CALL sqlite3_column_double(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL sqlite3_column_decltype16(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_bind_parameter_count(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL sqlite3_bind_parameter_name(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_bind_blob(intptr_t, int32_t, uint8_t*, int32_t, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_bind_double(intptr_t, int32_t, double);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_bind_int(intptr_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_bind_int64(intptr_t, int32_t, int64_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_bind_null(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL sqlite3_bind_text16(intptr_t, int32_t, Il2CppChar*, int32_t, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL sqlite3_busy_timeout(intptr_t, int32_t);
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite_open(System.String,System.Int32,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite_open_mFF5736EFB1204EC4ACF3745E661A8A566A57DD95 (String_t* ___dbname0, int32_t ___db_mode1, intptr_t* ___errstr2, const RuntimeMethod* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(char*) + sizeof(int32_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite"), "sqlite_open", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___dbname0' to native representation
+	char* ____dbname0_marshaled = NULL;
+	____dbname0_marshaled = il2cpp_codegen_marshal_string(___dbname0);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite_open)(____dbname0_marshaled, ___db_mode1, ___errstr2);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(____dbname0_marshaled, ___db_mode1, ___errstr2);
+	#endif
+
+	// Marshaling cleanup of parameter '___dbname0' native representation
+	il2cpp_codegen_marshal_free(____dbname0_marshaled);
+	____dbname0_marshaled = NULL;
+
+	return returnValue;
+}
+// System.Void Mono.Data.SqliteClient.Sqlite::sqlite_close(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sqlite_sqlite_close_m02F9CE14F1F1B9FF4F656A26664F2F1C111E7556 (intptr_t ___sqlite_handle0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite"), "sqlite_close", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+	reinterpret_cast<PInvokeFunc>(sqlite_close)(___sqlite_handle0);
+	#else
+	il2cppPInvokeFunc(___sqlite_handle0);
+	#endif
+
+}
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite_changes(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite_changes_mDF9F5D9421D87C8F9DDA90799246EE777561A932 (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite"), "sqlite_changes", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite_changes)(___handle0);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___handle0);
+	#endif
+
+	return returnValue;
+}
+// System.Void Mono.Data.SqliteClient.Sqlite::sqliteFree(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sqlite_sqliteFree_m0DA0466B9075011C1DE906C1EE9B877A3FD44419 (intptr_t ___ptr0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite"), "sqliteFree", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+	reinterpret_cast<PInvokeFunc>(sqliteFree)(___ptr0);
+	#else
+	il2cppPInvokeFunc(___ptr0);
+	#endif
+
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite_compile(System.IntPtr,System.IntPtr,System.IntPtr&,System.IntPtr&,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite_compile_m250C491DCD4185B543232DA3BE526F2EB71F407B (intptr_t ___sqlite_handle0, intptr_t ___zSql1, intptr_t* ___pzTail2, intptr_t* ___pVm3, intptr_t* ___errstr4, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t, intptr_t*, intptr_t*, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t) + sizeof(intptr_t*) + sizeof(intptr_t*) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite"), "sqlite_compile", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite_compile)(___sqlite_handle0, ___zSql1, ___pzTail2, ___pVm3, ___errstr4);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___sqlite_handle0, ___zSql1, ___pzTail2, ___pVm3, ___errstr4);
+	#endif
+
+	return returnValue;
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite_step(System.IntPtr,System.Int32&,System.IntPtr&,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite_step_m104CE1812D87F7E16C5A76AE7C9B7F77942F3589 (intptr_t ___pVm0, int32_t* ___pN1, intptr_t* ___pazValue2, intptr_t* ___pazColName3, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t*, intptr_t*, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t*) + sizeof(intptr_t*) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite"), "sqlite_step", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite_step)(___pVm0, ___pN1, ___pazValue2, ___pazColName3);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pVm0, ___pN1, ___pazValue2, ___pazColName3);
+	#endif
+
+	return returnValue;
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite_finalize(System.IntPtr,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite_finalize_m5C68FF291E51AE91B5840725839470F4E8285843 (intptr_t ___pVm0, intptr_t* ___pzErrMsg1, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite"), "sqlite_finalize", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite_finalize)(___pVm0, ___pzErrMsg1);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pVm0, ___pzErrMsg1);
+	#endif
+
+	return returnValue;
+}
+// System.Void Mono.Data.SqliteClient.Sqlite::sqlite_busy_timeout(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sqlite_sqlite_busy_timeout_m148E49C7F09BF772F6D8DD97175B848C7D6619E4 (intptr_t ___handle0, int32_t ___ms1, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite"), "sqlite_busy_timeout", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite_INTERNAL
+	reinterpret_cast<PInvokeFunc>(sqlite_busy_timeout)(___handle0, ___ms1);
+	#else
+	il2cppPInvokeFunc(___handle0, ___ms1);
+	#endif
+
+}
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_open16(System.String,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_open16_m5E6AF85ED5C1ADB2B49D1BE8BDF96BB2E06FAD85 (String_t* ___dbname0, intptr_t* ___handle1, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Il2CppChar*, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(Il2CppChar*) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_open16", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___dbname0' to native representation
+	Il2CppChar* ____dbname0_marshaled = NULL;
+	if (___dbname0 != NULL)
+	{
+		____dbname0_marshaled = ___dbname0->get_address_of_m_firstChar_1();
+	}
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_open16)(____dbname0_marshaled, ___handle1);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____dbname0_marshaled, ___handle1);
+	#endif
+
+	return returnValue;
+}
+// System.Void Mono.Data.SqliteClient.Sqlite::sqlite3_close(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sqlite_sqlite3_close_m37251E201D4AA3C1241BDD84ED982B28202BAC08 (intptr_t ___sqlite_handle0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_close", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	reinterpret_cast<PInvokeFunc>(sqlite3_close)(___sqlite_handle0);
+	#else
+	il2cppPInvokeFunc(___sqlite_handle0);
+	#endif
+
+}
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_errmsg16(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_errmsg16_m4DAC563C7852B9FF5EF75BA2540465754A4EEAB7 (intptr_t ___sqlite_handle0, const RuntimeMethod* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_errmsg16", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_errmsg16)(___sqlite_handle0);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___sqlite_handle0);
+	#endif
+
+	return returnValue;
+}
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_changes(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_changes_m78702B54BF23331D45447C8D459595FD8F98B58D (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_changes", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_changes)(___handle0);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___handle0);
+	#endif
+
+	return returnValue;
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_prepare16(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_prepare16_mA4F5527DD59D7A4A017766670A13C68678CDE7B1 (intptr_t ___sqlite_handle0, intptr_t ___zSql1, int32_t ___zSqllen2, intptr_t* ___pVm3, intptr_t* ___pzTail4, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t, int32_t, intptr_t*, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t) + sizeof(int32_t) + sizeof(intptr_t*) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_prepare16", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_prepare16)(___sqlite_handle0, ___zSql1, ___zSqllen2, ___pVm3, ___pzTail4);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___sqlite_handle0, ___zSql1, ___zSqllen2, ___pVm3, ___pzTail4);
+	#endif
+
+	return returnValue;
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_step(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_step_m922E8B614012BAF09040741EDFB9D874D9B2792E (intptr_t ___pVm0, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_step", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_step)(___pVm0);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pVm0);
+	#endif
+
+	return returnValue;
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_finalize(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_finalize_m9BA18273204E099CAAFC7869895E895CC3423C10 (intptr_t ___pVm0, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_finalize", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_finalize)(___pVm0);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pVm0);
+	#endif
+
+	return returnValue;
+}
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_column_name16(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_column_name16_m331FC95B5CEEF66B053E3FF26D12D172A2BCDB37 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_column_name16", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_column_name16)(___pVm0, ___col1);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___pVm0, ___col1);
+	#endif
+
+	return returnValue;
+}
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_column_text16(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_column_text16_m502344165EDF126E315A74BC55AB1EE48F9F8C05 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_column_text16", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_column_text16)(___pVm0, ___col1);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___pVm0, ___col1);
+	#endif
+
+	return returnValue;
+}
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_column_blob(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_column_blob_mCF629D8D360C67B57AE07084E305C74747E1644E (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_column_blob", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_column_blob)(___pVm0, ___col1);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___pVm0, ___col1);
+	#endif
+
+	return returnValue;
+}
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_column_bytes16(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_column_bytes16_m31706E846411B294E7CE6F994A2B6D894445A887 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_column_bytes16", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_column_bytes16)(___pVm0, ___col1);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pVm0, ___col1);
+	#endif
+
+	return returnValue;
+}
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_column_count(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_column_count_mFD1A5DB44B512AFFD485A6F26822DC175A592AA5 (intptr_t ___pVm0, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_column_count", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_column_count)(___pVm0);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pVm0);
+	#endif
+
+	return returnValue;
+}
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_column_type(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_column_type_m50FB6F9AF3C305ED5198B2DA0215C4656E86C69A (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_column_type", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_column_type)(___pVm0, ___col1);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pVm0, ___col1);
+	#endif
+
+	return returnValue;
+}
+// System.Int64 Mono.Data.SqliteClient.Sqlite::sqlite3_column_int64(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Sqlite_sqlite3_column_int64_m973D46F18BF62A21E5A4F5266E1B71043D754525 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method)
+{
+	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_column_int64", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int64_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_column_int64)(___pVm0, ___col1);
+	#else
+	int64_t returnValue = il2cppPInvokeFunc(___pVm0, ___col1);
+	#endif
+
+	return returnValue;
+}
+// System.Double Mono.Data.SqliteClient.Sqlite::sqlite3_column_double(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Sqlite_sqlite3_column_double_m069E5BD9971746E31ADAD905FC9B47BD45EF4795 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method)
+{
+	typedef double (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_column_double", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	double returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_column_double)(___pVm0, ___col1);
+	#else
+	double returnValue = il2cppPInvokeFunc(___pVm0, ___col1);
+	#endif
+
+	return returnValue;
+}
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_column_decltype16(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_column_decltype16_m9A12E6F1B8F41821C023FE67B15F2788D7932988 (intptr_t ___pVm0, int32_t ___col1, const RuntimeMethod* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_column_decltype16", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_column_decltype16)(___pVm0, ___col1);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___pVm0, ___col1);
+	#endif
+
+	return returnValue;
+}
+// System.Int32 Mono.Data.SqliteClient.Sqlite::sqlite3_bind_parameter_count(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_parameter_count_mF1868344E33B0B2B493C3CBCAE2A4FF22383823B (intptr_t ___pStmt0, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_bind_parameter_count", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_bind_parameter_count)(___pStmt0);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pStmt0);
+	#endif
+
+	return returnValue;
+}
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::sqlite3_bind_parameter_name(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_sqlite3_bind_parameter_name_mDA48033B8D97D3B38A1ACE69AA34BA6D4AA0D245 (intptr_t ___pStmt0, int32_t ___n1, const RuntimeMethod* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_bind_parameter_name", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_bind_parameter_name)(___pStmt0, ___n1);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___pStmt0, ___n1);
+	#endif
+
+	return returnValue;
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_blob(System.IntPtr,System.Int32,System.Byte[],System.Int32,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_blob_m3CE1663E09144CB015514DDFF4A3A31263578DB5 (intptr_t ___pStmt0, int32_t ___n1, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___blob2, int32_t ___length3, intptr_t ___freetype4, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t, uint8_t*, int32_t, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(void*) + sizeof(int32_t) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_bind_blob", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___blob2' to native representation
+	uint8_t* ____blob2_marshaled = NULL;
+	if (___blob2 != NULL)
+	{
+		____blob2_marshaled = reinterpret_cast<uint8_t*>((___blob2)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_bind_blob)(___pStmt0, ___n1, ____blob2_marshaled, ___length3, ___freetype4);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pStmt0, ___n1, ____blob2_marshaled, ___length3, ___freetype4);
+	#endif
+
+	return returnValue;
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_double(System.IntPtr,System.Int32,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_double_m6E23A121939519A561DC319A6E2376EABA539DA5 (intptr_t ___pStmt0, int32_t ___n1, double ___value2, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t, double);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(double);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_bind_double", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_bind_double)(___pStmt0, ___n1, ___value2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pStmt0, ___n1, ___value2);
+	#endif
+
+	return returnValue;
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_int(System.IntPtr,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_int_mAF43BC9234C315DFEE0B1CCA3B406BE0631AA2AA (intptr_t ___pStmt0, int32_t ___n1, int32_t ___value2, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_bind_int", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_bind_int)(___pStmt0, ___n1, ___value2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pStmt0, ___n1, ___value2);
+	#endif
+
+	return returnValue;
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_int64(System.IntPtr,System.Int32,System.Int64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_int64_m73F52FD75847A3987230B87D5783EC8B90A81A20 (intptr_t ___pStmt0, int32_t ___n1, int64_t ___value2, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t, int64_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int64_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_bind_int64", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_bind_int64)(___pStmt0, ___n1, ___value2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pStmt0, ___n1, ___value2);
+	#endif
+
+	return returnValue;
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_null(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_null_mA5E20EF91D9964FA6F5915DBDBA23A2539DA6C00 (intptr_t ___pStmt0, int32_t ___n1, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_bind_null", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_bind_null)(___pStmt0, ___n1);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pStmt0, ___n1);
+	#endif
+
+	return returnValue;
+}
+// Mono.Data.SqliteClient.SqliteError Mono.Data.SqliteClient.Sqlite::sqlite3_bind_text16(System.IntPtr,System.Int32,System.String,System.Int32,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sqlite_sqlite3_bind_text16_m133C5532808414C1BFB586F1705C0C0F14DB7569 (intptr_t ___pStmt0, int32_t ___n1, String_t* ___value2, int32_t ___length3, intptr_t ___freetype4, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t, Il2CppChar*, int32_t, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_bind_text16", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___value2' to native representation
+	Il2CppChar* ____value2_marshaled = NULL;
+	if (___value2 != NULL)
+	{
+		____value2_marshaled = ___value2->get_address_of_m_firstChar_1();
+	}
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(sqlite3_bind_text16)(___pStmt0, ___n1, ____value2_marshaled, ___length3, ___freetype4);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___pStmt0, ___n1, ____value2_marshaled, ___length3, ___freetype4);
+	#endif
+
+	return returnValue;
+}
+// System.Void Mono.Data.SqliteClient.Sqlite::sqlite3_busy_timeout(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sqlite_sqlite3_busy_timeout_m92F556918BDD447B5F390CC0BAB6C86EC82C2307 (intptr_t ___handle0, int32_t ___ms1, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_sqlite3_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("sqlite3"), "sqlite3_busy_timeout", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_sqlite3_INTERNAL
+	reinterpret_cast<PInvokeFunc>(sqlite3_busy_timeout)(___handle0, ___ms1);
+	#else
+	il2cppPInvokeFunc(___handle0, ___ms1);
+	#endif
+
+}
+// System.IntPtr Mono.Data.SqliteClient.Sqlite::StringToHeap(System.String,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Sqlite_StringToHeap_m0CBA3B5B4A3041A4223A917392AD91DAC709F95A (String_t* ___s0, Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___encoding1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sqlite_StringToHeap_m0CBA3B5B4A3041A4223A917392AD91DAC709F95A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* V_1 = NULL;
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* V_2 = NULL;
+	int32_t V_3 = 0;
+	intptr_t V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	bool V_5 = false;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Sqlite_StringToHeap_m0CBA3B5B4A3041A4223A917392AD91DAC709F95A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	Exception_t * __last_unhandled_exception = 0;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
+	{
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_0 = ___encoding1;
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		String_t* L_1 = ___s0;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		intptr_t L_2;
+		L_2 = Marshal_StringToHGlobalAnsi_m93F128CD5BBA32D779BB8F49474F8371B6B473DB(L_1, /*hidden argument*/NULL);
+		return (intptr_t)L_2;
+	}
+
+IL_000d:
+	{
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_3 = ___encoding1;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(41 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_3, 1);
+		V_0 = L_4;
+		String_t* L_5 = ___s0;
+		NullCheck(L_5);
+		CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* L_6;
+		L_6 = String_ToCharArray_m33E93AEB7086CBEBDFA5730EAAC49686F144089C(L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_7 = ___encoding1;
+		CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* L_8 = V_1;
+		NullCheck(L_7);
+		int32_t L_9;
+		L_9 = VirtFuncInvoker1< int32_t, CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* >::Invoke(18 /* System.Int32 System.Text.Encoding::GetByteCount(System.Char[]) */, L_7, L_8);
+		int32_t L_10 = V_0;
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_11 = (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*)(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*)SZArrayNew(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_9, (int32_t)L_10)));
+		V_2 = L_11;
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_12 = ___encoding1;
+		CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* L_13 = V_1;
+		CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* L_14 = V_1;
+		NullCheck(L_14);
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_15 = V_2;
+		NullCheck(L_12);
+		int32_t L_16;
+		L_16 = VirtFuncInvoker5< int32_t, CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34*, int32_t, int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t >::Invoke(25 /* System.Int32 System.Text.Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32) */, L_12, L_13, 0, ((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))), L_15, 0);
+		V_3 = L_16;
+		int32_t L_17 = V_3;
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_18 = V_2;
+		NullCheck(L_18);
+		int32_t L_19 = V_0;
+		if ((((int32_t)L_17) == ((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_18)->max_length))), (int32_t)L_19)))))
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_20 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90(L_20, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral67812293BC824A8E954F8E1F0C06BF572BB0E267)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Sqlite_StringToHeap_m0CBA3B5B4A3041A4223A917392AD91DAC709F95A_RuntimeMethod_var)));
+	}
+
+IL_004f:
+	{
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_21 = V_2;
+		NullCheck(L_21);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		intptr_t L_22;
+		L_22 = Marshal_AllocHGlobal_mED1B623D229DB8FAB58D187E4E73D3DA2E8AE6EC(((int32_t)((int32_t)(((RuntimeArray*)L_21)->max_length))), /*hidden argument*/NULL);
+		V_4 = (intptr_t)L_22;
+		intptr_t L_23 = V_4;
+		bool L_24;
+		L_24 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_23, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_24)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		OutOfMemoryException_t2671AB315BD130A49A1592BAD0AEE9F2D37667AC * L_25 = (OutOfMemoryException_t2671AB315BD130A49A1592BAD0AEE9F2D37667AC *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OutOfMemoryException_t2671AB315BD130A49A1592BAD0AEE9F2D37667AC_il2cpp_TypeInfo_var)));
+		OutOfMemoryException__ctor_m761B42AF958A3E2A683664D4BC21DE3A11AB9C0B(L_25, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_25, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Sqlite_StringToHeap_m0CBA3B5B4A3041A4223A917392AD91DAC709F95A_RuntimeMethod_var)));
+	}
+
+IL_0070:
+	{
+		V_5 = (bool)0;
+	}
+
+IL_0073:
+	try
+	{ // begin try (depth: 1)
+		STORE_TRY_ID(methodExecutionContext, 0);
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_26 = V_2;
+		intptr_t L_27 = V_4;
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_28 = V_2;
+		NullCheck(L_28);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		Marshal_Copy_m05D5F5A9F9BA4C1B748AAE7266B3C0E9D9EE2012(L_26, 0, (intptr_t)L_27, ((int32_t)((int32_t)(((RuntimeArray*)L_28)->max_length))), /*hidden argument*/NULL);
+		V_5 = (bool)1;
+		IL2CPP_LEAVE(0x96, FINALLY_0087);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t *)e.ex;
+		goto FINALLY_0087;
+	}
+
+FINALLY_0087:
+	{ // begin finally (depth: 1)
+		STORE_TRY_ID(methodExecutionContext, -1);
+		{
+			bool L_29 = V_5;
+			if (L_29)
+			{
+				goto IL_0095;
+			}
+		}
+
+IL_008e:
+		{
+			intptr_t L_30 = V_4;
+			IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+			Marshal_FreeHGlobal_m53FC4846F5D3106BA25B52C321005C227E424F72((intptr_t)L_30, /*hidden argument*/NULL);
+		}
+
+IL_0095:
+		{
+			IL2CPP_END_FINALLY(135)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(135)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x96, IL_0096)
+	}
+
+IL_0096:
+	{
+		intptr_t L_31 = V_4;
+		return (intptr_t)L_31;
+	}
+}
+// System.String Mono.Data.SqliteClient.Sqlite::HeapToString(System.IntPtr,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Sqlite_HeapToString_m903FD8CB0B0768F70B04E1D7D53E1F4DD7061C42 (intptr_t ___p0, Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * ___encoding1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sqlite_HeapToString_m903FD8CB0B0768F70B04E1D7D53E1F4DD7061C42_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	String_t* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Sqlite_HeapToString_m903FD8CB0B0768F70B04E1D7D53E1F4DD7061C42_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_0 = ___encoding1;
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		intptr_t L_1 = ___p0;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		String_t* L_2;
+		L_2 = Marshal_PtrToStringAnsi_m75BAFD813E1B985A654946F05159CFA46E34F5AA((intptr_t)L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+
+IL_000d:
+	{
+		intptr_t L_3 = ___p0;
+		bool L_4;
+		L_4 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_3, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		return (String_t*)NULL;
+	}
+
+IL_001f:
+	{
+		V_0 = 0;
+		goto IL_002a;
+	}
+
+IL_0026:
+	{
+		CHECK_PAUSE_POINT;
+		int32_t L_5 = V_0;
+		if (((int64_t)L_5 + (int64_t)1 < (int64_t)kIl2CppInt32Min) || ((int64_t)L_5 + (int64_t)1 > (int64_t)kIl2CppInt32Max))
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), Sqlite_HeapToString_m903FD8CB0B0768F70B04E1D7D53E1F4DD7061C42_RuntimeMethod_var);
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_5, (int32_t)1));
+	}
+
+IL_002a:
+	{
+		intptr_t L_6 = ___p0;
+		int32_t L_7 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		uint8_t L_8;
+		L_8 = Marshal_ReadByte_mA0E9E8CE64BFEEA553E2ADB92201A4187F3BCFCA((intptr_t)L_6, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		intptr_t L_9 = ___p0;
+		void* L_10;
+		L_10 = IntPtr_op_Explicit_mE8B472FDC632CBD121F7ADF4F94546D6610BACDD((intptr_t)L_9, /*hidden argument*/NULL);
+		int32_t L_11 = V_0;
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_12 = ___encoding1;
+		String_t* L_13;
+		L_13 = String_CreateString_m9636360FEBE95705BBD46CF8D4DCDCFCDAE269A6(NULL, (int8_t*)(int8_t*)L_10, 0, L_11, L_12, /*hidden argument*/NULL);
+		V_1 = L_13;
+		String_t* L_14 = V_1;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_14, /*hidden argument*/NULL);
+		V_0 = L_15;
+		goto IL_0055;
+	}
+
+IL_0051:
+	{
+		CHECK_PAUSE_POINT;
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_16, (int32_t)1));
+	}
+
+IL_0055:
+	{
+		int32_t L_17 = V_0;
+		if ((((int32_t)L_17) <= ((int32_t)0)))
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		String_t* L_18 = V_1;
+		int32_t L_19 = V_0;
+		NullCheck(L_18);
+		Il2CppChar L_20;
+		L_20 = String_get_Chars_m9B1A5E4C8D70AA33A60F03735AF7B77AB9DBBA70(L_18, ((int32_t)il2cpp_codegen_subtract((int32_t)L_19, (int32_t)1)), /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_0051;
+		}
+	}
+
+IL_006a:
+	{
+		int32_t L_21 = V_0;
+		String_t* L_22 = V_1;
+		NullCheck(L_22);
+		int32_t L_23;
+		L_23 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_22, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_21) == ((uint32_t)L_23))))
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		String_t* L_24 = V_1;
+		return L_24;
+	}
+
+IL_0078:
+	{
+		String_t* L_25 = V_1;
+		int32_t L_26 = V_0;
+		NullCheck(L_25);
+		String_t* L_27;
+		L_27 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_25, 0, L_26, /*hidden argument*/NULL);
+		return L_27;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Mono.Data.SqliteClient.SqliteBusyException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteBusyException__ctor_m0E1780138F838BF1DC009E9D14BD433679331E59 (SqliteBusyException_t7455C7CF0AB66A467541BA3F308BA168B65F9591 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteBusyException__ctor_m0E1780138F838BF1DC009E9D14BD433679331E59_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBB2A78A6285DFBD1D7D3FAB7E0AC580B5E9A2ACB);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteBusyException__ctor_m0E1780138F838BF1DC009E9D14BD433679331E59_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteBusyException__ctor_m3862658BFB505E51DF640E32D88F74966D0F2DB4(__this, _stringLiteralBB2A78A6285DFBD1D7D3FAB7E0AC580B5E9A2ACB, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteBusyException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteBusyException__ctor_m3862658BFB505E51DF640E32D88F74966D0F2DB4 (SqliteBusyException_t7455C7CF0AB66A467541BA3F308BA168B65F9591 * __this, String_t* ___message0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteBusyException__ctor_m3862658BFB505E51DF640E32D88F74966D0F2DB4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteBusyException__ctor_m3862658BFB505E51DF640E32D88F74966D0F2DB4_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = ___message0;
+		SqliteExecutionException__ctor_mE9C1E2F542B576520BE2F74E26594E02DA496AE3(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Mono.Data.SqliteClient.SqliteCommand::.ctor(System.String,Mono.Data.SqliteClient.SqliteConnection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand__ctor_m2370D22FD9E24D3D3856EECF763727A9332D3377 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, String_t* ___sqlText0, SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * ___dbConn1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand__ctor_m2370D22FD9E24D3D3856EECF763727A9332D3377_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand__ctor_m2370D22FD9E24D3D3856EECF763727A9332D3377_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		__this->set__designTimeVisible_9((bool)1);
+		DbCommand__ctor_m83F726F81AC564060FBFA052B4B49D609D70E7CD(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___sqlText0;
+		__this->set_sql_6(L_0);
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_1 = ___dbConn1;
+		__this->set_parent_conn_4(L_1);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteCommand::.ctor(System.String,Mono.Data.SqliteClient.SqliteConnection,System.Data.IDbTransaction)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand__ctor_m81A36E2A4032FA72FA0B04210813596E3E022720 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, String_t* ___sqlText0, SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * ___dbConn1, RuntimeObject* ___trans2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand__ctor_m81A36E2A4032FA72FA0B04210813596E3E022720_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand__ctor_m81A36E2A4032FA72FA0B04210813596E3E022720_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		__this->set__designTimeVisible_9((bool)1);
+		DbCommand__ctor_m83F726F81AC564060FBFA052B4B49D609D70E7CD(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___sqlText0;
+		__this->set_sql_6(L_0);
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_1 = ___dbConn1;
+		__this->set_parent_conn_4(L_1);
+		RuntimeObject* L_2 = ___trans2;
+		__this->set_transaction_5(L_2);
+		return;
+	}
+}
+// System.Object Mono.Data.SqliteClient.SqliteCommand::System.ICloneable.Clone()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * SqliteCommand_System_ICloneable_Clone_m9DCB102478D8BBFAF743658FB472E87F79208AFA (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_System_ICloneable_Clone_m9DCB102478D8BBFAF743658FB472E87F79208AFA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_System_ICloneable_Clone_m9DCB102478D8BBFAF743658FB472E87F79208AFA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = __this->get_sql_6();
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_1 = __this->get_parent_conn_4();
+		RuntimeObject* L_2 = __this->get_transaction_5();
+		SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * L_3 = (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC *)il2cpp_codegen_object_new(SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC_il2cpp_TypeInfo_var);
+		SqliteCommand__ctor_m81A36E2A4032FA72FA0B04210813596E3E022720(L_3, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteCommand::set_CommandText(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand_set_CommandText_m5C83BD2B2A86BEC3D23749866056ADDAE40351C4 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_set_CommandText_m5C83BD2B2A86BEC3D23749866056ADDAE40351C4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_set_CommandText_m5C83BD2B2A86BEC3D23749866056ADDAE40351C4_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = ___value0;
+		__this->set_sql_6(L_0);
+		__this->set_prepared_8((bool)0);
+		return;
+	}
+}
+// Mono.Data.SqliteClient.SqliteConnection Mono.Data.SqliteClient.SqliteCommand::get_Connection()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * SqliteCommand_get_Connection_mB77B8039C94F54974733BE438ACAB932DFA4C67F (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_get_Connection_mB77B8039C94F54974733BE438ACAB932DFA4C67F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_get_Connection_mB77B8039C94F54974733BE438ACAB932DFA4C67F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_0 = __this->get_parent_conn_4();
+		return L_0;
+	}
+}
+// Mono.Data.SqliteClient.SqliteParameterCollection Mono.Data.SqliteClient.SqliteCommand::get_Parameters()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * SqliteCommand_get_Parameters_m5EAB97EC3B384D103C64954BAE5EBB7538247474 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_get_Parameters_m5EAB97EC3B384D103C64954BAE5EBB7538247474_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_get_Parameters_m5EAB97EC3B384D103C64954BAE5EBB7538247474_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * L_0 = __this->get_sql_params_7();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * L_1 = (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 *)il2cpp_codegen_object_new(SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236_il2cpp_TypeInfo_var);
+		SqliteParameterCollection__ctor_m5CDB4E61EBDFE9AD1D46E91C610AAC96C7181F0E(L_1, /*hidden argument*/NULL);
+		__this->set_sql_params_7(L_1);
+	}
+
+IL_0016:
+	{
+		SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * L_2 = __this->get_sql_params_7();
+		return L_2;
+	}
+}
+// System.Int32 Mono.Data.SqliteClient.SqliteCommand::NumChanges()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteCommand_NumChanges_mD5E4F9280B608005BC030C69FF0CCD3480FEDFD4 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_NumChanges_mD5E4F9280B608005BC030C69FF0CCD3480FEDFD4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_NumChanges_mD5E4F9280B608005BC030C69FF0CCD3480FEDFD4_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_0 = __this->get_parent_conn_4();
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline(L_0, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)3))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_2 = __this->get_parent_conn_4();
+		NullCheck(L_2);
+		intptr_t L_3;
+		L_3 = SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_inline(L_2, /*hidden argument*/NULL);
+		int32_t L_4;
+		L_4 = Sqlite_sqlite3_changes_m78702B54BF23331D45447C8D459595FD8F98B58D((intptr_t)L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+
+IL_0022:
+	{
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_5 = __this->get_parent_conn_4();
+		NullCheck(L_5);
+		intptr_t L_6;
+		L_6 = SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_inline(L_5, /*hidden argument*/NULL);
+		int32_t L_7;
+		L_7 = Sqlite_sqlite_changes_mDF9F5D9421D87C8F9DDA90799246EE777561A932((intptr_t)L_6, /*hidden argument*/NULL);
+		return L_7;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteCommand::BindParameters3(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand_BindParameters3_mD602783596D5B40E84D484AEB79BC694FE050D8E (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, intptr_t ___pStmt0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enum_t23B90B40F60E677A8025267341651C94AE079CDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int16_tD0F031114106263BB459DA1F099FF9F42691295A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int16_tD0F031114106263BB459DA1F099FF9F42691295A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_BindParameters3_mD602783596D5B40E84D484AEB79BC694FE050D8E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt32_tE60352A06233E4E69DD198BCC67142159F686B15_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt32_tE60352A06233E4E69DD198BCC67142159F686B15_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * V_3 = NULL;
+	Type_t * V_4 = NULL;
+	int32_t V_5 = 0;
+	String_t* V_6 = NULL;
+	bool V_7 = false;
+	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_BindParameters3_mD602783596D5B40E84D484AEB79BC694FE050D8E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	int32_t G_B19_0 = 0;
+	intptr_t G_B19_1;
+	memset((&G_B19_1), 0, sizeof(G_B19_1));
+	int32_t G_B18_0 = 0;
+	intptr_t G_B18_1;
+	memset((&G_B18_1), 0, sizeof(G_B18_1));
+	int32_t G_B20_0 = 0;
+	int32_t G_B20_1 = 0;
+	intptr_t G_B20_2;
+	memset((&G_B20_2), 0, sizeof(G_B20_2));
+	{
+		SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * L_0 = __this->get_sql_params_7();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * L_1 = __this->get_sql_params_7();
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::get_Count() */, L_1);
+		if (L_2)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001d:
+	{
+		intptr_t L_3 = ___pStmt0;
+		int32_t L_4;
+		L_4 = Sqlite_sqlite3_bind_parameter_count_mF1868344E33B0B2B493C3CBCAE2A4FF22383823B((intptr_t)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		V_1 = 1;
+		goto IL_03ec;
+	}
+
+IL_002b:
+	{
+		CHECK_PAUSE_POINT;
+		intptr_t L_5 = ___pStmt0;
+		int32_t L_6 = V_1;
+		intptr_t L_7;
+		L_7 = Sqlite_sqlite3_bind_parameter_name_mDA48033B8D97D3B38A1ACE69AA34BA6D4AA0D245((intptr_t)L_5, L_6, /*hidden argument*/NULL);
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_8;
+		L_8 = Encoding_get_UTF8_mC877FB3137BBD566AEE7B15F9BF61DC4EF8F5E5E(/*hidden argument*/NULL);
+		String_t* L_9;
+		L_9 = Sqlite_HeapToString_m903FD8CB0B0768F70B04E1D7D53E1F4DD7061C42((intptr_t)L_7, L_8, /*hidden argument*/NULL);
+		V_2 = L_9;
+		V_3 = (SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)NULL;
+		String_t* L_10 = V_2;
+		if (!L_10)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * L_11 = __this->get_sql_params_7();
+		String_t* L_12 = V_2;
+		NullCheck(L_11);
+		DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * L_13;
+		L_13 = DbParameterCollection_get_Item_m87A14BECEE5234975C0FD0D146EB2E8B1912C31C(L_11, L_12, /*hidden argument*/NULL);
+		V_3 = ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)IsInstClass((RuntimeObject*)L_13, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var));
+		goto IL_0070;
+	}
+
+IL_005c:
+	{
+		SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * L_14 = __this->get_sql_params_7();
+		int32_t L_15 = V_1;
+		NullCheck(L_14);
+		DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * L_16;
+		L_16 = DbParameterCollection_get_Item_m5323131A014AFC17F21DA0BECB22482F33BE0332(L_14, ((int32_t)il2cpp_codegen_subtract((int32_t)L_15, (int32_t)1)), /*hidden argument*/NULL);
+		V_3 = ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)IsInstClass((RuntimeObject*)L_16, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var));
+	}
+
+IL_0070:
+	{
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_17 = V_3;
+		NullCheck(L_17);
+		RuntimeObject * L_18;
+		L_18 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_17);
+		if (L_18)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		intptr_t L_19 = ___pStmt0;
+		int32_t L_20 = V_1;
+		int32_t L_21;
+		L_21 = Sqlite_sqlite3_bind_null_mA5E20EF91D9964FA6F5915DBDBA23A2539DA6C00((intptr_t)L_19, L_20, /*hidden argument*/NULL);
+		goto IL_03e8;
+	}
+
+IL_0088:
+	{
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_22 = V_3;
+		NullCheck(L_22);
+		RuntimeObject * L_23;
+		L_23 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_22);
+		NullCheck(L_23);
+		Type_t * L_24;
+		L_24 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_23, /*hidden argument*/NULL);
+		V_4 = L_24;
+		Type_t * L_25 = V_4;
+		NullCheck(L_25);
+		bool L_26;
+		L_26 = VirtFuncInvoker0< bool >::Invoke(74 /* System.Boolean System.Type::get_IsEnum() */, L_25);
+		if (!L_26)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		Type_t * L_27 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(Enum_t23B90B40F60E677A8025267341651C94AE079CDA_il2cpp_TypeInfo_var);
+		Type_t * L_28;
+		L_28 = Enum_GetUnderlyingType_m8BD5EDDA4C9A15C2988B27DD48314AC3C16F7A53(L_27, /*hidden argument*/NULL);
+		V_4 = L_28;
+	}
+
+IL_00aa:
+	{
+		Type_t * L_29 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_30 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_31;
+		L_31 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_30, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		bool L_32;
+		L_32 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_29, L_31);
+		if (!L_32)
+		{
+			goto IL_00e4;
+		}
+	}
+	{
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_33 = V_3;
+		NullCheck(L_33);
+		RuntimeObject * L_34;
+		L_34 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_33);
+		V_6 = ((String_t*)CastclassSealed((RuntimeObject*)L_34, String_t_il2cpp_TypeInfo_var));
+		intptr_t L_35 = ___pStmt0;
+		int32_t L_36 = V_1;
+		String_t* L_37 = V_6;
+		intptr_t L_38;
+		L_38 = IntPtr_op_Explicit_m9092E57CE669E7B9CCDCF5ADD6DFB758D6545FBF((-1), /*hidden argument*/NULL);
+		int32_t L_39;
+		L_39 = Sqlite_sqlite3_bind_text16_m133C5532808414C1BFB586F1705C0C0F14DB7569((intptr_t)L_35, L_36, L_37, (-1), (intptr_t)L_38, /*hidden argument*/NULL);
+		V_5 = L_39;
+		goto IL_03ca;
+	}
+
+IL_00e4:
+	{
+		Type_t * L_40 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_41 = { reinterpret_cast<intptr_t> (DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_42;
+		L_42 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_41, /*hidden argument*/NULL);
+		NullCheck(L_40);
+		bool L_43;
+		L_43 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_40, L_42);
+		if (!L_43)
+		{
+			goto IL_0108;
+		}
+	}
+	{
+		intptr_t L_44 = ___pStmt0;
+		int32_t L_45 = V_1;
+		int32_t L_46;
+		L_46 = Sqlite_sqlite3_bind_null_mA5E20EF91D9964FA6F5915DBDBA23A2539DA6C00((intptr_t)L_44, L_45, /*hidden argument*/NULL);
+		V_5 = L_46;
+		goto IL_03ca;
+	}
+
+IL_0108:
+	{
+		Type_t * L_47 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_48 = { reinterpret_cast<intptr_t> (Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_49;
+		L_49 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_48, /*hidden argument*/NULL);
+		NullCheck(L_47);
+		bool L_50;
+		L_50 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_47, L_49);
+		if (!L_50)
+		{
+			goto IL_0147;
+		}
+	}
+	{
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_51 = V_3;
+		NullCheck(L_51);
+		RuntimeObject * L_52;
+		L_52 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_51);
+		V_7 = ((*(bool*)((bool*)UnBox(L_52, Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var))));
+		intptr_t L_53 = ___pStmt0;
+		int32_t L_54 = V_1;
+		bool L_55 = V_7;
+		G_B18_0 = L_54;
+		G_B18_1 = L_53;
+		if (!L_55)
+		{
+			G_B19_0 = L_54;
+			G_B19_1 = L_53;
+			goto IL_013a;
+		}
+	}
+	{
+		G_B20_0 = 1;
+		G_B20_1 = G_B18_0;
+		G_B20_2 = G_B18_1;
+		goto IL_013b;
+	}
+
+IL_013a:
+	{
+		G_B20_0 = 0;
+		G_B20_1 = G_B19_0;
+		G_B20_2 = G_B19_1;
+	}
+
+IL_013b:
+	{
+		int32_t L_56;
+		L_56 = Sqlite_sqlite3_bind_int_mAF43BC9234C315DFEE0B1CCA3B406BE0631AA2AA((intptr_t)G_B20_2, G_B20_1, G_B20_0, /*hidden argument*/NULL);
+		V_5 = L_56;
+		goto IL_03ca;
+	}
+
+IL_0147:
+	{
+		Type_t * L_57 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_58 = { reinterpret_cast<intptr_t> (Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_59;
+		L_59 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_58, /*hidden argument*/NULL);
+		NullCheck(L_57);
+		bool L_60;
+		L_60 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_57, L_59);
+		if (!L_60)
+		{
+			goto IL_0176;
+		}
+	}
+	{
+		intptr_t L_61 = ___pStmt0;
+		int32_t L_62 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_63 = V_3;
+		NullCheck(L_63);
+		RuntimeObject * L_64;
+		L_64 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_63);
+		int32_t L_65;
+		L_65 = Sqlite_sqlite3_bind_int_mAF43BC9234C315DFEE0B1CCA3B406BE0631AA2AA((intptr_t)L_61, L_62, ((*(uint8_t*)((uint8_t*)UnBox(L_64, Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		V_5 = L_65;
+		goto IL_03ca;
+	}
+
+IL_0176:
+	{
+		Type_t * L_66 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_67 = { reinterpret_cast<intptr_t> (Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_68;
+		L_68 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_67, /*hidden argument*/NULL);
+		NullCheck(L_66);
+		bool L_69;
+		L_69 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_66, L_68);
+		if (!L_69)
+		{
+			goto IL_01a5;
+		}
+	}
+	{
+		intptr_t L_70 = ___pStmt0;
+		int32_t L_71 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_72 = V_3;
+		NullCheck(L_72);
+		RuntimeObject * L_73;
+		L_73 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_72);
+		int32_t L_74;
+		L_74 = Sqlite_sqlite3_bind_int_mAF43BC9234C315DFEE0B1CCA3B406BE0631AA2AA((intptr_t)L_70, L_71, ((*(Il2CppChar*)((Il2CppChar*)UnBox(L_73, Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		V_5 = L_74;
+		goto IL_03ca;
+	}
+
+IL_01a5:
+	{
+		Type_t * L_75 = V_4;
+		NullCheck(L_75);
+		bool L_76;
+		L_76 = VirtFuncInvoker0< bool >::Invoke(74 /* System.Boolean System.Type::get_IsEnum() */, L_75);
+		if (!L_76)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		intptr_t L_77 = ___pStmt0;
+		int32_t L_78 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_79 = V_3;
+		NullCheck(L_79);
+		RuntimeObject * L_80;
+		L_80 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_79);
+		int32_t L_81;
+		L_81 = Sqlite_sqlite3_bind_int_mAF43BC9234C315DFEE0B1CCA3B406BE0631AA2AA((intptr_t)L_77, L_78, ((*(int32_t*)((int32_t*)UnBox(L_80, Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		V_5 = L_81;
+		goto IL_03ca;
+	}
+
+IL_01ca:
+	{
+		Type_t * L_82 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_83 = { reinterpret_cast<intptr_t> (Int16_tD0F031114106263BB459DA1F099FF9F42691295A_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_84;
+		L_84 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_83, /*hidden argument*/NULL);
+		NullCheck(L_82);
+		bool L_85;
+		L_85 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_82, L_84);
+		if (!L_85)
+		{
+			goto IL_01f9;
+		}
+	}
+	{
+		intptr_t L_86 = ___pStmt0;
+		int32_t L_87 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_88 = V_3;
+		NullCheck(L_88);
+		RuntimeObject * L_89;
+		L_89 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_88);
+		int32_t L_90;
+		L_90 = Sqlite_sqlite3_bind_int_mAF43BC9234C315DFEE0B1CCA3B406BE0631AA2AA((intptr_t)L_86, L_87, ((*(int16_t*)((int16_t*)UnBox(L_89, Int16_tD0F031114106263BB459DA1F099FF9F42691295A_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		V_5 = L_90;
+		goto IL_03ca;
+	}
+
+IL_01f9:
+	{
+		Type_t * L_91 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_92 = { reinterpret_cast<intptr_t> (Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_93;
+		L_93 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_92, /*hidden argument*/NULL);
+		NullCheck(L_91);
+		bool L_94;
+		L_94 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_91, L_93);
+		if (!L_94)
+		{
+			goto IL_0228;
+		}
+	}
+	{
+		intptr_t L_95 = ___pStmt0;
+		int32_t L_96 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_97 = V_3;
+		NullCheck(L_97);
+		RuntimeObject * L_98;
+		L_98 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_97);
+		int32_t L_99;
+		L_99 = Sqlite_sqlite3_bind_int_mAF43BC9234C315DFEE0B1CCA3B406BE0631AA2AA((intptr_t)L_95, L_96, ((*(int32_t*)((int32_t*)UnBox(L_98, Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		V_5 = L_99;
+		goto IL_03ca;
+	}
+
+IL_0228:
+	{
+		Type_t * L_100 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_101 = { reinterpret_cast<intptr_t> (SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_102;
+		L_102 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_101, /*hidden argument*/NULL);
+		NullCheck(L_100);
+		bool L_103;
+		L_103 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_100, L_102);
+		if (!L_103)
+		{
+			goto IL_0258;
+		}
+	}
+	{
+		intptr_t L_104 = ___pStmt0;
+		int32_t L_105 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_106 = V_3;
+		NullCheck(L_106);
+		RuntimeObject * L_107;
+		L_107 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_106);
+		int32_t L_108;
+		L_108 = Sqlite_sqlite3_bind_int_mAF43BC9234C315DFEE0B1CCA3B406BE0631AA2AA((intptr_t)L_104, L_105, ((int32_t)((int32_t)((*(int8_t*)((int8_t*)UnBox(L_107, SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_il2cpp_TypeInfo_var)))))), /*hidden argument*/NULL);
+		V_5 = L_108;
+		goto IL_03ca;
+	}
+
+IL_0258:
+	{
+		Type_t * L_109 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_110 = { reinterpret_cast<intptr_t> (UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_111;
+		L_111 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_110, /*hidden argument*/NULL);
+		NullCheck(L_109);
+		bool L_112;
+		L_112 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_109, L_111);
+		if (!L_112)
+		{
+			goto IL_0287;
+		}
+	}
+	{
+		intptr_t L_113 = ___pStmt0;
+		int32_t L_114 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_115 = V_3;
+		NullCheck(L_115);
+		RuntimeObject * L_116;
+		L_116 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_115);
+		int32_t L_117;
+		L_117 = Sqlite_sqlite3_bind_int_mAF43BC9234C315DFEE0B1CCA3B406BE0631AA2AA((intptr_t)L_113, L_114, ((*(uint16_t*)((uint16_t*)UnBox(L_116, UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		V_5 = L_117;
+		goto IL_03ca;
+	}
+
+IL_0287:
+	{
+		Type_t * L_118 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_119 = { reinterpret_cast<intptr_t> (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_120;
+		L_120 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_119, /*hidden argument*/NULL);
+		NullCheck(L_118);
+		bool L_121;
+		L_121 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_118, L_120);
+		if (!L_121)
+		{
+			goto IL_02bf;
+		}
+	}
+	{
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_122 = V_3;
+		NullCheck(L_122);
+		RuntimeObject * L_123;
+		L_123 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_122);
+		V_8 = ((*(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)UnBox(L_123, DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var))));
+		intptr_t L_124 = ___pStmt0;
+		int32_t L_125 = V_1;
+		int64_t L_126;
+		L_126 = DateTime_ToFileTime_mF5AE8D0291727D395D3FEF4F32109437B361345E((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_8), /*hidden argument*/NULL);
+		int32_t L_127;
+		L_127 = Sqlite_sqlite3_bind_int64_m73F52FD75847A3987230B87D5783EC8B90A81A20((intptr_t)L_124, L_125, L_126, /*hidden argument*/NULL);
+		V_5 = L_127;
+		goto IL_03ca;
+	}
+
+IL_02bf:
+	{
+		Type_t * L_128 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_129 = { reinterpret_cast<intptr_t> (Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_130;
+		L_130 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_129, /*hidden argument*/NULL);
+		NullCheck(L_128);
+		bool L_131;
+		L_131 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_128, L_130);
+		if (!L_131)
+		{
+			goto IL_02ee;
+		}
+	}
+	{
+		intptr_t L_132 = ___pStmt0;
+		int32_t L_133 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_134 = V_3;
+		NullCheck(L_134);
+		RuntimeObject * L_135;
+		L_135 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_134);
+		int32_t L_136;
+		L_136 = Sqlite_sqlite3_bind_double_m6E23A121939519A561DC319A6E2376EABA539DA5((intptr_t)L_132, L_133, ((*(double*)((double*)UnBox(L_135, Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		V_5 = L_136;
+		goto IL_03ca;
+	}
+
+IL_02ee:
+	{
+		Type_t * L_137 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_138 = { reinterpret_cast<intptr_t> (Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_139;
+		L_139 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_138, /*hidden argument*/NULL);
+		NullCheck(L_137);
+		bool L_140;
+		L_140 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_137, L_139);
+		if (!L_140)
+		{
+			goto IL_031e;
+		}
+	}
+	{
+		intptr_t L_141 = ___pStmt0;
+		int32_t L_142 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_143 = V_3;
+		NullCheck(L_143);
+		RuntimeObject * L_144;
+		L_144 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_143);
+		int32_t L_145;
+		L_145 = Sqlite_sqlite3_bind_double_m6E23A121939519A561DC319A6E2376EABA539DA5((intptr_t)L_141, L_142, ((double)((double)((*(float*)((float*)UnBox(L_144, Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var)))))), /*hidden argument*/NULL);
+		V_5 = L_145;
+		goto IL_03ca;
+	}
+
+IL_031e:
+	{
+		Type_t * L_146 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_147 = { reinterpret_cast<intptr_t> (UInt32_tE60352A06233E4E69DD198BCC67142159F686B15_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_148;
+		L_148 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_147, /*hidden argument*/NULL);
+		NullCheck(L_146);
+		bool L_149;
+		L_149 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_146, L_148);
+		if (!L_149)
+		{
+			goto IL_034e;
+		}
+	}
+	{
+		intptr_t L_150 = ___pStmt0;
+		int32_t L_151 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_152 = V_3;
+		NullCheck(L_152);
+		RuntimeObject * L_153;
+		L_153 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_152);
+		int32_t L_154;
+		L_154 = Sqlite_sqlite3_bind_int64_m73F52FD75847A3987230B87D5783EC8B90A81A20((intptr_t)L_150, L_151, ((int64_t)((uint64_t)((*(uint32_t*)((uint32_t*)UnBox(L_153, UInt32_tE60352A06233E4E69DD198BCC67142159F686B15_il2cpp_TypeInfo_var)))))), /*hidden argument*/NULL);
+		V_5 = L_154;
+		goto IL_03ca;
+	}
+
+IL_034e:
+	{
+		Type_t * L_155 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_156 = { reinterpret_cast<intptr_t> (Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_157;
+		L_157 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_156, /*hidden argument*/NULL);
+		NullCheck(L_155);
+		bool L_158;
+		L_158 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_155, L_157);
+		if (!L_158)
+		{
+			goto IL_037d;
+		}
+	}
+	{
+		intptr_t L_159 = ___pStmt0;
+		int32_t L_160 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_161 = V_3;
+		NullCheck(L_161);
+		RuntimeObject * L_162;
+		L_162 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_161);
+		int32_t L_163;
+		L_163 = Sqlite_sqlite3_bind_int64_m73F52FD75847A3987230B87D5783EC8B90A81A20((intptr_t)L_159, L_160, ((*(int64_t*)((int64_t*)UnBox(L_162, Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		V_5 = L_163;
+		goto IL_03ca;
+	}
+
+IL_037d:
+	{
+		Type_t * L_164 = V_4;
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_165 = { reinterpret_cast<intptr_t> (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_166;
+		L_166 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_165, /*hidden argument*/NULL);
+		NullCheck(L_164);
+		bool L_167;
+		L_167 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::Equals(System.Type) */, L_164, L_166);
+		if (!L_167)
+		{
+			goto IL_03bf;
+		}
+	}
+	{
+		intptr_t L_168 = ___pStmt0;
+		int32_t L_169 = V_1;
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_170 = V_3;
+		NullCheck(L_170);
+		RuntimeObject * L_171;
+		L_171 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_170);
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_172 = V_3;
+		NullCheck(L_172);
+		RuntimeObject * L_173;
+		L_173 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_172);
+		NullCheck(((ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*)Castclass((RuntimeObject*)L_173, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_il2cpp_TypeInfo_var)));
+		intptr_t L_174;
+		L_174 = IntPtr_op_Explicit_m9092E57CE669E7B9CCDCF5ADD6DFB758D6545FBF((-1), /*hidden argument*/NULL);
+		int32_t L_175;
+		L_175 = Sqlite_sqlite3_bind_blob_m3CE1663E09144CB015514DDFF4A3A31263578DB5((intptr_t)L_168, L_169, ((ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*)Castclass((RuntimeObject*)L_171, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_il2cpp_TypeInfo_var)), ((int32_t)((int32_t)(((RuntimeArray*)((ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*)Castclass((RuntimeObject*)L_173, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_il2cpp_TypeInfo_var)))->max_length))), (intptr_t)L_174, /*hidden argument*/NULL);
+		V_5 = L_175;
+		goto IL_03ca;
+	}
+
+IL_03bf:
+	{
+		ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 * L_176 = (ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407_il2cpp_TypeInfo_var)));
+		ApplicationException__ctor_mF8E9704C91C2F1912909448E5BABFE9EC61D4E8F(L_176, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral033E60898D7CB96785479B0796BE7C988BCC2A99)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_176, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteCommand_BindParameters3_mD602783596D5B40E84D484AEB79BC694FE050D8E_RuntimeMethod_var)));
+	}
+
+IL_03ca:
+	{
+		int32_t L_177 = V_5;
+		if (!L_177)
+		{
+			goto IL_03e8;
+		}
+	}
+	{
+		int32_t L_178 = V_5;
+		int32_t L_179 = L_178;
+		RuntimeObject * L_180 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteError_t5E07D210399EFAFAEAF6FE3479BAB43D409061D4_il2cpp_TypeInfo_var)), &L_179);
+		String_t* L_181;
+		L_181 = String_Concat_m4D0DDA7FEDB75304E5FDAF8489A0478EE58A45F2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF483BB41B365F0A179F43346D41EEB96309A932D)), L_180, /*hidden argument*/NULL);
+		ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 * L_182 = (ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407_il2cpp_TypeInfo_var)));
+		ApplicationException__ctor_mF8E9704C91C2F1912909448E5BABFE9EC61D4E8F(L_182, L_181, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_182, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteCommand_BindParameters3_mD602783596D5B40E84D484AEB79BC694FE050D8E_RuntimeMethod_var)));
+	}
+
+IL_03e8:
+	{
+		int32_t L_183 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_183, (int32_t)1));
+	}
+
+IL_03ec:
+	{
+		int32_t L_184 = V_1;
+		int32_t L_185 = V_0;
+		if ((((int32_t)L_184) <= ((int32_t)L_185)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteCommand::GetNextStatement(System.IntPtr,System.IntPtr&,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand_GetNextStatement_m46D3F89553D501B691E6FE9F6D4ECB559C0D11A5 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, intptr_t ___pzStart0, intptr_t* ___pzTail1, intptr_t* ___pStmt2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_GetNextStatement_m46D3F89553D501B691E6FE9F6D4ECB559C0D11A5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	intptr_t V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_GetNextStatement_m46D3F89553D501B691E6FE9F6D4ECB559C0D11A5_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_0 = __this->get_parent_conn_4();
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline(L_0, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)3))))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_2 = __this->get_parent_conn_4();
+		NullCheck(L_2);
+		intptr_t L_3;
+		L_3 = SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_inline(L_2, /*hidden argument*/NULL);
+		intptr_t L_4 = ___pzStart0;
+		intptr_t* L_5 = ___pStmt2;
+		intptr_t* L_6 = ___pzTail1;
+		int32_t L_7;
+		L_7 = Sqlite_sqlite3_prepare16_mA4F5527DD59D7A4A017766670A13C68678CDE7B1((intptr_t)L_3, (intptr_t)L_4, (-1), (intptr_t*)L_5, (intptr_t*)L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		int32_t L_8 = V_0;
+		if (!L_8)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		String_t* L_9;
+		L_9 = SqliteCommand_GetError3_mB64AE1CF2BE40AA2C149B7EE4C6510687CA2ED47(__this, /*hidden argument*/NULL);
+		SqliteSyntaxException_tB92508EB582FC96CA42A679099FE4E6D39D1B028 * L_10 = (SqliteSyntaxException_tB92508EB582FC96CA42A679099FE4E6D39D1B028 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteSyntaxException_tB92508EB582FC96CA42A679099FE4E6D39D1B028_il2cpp_TypeInfo_var)));
+		SqliteSyntaxException__ctor_mA0032B5695AD023A02E16A553C1F66624565D731(L_10, L_9, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteCommand_GetNextStatement_m46D3F89553D501B691E6FE9F6D4ECB559C0D11A5_RuntimeMethod_var)));
+	}
+
+IL_0038:
+	{
+		goto IL_0083;
+	}
+
+IL_003d:
+	{
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_11 = __this->get_parent_conn_4();
+		NullCheck(L_11);
+		intptr_t L_12;
+		L_12 = SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_inline(L_11, /*hidden argument*/NULL);
+		intptr_t L_13 = ___pzStart0;
+		intptr_t* L_14 = ___pzTail1;
+		intptr_t* L_15 = ___pStmt2;
+		int32_t L_16;
+		L_16 = Sqlite_sqlite_compile_m250C491DCD4185B543232DA3BE526F2EB71F407B((intptr_t)L_12, (intptr_t)L_13, (intptr_t*)L_14, (intptr_t*)L_15, (intptr_t*)(&V_1), /*hidden argument*/NULL);
+		V_2 = L_16;
+		int32_t L_17 = V_2;
+		if (!L_17)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		V_3 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral69DFC6635B03CD70D7D9663FFED9983C4F65FF4A));
+		intptr_t L_18 = V_1;
+		bool L_19;
+		L_19 = IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8((intptr_t)L_18, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		intptr_t L_20 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var)));
+		String_t* L_21;
+		L_21 = Marshal_PtrToStringAnsi_m75BAFD813E1B985A654946F05159CFA46E34F5AA((intptr_t)L_20, /*hidden argument*/NULL);
+		V_3 = L_21;
+		intptr_t L_22 = V_1;
+		Sqlite_sqliteFree_m0DA0466B9075011C1DE906C1EE9B877A3FD44419((intptr_t)L_22, /*hidden argument*/NULL);
+	}
+
+IL_007c:
+	{
+		String_t* L_23 = V_3;
+		SqliteSyntaxException_tB92508EB582FC96CA42A679099FE4E6D39D1B028 * L_24 = (SqliteSyntaxException_tB92508EB582FC96CA42A679099FE4E6D39D1B028 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteSyntaxException_tB92508EB582FC96CA42A679099FE4E6D39D1B028_il2cpp_TypeInfo_var)));
+		SqliteSyntaxException__ctor_mA0032B5695AD023A02E16A553C1F66624565D731(L_24, L_23, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_24, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteCommand_GetNextStatement_m46D3F89553D501B691E6FE9F6D4ECB559C0D11A5_RuntimeMethod_var)));
+	}
+
+IL_0083:
+	{
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteCommand::ExecuteStatement(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand_ExecuteStatement_m6FDC1D86394FD2F5B784E2FA19AC7D1D78EEA645 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, intptr_t ___pStmt0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_ExecuteStatement_m6FDC1D86394FD2F5B784E2FA19AC7D1D78EEA645_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	intptr_t V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	intptr_t V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_ExecuteStatement_m6FDC1D86394FD2F5B784E2FA19AC7D1D78EEA645_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		intptr_t L_0 = ___pStmt0;
+		bool L_1;
+		L_1 = SqliteCommand_ExecuteStatement_m5A4F7C7A988E1A69F4C8662D1446FE92A3D8F8AE(__this, (intptr_t)L_0, (int32_t*)(&V_0), (intptr_t*)(&V_1), (intptr_t*)(&V_2), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Mono.Data.SqliteClient.SqliteCommand::ExecuteStatement(System.IntPtr,System.Int32&,System.IntPtr&,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteCommand_ExecuteStatement_m5A4F7C7A988E1A69F4C8662D1446FE92A3D8F8AE (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, intptr_t ___pStmt0, int32_t* ___cols1, intptr_t* ___pazValue2, intptr_t* ___pazColName3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_ExecuteStatement_m5A4F7C7A988E1A69F4C8662D1446FE92A3D8F8AE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_ExecuteStatement_m5A4F7C7A988E1A69F4C8662D1446FE92A3D8F8AE_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_0 = __this->get_parent_conn_4();
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline(L_0, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)3))))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		intptr_t L_2 = ___pStmt0;
+		int32_t L_3;
+		L_3 = Sqlite_sqlite3_step_m922E8B614012BAF09040741EDFB9D874D9B2792E((intptr_t)L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		int32_t L_4 = V_0;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		String_t* L_5;
+		L_5 = SqliteCommand_GetError3_mB64AE1CF2BE40AA2C149B7EE4C6510687CA2ED47(__this, /*hidden argument*/NULL);
+		SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826 * L_6 = (SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826_il2cpp_TypeInfo_var)));
+		SqliteExecutionException__ctor_mE9C1E2F542B576520BE2F74E26594E02DA496AE3(L_6, L_5, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteCommand_ExecuteStatement_m5A4F7C7A988E1A69F4C8662D1446FE92A3D8F8AE_RuntimeMethod_var)));
+	}
+
+IL_002b:
+	{
+		intptr_t* L_7 = ___pazValue2;
+		*((intptr_t*)L_7) = (intptr_t)(0);
+		intptr_t* L_8 = ___pazColName3;
+		*((intptr_t*)L_8) = (intptr_t)(0);
+		int32_t* L_9 = ___cols1;
+		intptr_t L_10 = ___pStmt0;
+		int32_t L_11;
+		L_11 = Sqlite_sqlite3_column_count_mFD1A5DB44B512AFFD485A6F26822DC175A592AA5((intptr_t)L_10, /*hidden argument*/NULL);
+		*((int32_t*)L_9) = (int32_t)L_11;
+		goto IL_005f;
+	}
+
+IL_0047:
+	{
+		intptr_t L_12 = ___pStmt0;
+		int32_t* L_13 = ___cols1;
+		intptr_t* L_14 = ___pazValue2;
+		intptr_t* L_15 = ___pazColName3;
+		int32_t L_16;
+		L_16 = Sqlite_sqlite_step_m104CE1812D87F7E16C5A76AE7C9B7F77942F3589((intptr_t)L_12, (int32_t*)L_13, (intptr_t*)L_14, (intptr_t*)L_15, /*hidden argument*/NULL);
+		V_0 = L_16;
+		int32_t L_17 = V_0;
+		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826 * L_18 = (SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826_il2cpp_TypeInfo_var)));
+		SqliteExecutionException__ctor_m3A3B66D4A49F04B2EA59BB300C31D6347D9AFC37(L_18, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteCommand_ExecuteStatement_m5A4F7C7A988E1A69F4C8662D1446FE92A3D8F8AE_RuntimeMethod_var)));
+	}
+
+IL_005f:
+	{
+		int32_t L_19 = V_0;
+		if ((!(((uint32_t)L_19) == ((uint32_t)5))))
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		SqliteBusyException_t7455C7CF0AB66A467541BA3F308BA168B65F9591 * L_20 = (SqliteBusyException_t7455C7CF0AB66A467541BA3F308BA168B65F9591 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteBusyException_t7455C7CF0AB66A467541BA3F308BA168B65F9591_il2cpp_TypeInfo_var)));
+		SqliteBusyException__ctor_m0E1780138F838BF1DC009E9D14BD433679331E59(L_20, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteCommand_ExecuteStatement_m5A4F7C7A988E1A69F4C8662D1446FE92A3D8F8AE_RuntimeMethod_var)));
+	}
+
+IL_006c:
+	{
+		int32_t L_21 = V_0;
+		if ((!(((uint32_t)L_21) == ((uint32_t)((int32_t)21)))))
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826 * L_22 = (SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826_il2cpp_TypeInfo_var)));
+		SqliteExecutionException__ctor_m3A3B66D4A49F04B2EA59BB300C31D6347D9AFC37(L_22, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_22, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteCommand_ExecuteStatement_m5A4F7C7A988E1A69F4C8662D1446FE92A3D8F8AE_RuntimeMethod_var)));
+	}
+
+IL_007a:
+	{
+		int32_t L_23 = V_0;
+		return (bool)((((int32_t)L_23) == ((int32_t)((int32_t)100)))? 1 : 0);
+	}
+}
+// System.String Mono.Data.SqliteClient.SqliteCommand::BindParameters2()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqliteCommand_BindParameters2_m2893F5CB474BD2F0A2188C19B2FE2CC669E4C41A (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_BindParameters2_m2893F5CB474BD2F0A2188C19B2FE2CC669E4C41A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6855F4EC54AF75D6CAC8881791FBD2C863F2C1C9);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	Il2CppChar V_1 = 0x0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	Il2CppChar V_4 = 0x0;
+	int32_t V_5 = 0;
+	String_t* V_6 = NULL;
+	SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * V_7 = NULL;
+	String_t* V_8 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_BindParameters2_m2893F5CB474BD2F0A2188C19B2FE2CC669E4C41A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = __this->get_sql_6();
+		V_0 = L_0;
+		V_1 = 0;
+		V_2 = 0;
+		V_3 = 0;
+		goto IL_0133;
+	}
+
+IL_0012:
+	{
+		CHECK_PAUSE_POINT;
+		String_t* L_1 = V_0;
+		int32_t L_2 = V_3;
+		NullCheck(L_1);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_m9B1A5E4C8D70AA33A60F03735AF7B77AB9DBBA70(L_1, L_2, /*hidden argument*/NULL);
+		V_4 = L_3;
+		Il2CppChar L_4 = V_4;
+		Il2CppChar L_5 = V_1;
+		if ((!(((uint32_t)L_4) == ((uint32_t)L_5))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_012f;
+	}
+
+IL_002a:
+	{
+		Il2CppChar L_6 = V_1;
+		if (L_6)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		Il2CppChar L_7 = V_4;
+		if ((((int32_t)L_7) == ((int32_t)((int32_t)39))))
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		Il2CppChar L_8 = V_4;
+		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)34)))))
+		{
+			goto IL_004a;
+		}
+	}
+
+IL_0042:
+	{
+		Il2CppChar L_9 = V_4;
+		V_1 = L_9;
+		goto IL_012f;
+	}
+
+IL_004a:
+	{
+		Il2CppChar L_10 = V_1;
+		if (L_10)
+		{
+			goto IL_012f;
+		}
+	}
+	{
+		Il2CppChar L_11 = V_4;
+		if ((((int32_t)L_11) == ((int32_t)((int32_t)58))))
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		Il2CppChar L_12 = V_4;
+		if ((!(((uint32_t)L_12) == ((uint32_t)((int32_t)63)))))
+		{
+			goto IL_012f;
+		}
+	}
+
+IL_0062:
+	{
+		int32_t L_13 = V_3;
+		V_5 = L_13;
+		goto IL_006a;
+	}
+
+IL_006a:
+	{
+		CHECK_PAUSE_POINT;
+		int32_t L_14 = V_3;
+		int32_t L_15 = ((int32_t)il2cpp_codegen_add((int32_t)L_14, (int32_t)1));
+		V_3 = L_15;
+		String_t* L_16 = V_0;
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_16, /*hidden argument*/NULL);
+		if ((((int32_t)L_15) >= ((int32_t)L_17)))
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		String_t* L_18 = V_0;
+		int32_t L_19 = V_3;
+		NullCheck(L_18);
+		Il2CppChar L_20;
+		L_20 = String_get_Chars_m9B1A5E4C8D70AA33A60F03735AF7B77AB9DBBA70(L_18, L_19, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_il2cpp_TypeInfo_var);
+		bool L_21;
+		L_21 = Char_IsLetterOrDigit_m1C9B58CBEB1A3909369234582FA308E3C85F34D6(L_20, /*hidden argument*/NULL);
+		if (L_21)
+		{
+			goto IL_006a;
+		}
+	}
+
+IL_008b:
+	{
+		String_t* L_22 = V_0;
+		int32_t L_23 = V_5;
+		int32_t L_24 = V_3;
+		int32_t L_25 = V_5;
+		NullCheck(L_22);
+		String_t* L_26;
+		L_26 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_22, L_23, ((int32_t)il2cpp_codegen_subtract((int32_t)L_24, (int32_t)L_25)), /*hidden argument*/NULL);
+		V_6 = L_26;
+		String_t* L_27 = V_6;
+		NullCheck(L_27);
+		int32_t L_28;
+		L_28 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_27, /*hidden argument*/NULL);
+		if ((((int32_t)L_28) <= ((int32_t)1)))
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * L_29;
+		L_29 = SqliteCommand_get_Parameters_m5EAB97EC3B384D103C64954BAE5EBB7538247474(__this, /*hidden argument*/NULL);
+		String_t* L_30 = V_6;
+		NullCheck(L_29);
+		DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * L_31;
+		L_31 = DbParameterCollection_get_Item_m87A14BECEE5234975C0FD0D146EB2E8B1912C31C(L_29, L_30, /*hidden argument*/NULL);
+		V_7 = ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)IsInstClass((RuntimeObject*)L_31, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var));
+		goto IL_00d2;
+	}
+
+IL_00bf:
+	{
+		SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * L_32;
+		L_32 = SqliteCommand_get_Parameters_m5EAB97EC3B384D103C64954BAE5EBB7538247474(__this, /*hidden argument*/NULL);
+		int32_t L_33 = V_2;
+		NullCheck(L_32);
+		DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * L_34;
+		L_34 = DbParameterCollection_get_Item_m5323131A014AFC17F21DA0BECB22482F33BE0332(L_32, L_33, /*hidden argument*/NULL);
+		V_7 = ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)IsInstClass((RuntimeObject*)L_34, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var));
+	}
+
+IL_00d2:
+	{
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_35 = V_7;
+		NullCheck(L_35);
+		RuntimeObject * L_36;
+		L_36 = VirtFuncInvoker0< RuntimeObject * >::Invoke(8 /* System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value() */, L_35);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var);
+		String_t* L_37;
+		L_37 = Convert_ToString_m27BA6FF6E38081A1A16F6C13D007713B656AA148(L_36, /*hidden argument*/NULL);
+		NullCheck(L_37);
+		String_t* L_38;
+		L_38 = String_Replace_m98184150DC4E2FBDF13E723BF5B7353D9602AC4D(L_37, _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D, _stringLiteral6855F4EC54AF75D6CAC8881791FBD2C863F2C1C9, /*hidden argument*/NULL);
+		String_t* L_39;
+		L_39 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D, L_38, _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D, /*hidden argument*/NULL);
+		V_8 = L_39;
+		String_t* L_40 = V_0;
+		int32_t L_41 = V_5;
+		String_t* L_42 = V_6;
+		NullCheck(L_42);
+		int32_t L_43;
+		L_43 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_42, /*hidden argument*/NULL);
+		NullCheck(L_40);
+		String_t* L_44;
+		L_44 = String_Remove_mA7DE3D6FE3344FD65108B33BD1DE8020D22ADAC0(L_40, L_41, L_43, /*hidden argument*/NULL);
+		int32_t L_45 = V_5;
+		String_t* L_46 = V_8;
+		NullCheck(L_44);
+		String_t* L_47;
+		L_47 = String_Insert_m6F5335C84ACB178D4141772E1D7F2EB7811990EB(L_44, L_45, L_46, /*hidden argument*/NULL);
+		V_0 = L_47;
+		int32_t L_48 = V_3;
+		String_t* L_49 = V_8;
+		NullCheck(L_49);
+		int32_t L_50;
+		L_50 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_49, /*hidden argument*/NULL);
+		String_t* L_51 = V_6;
+		NullCheck(L_51);
+		int32_t L_52;
+		L_52 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_51, /*hidden argument*/NULL);
+		V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_48, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_50, (int32_t)L_52)), (int32_t)1))));
+		int32_t L_53 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_53, (int32_t)1));
+	}
+
+IL_012f:
+	{
+		int32_t L_54 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_54, (int32_t)1));
+	}
+
+IL_0133:
+	{
+		int32_t L_55 = V_3;
+		String_t* L_56 = V_0;
+		NullCheck(L_56);
+		int32_t L_57;
+		L_57 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_56, /*hidden argument*/NULL);
+		if ((((int32_t)L_55) < ((int32_t)L_57)))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		String_t* L_58 = V_0;
+		return L_58;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteCommand::Prepare()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteCommand_Prepare_mA96C48EE0D718AC858950C0312D343E91D38C33C (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_Prepare_mA96C48EE0D718AC858950C0312D343E91D38C33C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_Prepare_mA96C48EE0D718AC858950C0312D343E91D38C33C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		bool L_0 = __this->get_prepared_8();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * L_1;
+		L_1 = SqliteCommand_get_Parameters_m5EAB97EC3B384D103C64954BAE5EBB7538247474(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::get_Count() */, L_1);
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_3 = __this->get_parent_conn_4();
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline(L_3, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_4) == ((uint32_t)2))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		String_t* L_5;
+		L_5 = SqliteCommand_BindParameters2_m2893F5CB474BD2F0A2188C19B2FE2CC669E4C41A(__this, /*hidden argument*/NULL);
+		__this->set_sql_6(L_5);
+	}
+
+IL_003a:
+	{
+		__this->set_prepared_8((bool)1);
+		return;
+	}
+}
+// System.Int32 Mono.Data.SqliteClient.SqliteCommand::ExecuteNonQuery()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteCommand_ExecuteNonQuery_m90DA6DC338F79D12CAE5D0F3B3A208CE8327004D (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_ExecuteNonQuery_m90DA6DC338F79D12CAE5D0F3B3A208CE8327004D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_ExecuteNonQuery_m90DA6DC338F79D12CAE5D0F3B3A208CE8327004D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * L_0;
+		L_0 = SqliteCommand_ExecuteReader_mFFF64886D2E6723F3FD759E94A70E84F1544C39E(__this, 0, (bool)0, (int32_t*)(&V_0), /*hidden argument*/NULL);
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// Mono.Data.SqliteClient.SqliteDataReader Mono.Data.SqliteClient.SqliteCommand::ExecuteReader(System.Data.CommandBehavior)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * SqliteCommand_ExecuteReader_mD8719573BB58E881ECC3A9EB1235D3065D29BF62 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, int32_t ___behavior0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_ExecuteReader_mD8719573BB58E881ECC3A9EB1235D3065D29BF62_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_ExecuteReader_mD8719573BB58E881ECC3A9EB1235D3065D29BF62_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = ___behavior0;
+		SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * L_1;
+		L_1 = SqliteCommand_ExecuteReader_mFFF64886D2E6723F3FD759E94A70E84F1544C39E(__this, L_0, (bool)1, (int32_t*)(&V_0), /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Data.Common.DbDataReader Mono.Data.SqliteClient.SqliteCommand::ExecuteDbDataReader(System.Data.CommandBehavior)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DbDataReader_t50481AE1497CEE437BDA56F2E92B6567D3222C45 * SqliteCommand_ExecuteDbDataReader_mC38B15F235E560699BD0548C15B14839BD441B81 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, int32_t ___behavior0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_ExecuteDbDataReader_mC38B15F235E560699BD0548C15B14839BD441B81_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_ExecuteDbDataReader_mC38B15F235E560699BD0548C15B14839BD441B81_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = ___behavior0;
+		SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * L_1;
+		L_1 = SqliteCommand_ExecuteReader_mD8719573BB58E881ECC3A9EB1235D3065D29BF62(__this, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// Mono.Data.SqliteClient.SqliteDataReader Mono.Data.SqliteClient.SqliteCommand::ExecuteReader(System.Data.CommandBehavior,System.Boolean,System.Int32&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * SqliteCommand_ExecuteReader_mFFF64886D2E6723F3FD759E94A70E84F1544C39E (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, int32_t ___behavior0, bool ___want_results1, int32_t* ___rows_affected2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_ExecuteReader_mFFF64886D2E6723F3FD759E94A70E84F1544C39E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	intptr_t V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	intptr_t V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * V_5 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_ExecuteReader_mFFF64886D2E6723F3FD759E94A70E84F1544C39E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	Exception_t * __last_unhandled_exception = 0;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 4> __leave_targets;
+	{
+		VirtActionInvoker0::Invoke(16 /* System.Void Mono.Data.SqliteClient.SqliteCommand::Prepare() */, __this);
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_0 = __this->get_parent_conn_4();
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline(L_0, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		String_t* L_2 = __this->get_sql_6();
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = String_Trim_m3FEC641D7046124B7F381701903B50B5171DE0A2(L_2, /*hidden argument*/NULL);
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_4 = __this->get_parent_conn_4();
+		NullCheck(L_4);
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_5;
+		L_5 = SqliteConnection_get_Encoding_mF525ACEB8976522154441A2B59D650DA573C8983_inline(L_4, /*hidden argument*/NULL);
+		intptr_t L_6;
+		L_6 = Sqlite_StringToHeap_m0CBA3B5B4A3041A4223A917392AD91DAC709F95A(L_3, L_5, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_6;
+		goto IL_0049;
+	}
+
+IL_0038:
+	{
+		String_t* L_7 = __this->get_sql_6();
+		NullCheck(L_7);
+		String_t* L_8;
+		L_8 = String_Trim_m3FEC641D7046124B7F381701903B50B5171DE0A2(L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		intptr_t L_9;
+		L_9 = Marshal_StringToHGlobalUni_m6D553625AC0C1DB91F1E3331641ECA72A223DA44(L_8, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_9;
+	}
+
+IL_0049:
+	{
+		intptr_t L_10 = V_0;
+		V_1 = (intptr_t)L_10;
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_11 = __this->get_parent_conn_4();
+		NullCheck(L_11);
+		SqliteConnection_StartExec_mB6D85C48B597AACB2D3E603100A25886E8B0E100(L_11, /*hidden argument*/NULL);
+		int32_t* L_12 = ___rows_affected2;
+		*((int32_t*)L_12) = (int32_t)0;
+	}
+
+IL_0059:
+	try
+	{ // begin try (depth: 1)
+		STORE_TRY_ID(methodExecutionContext, 0);
+		{
+			CHECK_PAUSE_POINT;
+			intptr_t L_13 = V_1;
+			SqliteCommand_GetNextStatement_m46D3F89553D501B691E6FE9F6D4ECB559C0D11A5(__this, (intptr_t)L_13, (intptr_t*)(&V_1), (intptr_t*)(&V_3), /*hidden argument*/NULL);
+			intptr_t L_14 = V_3;
+			bool L_15;
+			L_15 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_14, (intptr_t)(0), /*hidden argument*/NULL);
+			if (!L_15)
+			{
+				goto IL_007a;
+			}
+		}
+
+IL_0074:
+		{
+			Exception_t * L_16 = (Exception_t *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
+			Exception__ctor_m0E9BEC861F6DBED197960E5BA23149543B1D7F5B(L_16, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_16, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteCommand_ExecuteReader_mFFF64886D2E6723F3FD759E94A70E84F1544C39E_RuntimeMethod_var)));
+		}
+
+IL_007a:
+		{
+			intptr_t L_17 = V_1;
+			IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+			uint8_t L_18;
+			L_18 = Marshal_ReadByte_m86777C2D6B99630D8A034AF784C5B5944B3EAB0C((intptr_t)L_17, /*hidden argument*/NULL);
+			V_4 = (bool)((((int32_t)L_18) == ((int32_t)0))? 1 : 0);
+		}
+
+IL_0085:
+		try
+		{ // begin try (depth: 2)
+			STORE_TRY_ID(methodExecutionContext, 1);
+			{
+				SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_19 = __this->get_parent_conn_4();
+				NullCheck(L_19);
+				int32_t L_20;
+				L_20 = SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline(L_19, /*hidden argument*/NULL);
+				if ((!(((uint32_t)L_20) == ((uint32_t)3))))
+				{
+					goto IL_009d;
+				}
+			}
+
+IL_0096:
+			{
+				intptr_t L_21 = V_3;
+				SqliteCommand_BindParameters3_mD602783596D5B40E84D484AEB79BC694FE050D8E(__this, (intptr_t)L_21, /*hidden argument*/NULL);
+			}
+
+IL_009d:
+			{
+				bool L_22 = V_4;
+				if (!L_22)
+				{
+					goto IL_00c3;
+				}
+			}
+
+IL_00a4:
+			{
+				bool L_23 = ___want_results1;
+				if (!L_23)
+				{
+					goto IL_00c3;
+				}
+			}
+
+IL_00aa:
+			{
+				intptr_t L_24 = V_3;
+				SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_25 = __this->get_parent_conn_4();
+				NullCheck(L_25);
+				int32_t L_26;
+				L_26 = SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline(L_25, /*hidden argument*/NULL);
+				SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * L_27 = (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 *)il2cpp_codegen_object_new(SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585_il2cpp_TypeInfo_var);
+				SqliteDataReader__ctor_mB2D09F3C29E238C1B631550D411B06C18A045C33(L_27, __this, (intptr_t)L_24, L_26, /*hidden argument*/NULL);
+				V_5 = L_27;
+				IL2CPP_LEAVE(0x135, FINALLY_00de);
+			}
+
+IL_00c3:
+			{
+				intptr_t L_28 = V_3;
+				SqliteCommand_ExecuteStatement_m6FDC1D86394FD2F5B784E2FA19AC7D1D78EEA645(__this, (intptr_t)L_28, /*hidden argument*/NULL);
+				bool L_29 = V_4;
+				if (!L_29)
+				{
+					goto IL_00d9;
+				}
+			}
+
+IL_00d1:
+			{
+				int32_t* L_30 = ___rows_affected2;
+				int32_t L_31;
+				L_31 = SqliteCommand_NumChanges_mD5E4F9280B608005BC030C69FF0CCD3480FEDFD4(__this, /*hidden argument*/NULL);
+				*((int32_t*)L_30) = (int32_t)L_31;
+			}
+
+IL_00d9:
+			{
+				IL2CPP_LEAVE(0x105, FINALLY_00de);
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__last_unhandled_exception = (Exception_t *)e.ex;
+			goto FINALLY_00de;
+		}
+
+FINALLY_00de:
+		{ // begin finally (depth: 2)
+			STORE_TRY_ID(methodExecutionContext, 0);
+			{
+				SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_32 = __this->get_parent_conn_4();
+				NullCheck(L_32);
+				int32_t L_33;
+				L_33 = SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline(L_32, /*hidden argument*/NULL);
+				if ((!(((uint32_t)L_33) == ((uint32_t)3))))
+				{
+					goto IL_00fb;
+				}
+			}
+
+IL_00ef:
+			{
+				intptr_t L_34 = V_3;
+				int32_t L_35;
+				L_35 = Sqlite_sqlite3_finalize_m9BA18273204E099CAAFC7869895E895CC3423C10((intptr_t)L_34, /*hidden argument*/NULL);
+				goto IL_0104;
+			}
+
+IL_00fb:
+			{
+				intptr_t L_36 = V_3;
+				int32_t L_37;
+				L_37 = Sqlite_sqlite_finalize_m5C68FF291E51AE91B5840725839470F4E8285843((intptr_t)L_36, (intptr_t*)(&V_2), /*hidden argument*/NULL);
+			}
+
+IL_0104:
+			{
+				IL2CPP_END_FINALLY(222)
+			}
+		} // end finally (depth: 2)
+		IL2CPP_CLEANUP(222)
+		{
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+			IL2CPP_END_CLEANUP(0x135, FINALLY_0123);
+			IL2CPP_JUMP_TBL(0x105, IL_0105)
+		}
+
+IL_0105:
+		{
+			bool L_38 = V_4;
+			if (!L_38)
+			{
+				goto IL_0111;
+			}
+		}
+
+IL_010c:
+		{
+			goto IL_0116;
+		}
+
+IL_0111:
+		{
+			goto IL_0059;
+		}
+
+IL_0116:
+		{
+			V_5 = (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 *)NULL;
+			IL2CPP_LEAVE(0x135, FINALLY_0123);
+		}
+
+IL_011e:
+		{
+			; // IL_011e: leave IL_0135
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t *)e.ex;
+		goto FINALLY_0123;
+	}
+
+FINALLY_0123:
+	{ // begin finally (depth: 1)
+		STORE_TRY_ID(methodExecutionContext, -1);
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_39 = __this->get_parent_conn_4();
+		NullCheck(L_39);
+		SqliteConnection_EndExec_m1B71FE695A8013BCED44FFC797823D197ED77CBD(L_39, /*hidden argument*/NULL);
+		intptr_t L_40 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		Marshal_FreeHGlobal_m53FC4846F5D3106BA25B52C321005C227E424F72((intptr_t)L_40, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(291)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(291)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x135, IL_0135)
+	}
+
+IL_0135:
+	{
+		SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * L_41 = V_5;
+		return L_41;
+	}
+}
+// System.String Mono.Data.SqliteClient.SqliteCommand::GetError3()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqliteCommand_GetError3_mB64AE1CF2BE40AA2C149B7EE4C6510687CA2ED47 (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_GetError3_mB64AE1CF2BE40AA2C149B7EE4C6510687CA2ED47_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_GetError3_mB64AE1CF2BE40AA2C149B7EE4C6510687CA2ED47_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_0 = __this->get_parent_conn_4();
+		NullCheck(L_0);
+		intptr_t L_1;
+		L_1 = SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_inline(L_0, /*hidden argument*/NULL);
+		intptr_t L_2;
+		L_2 = Sqlite_sqlite3_errmsg16_m4DAC563C7852B9FF5EF75BA2540465754A4EEAB7((intptr_t)L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		String_t* L_3;
+		L_3 = Marshal_PtrToStringUni_m4CA386E4B7F073C4FC9F73F8CADC7249655CD645((intptr_t)L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Mono.Data.SqliteClient.SqliteConnection::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection__ctor_m4F39F738B1489643FCBF021FAAAE2715F189C807 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection__ctor_m4F39F738B1489643FCBF021FAAAE2715F189C807_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection__ctor_m4F39F738B1489643FCBF021FAAAE2715F189C807_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		DbConnection__ctor_mB44477AD408CACC38FEBBC38312AFF400B18CE21(__this, /*hidden argument*/NULL);
+		__this->set_db_file_5((String_t*)NULL);
+		__this->set_db_mode_6(((int32_t)644));
+		__this->set_db_version_7(2);
+		__this->set_state_9(0);
+		__this->set_sqlite_handle_8((intptr_t)(0));
+		__this->set_encoding_10((Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 *)NULL);
+		__this->set_busy_timeout_11(0);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteConnection::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection__ctor_m9DF7CBF2B6D9BD5AD91D93B0E1B5021F78A78A0F (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, String_t* ___connstring0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection__ctor_m9DF7CBF2B6D9BD5AD91D93B0E1B5021F78A78A0F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection__ctor_m9DF7CBF2B6D9BD5AD91D93B0E1B5021F78A78A0F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteConnection__ctor_m4F39F738B1489643FCBF021FAAAE2715F189C807(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___connstring0;
+		VirtActionInvoker1< String_t* >::Invoke(15 /* System.Void Mono.Data.SqliteClient.SqliteConnection::set_ConnectionString(System.String) */, __this, L_0);
+		return;
+	}
+}
+// System.Object Mono.Data.SqliteClient.SqliteConnection::System.ICloneable.Clone()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * SqliteConnection_System_ICloneable_Clone_m72C8C95DE557561EA354A6BBE7904C9E52346D5B (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_System_ICloneable_Clone_m72C8C95DE557561EA354A6BBE7904C9E52346D5B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_System_ICloneable_Clone_m72C8C95DE557561EA354A6BBE7904C9E52346D5B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0;
+		L_0 = VirtFuncInvoker0< String_t* >::Invoke(14 /* System.String Mono.Data.SqliteClient.SqliteConnection::get_ConnectionString() */, __this);
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_1 = (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 *)il2cpp_codegen_object_new(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_il2cpp_TypeInfo_var);
+		SqliteConnection__ctor_m9DF7CBF2B6D9BD5AD91D93B0E1B5021F78A78A0F(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteConnection::Dispose(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection_Dispose_mA4D7CD4B20D545E99977E7BC54D8D1452785EC83 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, bool ___disposing0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_Dispose_mA4D7CD4B20D545E99977E7BC54D8D1452785EC83_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_Dispose_mA4D7CD4B20D545E99977E7BC54D8D1452785EC83_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	Exception_t * __last_unhandled_exception = 0;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		STORE_TRY_ID(methodExecutionContext, 0);
+		{
+			bool L_0 = ___disposing0;
+			if (!L_0)
+			{
+				goto IL_001e;
+			}
+		}
+
+IL_0006:
+		{
+			bool L_1 = __this->get_disposed_12();
+			if (L_1)
+			{
+				goto IL_001e;
+			}
+		}
+
+IL_0011:
+		{
+			VirtActionInvoker0::Invoke(17 /* System.Void Mono.Data.SqliteClient.SqliteConnection::Close() */, __this);
+			__this->set_conn_str_4((String_t*)NULL);
+		}
+
+IL_001e:
+		{
+			IL2CPP_LEAVE(0x32, FINALLY_0023);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t *)e.ex;
+		goto FINALLY_0023;
+	}
+
+FINALLY_0023:
+	{ // begin finally (depth: 1)
+		STORE_TRY_ID(methodExecutionContext, -1);
+		__this->set_disposed_12((bool)1);
+		bool L_2 = ___disposing0;
+		Component_Dispose_m41A6868E474C0937E68618E171C8169ECE2A9347(__this, L_2, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(35)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(35)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x32, IL_0032)
+	}
+
+IL_0032:
+	{
+		return;
+	}
+}
+// System.String Mono.Data.SqliteClient.SqliteConnection::get_ConnectionString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqliteConnection_get_ConnectionString_m8A36B1D3438D219C9DC758FD9D1EA9C376A7160B (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_get_ConnectionString_m8A36B1D3438D219C9DC758FD9D1EA9C376A7160B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_get_ConnectionString_m8A36B1D3438D219C9DC758FD9D1EA9C376A7160B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = __this->get_conn_str_4();
+		return L_0;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteConnection::set_ConnectionString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection_set_ConnectionString_m4C3CB8D9B87612F940D0C78A1698C2E269BCFB73 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_set_ConnectionString_m4C3CB8D9B87612F940D0C78A1698C2E269BCFB73_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_set_ConnectionString_m4C3CB8D9B87612F940D0C78A1698C2E269BCFB73_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = ___value0;
+		SqliteConnection_SetConnectionString_m78023990B36009EA31D38A6F50D2A83154F3F2E7(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Data.ConnectionState Mono.Data.SqliteClient.SqliteConnection::get_State()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteConnection_get_State_m2E4211728800DD13837F0D5521C4A56D07713537 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_get_State_m2E4211728800DD13837F0D5521C4A56D07713537_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_get_State_m2E4211728800DD13837F0D5521C4A56D07713537_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->get_state_9();
+		return L_0;
+	}
+}
+// System.Text.Encoding Mono.Data.SqliteClient.SqliteConnection::get_Encoding()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * SqliteConnection_get_Encoding_mF525ACEB8976522154441A2B59D650DA573C8983 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_get_Encoding_mF525ACEB8976522154441A2B59D650DA573C8983_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_get_Encoding_mF525ACEB8976522154441A2B59D650DA573C8983_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_0 = __this->get_encoding_10();
+		return L_0;
+	}
+}
+// System.Int32 Mono.Data.SqliteClient.SqliteConnection::get_Version()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->get_db_version_7();
+		return L_0;
+	}
+}
+// System.IntPtr Mono.Data.SqliteClient.SqliteConnection::get_Handle()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		intptr_t L_0 = __this->get_sqlite_handle_8();
+		return (intptr_t)L_0;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteConnection::SetConnectionString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection_SetConnectionString_m78023990B36009EA31D38A6F50D2A83154F3F2E7 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, String_t* ___connstring0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m8E06A6DF244254BF419D7EC23A9A6809E19A544D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mEC554451CB98B6F31912A513825E0ACFD4FC2763_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_SetConnectionString_m78023990B36009EA31D38A6F50D2A83154F3F2E7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral10C63C8C602DD5E38BE4A758C90EBAC324CD3E69);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1A34317206F4C945567B0FAE326B4F51F3CC7F25);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral218F5A08519088A96BE3C1074984C53EA49F1CCA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29988D0F9BCADFABFF66CBF5AB73096D1CAE3128);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4AB0148932BC6F04ABC10C5A7FCA8268C12803A1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9A62305734B1A5D8C56B0791FEB96BCDDD1CD15E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9CD611E4263DAED3CF79312C8723B54F04B87C80);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAF248E82BE9EBA1ADBF067429FAEE5A5B6E05A74);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD2D2F8D3F9F04A081FFBE6B2AF7917BAAADFC052);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF969F20B3C62D5C6F7538D8F52456DABCD9E36AD);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* V_0 = NULL;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* V_3 = NULL;
+	String_t* V_4 = NULL;
+	String_t* V_5 = NULL;
+	String_t* V_6 = NULL;
+	AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8 * V_7 = NULL;
+	String_t* V_8 = NULL;
+	String_t* V_9 = NULL;
+	Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * V_10 = NULL;
+	int32_t V_11 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_SetConnectionString_m78023990B36009EA31D38A6F50D2A83154F3F2E7_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = ___connstring0;
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		VirtActionInvoker0::Invoke(17 /* System.Void Mono.Data.SqliteClient.SqliteConnection::Close() */, __this);
+		__this->set_conn_str_4((String_t*)NULL);
+		return;
+	}
+
+IL_0014:
+	{
+		String_t* L_1 = ___connstring0;
+		String_t* L_2 = __this->get_conn_str_4();
+		bool L_3;
+		L_3 = String_op_Inequality_mDDA2DDED3E7EF042987EB7180EE3E88105F0AAE2(L_1, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_02aa;
+		}
+	}
+	{
+		VirtActionInvoker0::Invoke(17 /* System.Void Mono.Data.SqliteClient.SqliteConnection::Close() */, __this);
+		String_t* L_4 = ___connstring0;
+		__this->set_conn_str_4(L_4);
+		__this->set_db_file_5((String_t*)NULL);
+		__this->set_db_mode_6(((int32_t)644));
+		String_t* L_5 = ___connstring0;
+		CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* L_6 = (CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34*)(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34*)SZArrayNew(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34_il2cpp_TypeInfo_var, (uint32_t)1);
+		CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* L_7 = L_6;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)44));
+		NullCheck(L_5);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_8;
+		L_8 = String_Split_m2C74DC2B85B322998094BEDE787C378822E1F28B(L_5, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		V_1 = 0;
+		goto IL_028b;
+	}
+
+IL_005d:
+	{
+		CHECK_PAUSE_POINT;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_9 = V_0;
+		int32_t L_10 = V_1;
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		String_t* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		NullCheck(L_12);
+		String_t* L_13;
+		L_13 = String_Trim_m3FEC641D7046124B7F381701903B50B5171DE0A2(L_12, /*hidden argument*/NULL);
+		V_2 = L_13;
+		String_t* L_14 = V_2;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_14, /*hidden argument*/NULL);
+		if (L_15)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		goto IL_0287;
+	}
+
+IL_0076:
+	{
+		String_t* L_16 = V_2;
+		CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* L_17 = (CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34*)(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34*)SZArrayNew(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34_il2cpp_TypeInfo_var, (uint32_t)1);
+		CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* L_18 = L_17;
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)61));
+		NullCheck(L_16);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_19;
+		L_19 = String_Split_m2C74DC2B85B322998094BEDE787C378822E1F28B(L_16, L_18, /*hidden argument*/NULL);
+		V_3 = L_19;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_20 = V_3;
+		NullCheck(L_20);
+		if ((((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_20)->max_length)))) == ((int32_t)2)))
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB * L_21 = (InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mC012CE552988309733C896F3FEA8249171E4402E(L_21, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC2396630C87BA70DDF492CA145DFF5E28C22E02F)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_21, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteConnection_SetConnectionString_m78023990B36009EA31D38A6F50D2A83154F3F2E7_RuntimeMethod_var)));
+	}
+
+IL_009c:
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_22 = V_3;
+		NullCheck(L_22);
+		int32_t L_23 = 0;
+		String_t* L_24 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_il2cpp_TypeInfo_var);
+		CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * L_25;
+		L_25 = CultureInfo_get_InvariantCulture_m9FAAFAF8A00091EE1FCB7098AD3F163ECDF02164(/*hidden argument*/NULL);
+		NullCheck(L_24);
+		String_t* L_26;
+		L_26 = String_ToLower_m31AAE50F084C9F7ECE9201944F237D2310C79235(L_24, L_25, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		String_t* L_27;
+		L_27 = String_Trim_m3FEC641D7046124B7F381701903B50B5171DE0A2(L_26, /*hidden argument*/NULL);
+		V_4 = L_27;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_28 = V_3;
+		NullCheck(L_28);
+		int32_t L_29 = 1;
+		String_t* L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		NullCheck(L_30);
+		String_t* L_31;
+		L_31 = String_Trim_m3FEC641D7046124B7F381701903B50B5171DE0A2(L_30, /*hidden argument*/NULL);
+		V_5 = L_31;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_32 = V_3;
+		NullCheck(L_32);
+		int32_t L_33 = 1;
+		String_t* L_34 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
+		CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * L_35;
+		L_35 = CultureInfo_get_InvariantCulture_m9FAAFAF8A00091EE1FCB7098AD3F163ECDF02164(/*hidden argument*/NULL);
+		NullCheck(L_34);
+		String_t* L_36;
+		L_36 = String_ToLower_m31AAE50F084C9F7ECE9201944F237D2310C79235(L_34, L_35, /*hidden argument*/NULL);
+		NullCheck(L_36);
+		String_t* L_37;
+		L_37 = String_Trim_m3FEC641D7046124B7F381701903B50B5171DE0A2(L_36, /*hidden argument*/NULL);
+		V_6 = L_37;
+		String_t* L_38 = V_4;
+		V_9 = L_38;
+		String_t* L_39 = V_9;
+		if (!L_39)
+		{
+			goto IL_0287;
+		}
+	}
+	{
+		Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * L_40 = ((SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_StaticFields*)il2cpp_codegen_static_fields_for(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_il2cpp_TypeInfo_var))->get_U3CU3Ef__switchU24map0_13();
+		if (L_40)
+		{
+			goto IL_0140;
+		}
+	}
+	{
+		Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * L_41 = (Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 *)il2cpp_codegen_object_new(Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mEC554451CB98B6F31912A513825E0ACFD4FC2763(L_41, 6, /*hidden argument*/Dictionary_2__ctor_mEC554451CB98B6F31912A513825E0ACFD4FC2763_RuntimeMethod_var);
+		V_10 = L_41;
+		Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * L_42 = V_10;
+		NullCheck(L_42);
+		Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466(L_42, _stringLiteralF969F20B3C62D5C6F7538D8F52456DABCD9E36AD, 0, /*hidden argument*/Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466_RuntimeMethod_var);
+		Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * L_43 = V_10;
+		NullCheck(L_43);
+		Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466(L_43, _stringLiteral10C63C8C602DD5E38BE4A758C90EBAC324CD3E69, 0, /*hidden argument*/Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466_RuntimeMethod_var);
+		Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * L_44 = V_10;
+		NullCheck(L_44);
+		Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466(L_44, _stringLiteralAF248E82BE9EBA1ADBF067429FAEE5A5B6E05A74, 1, /*hidden argument*/Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466_RuntimeMethod_var);
+		Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * L_45 = V_10;
+		NullCheck(L_45);
+		Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466(L_45, _stringLiteralD2D2F8D3F9F04A081FFBE6B2AF7917BAAADFC052, 2, /*hidden argument*/Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466_RuntimeMethod_var);
+		Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * L_46 = V_10;
+		NullCheck(L_46);
+		Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466(L_46, _stringLiteral29988D0F9BCADFABFF66CBF5AB73096D1CAE3128, 3, /*hidden argument*/Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466_RuntimeMethod_var);
+		Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * L_47 = V_10;
+		NullCheck(L_47);
+		Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466(L_47, _stringLiteral1A34317206F4C945567B0FAE326B4F51F3CC7F25, 4, /*hidden argument*/Dictionary_2_Add_m8FA53015F9AF13F175853679C0E03A73D9F1A466_RuntimeMethod_var);
+		Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * L_48 = V_10;
+		((SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_StaticFields*)il2cpp_codegen_static_fields_for(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_il2cpp_TypeInfo_var))->set_U3CU3Ef__switchU24map0_13(L_48);
+	}
+
+IL_0140:
+	{
+		Dictionary_2_tC94E9875910491F8130C2DC8B11E4D1548A55162 * L_49 = ((SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_StaticFields*)il2cpp_codegen_static_fields_for(SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180_il2cpp_TypeInfo_var))->get_U3CU3Ef__switchU24map0_13();
+		String_t* L_50 = V_9;
+		NullCheck(L_49);
+		bool L_51;
+		L_51 = Dictionary_2_TryGetValue_m8E06A6DF244254BF419D7EC23A9A6809E19A544D(L_49, L_50, (int32_t*)(&V_11), /*hidden argument*/Dictionary_2_TryGetValue_m8E06A6DF244254BF419D7EC23A9A6809E19A544D_RuntimeMethod_var);
+		if (!L_51)
+		{
+			goto IL_0287;
+		}
+	}
+	{
+		int32_t L_52 = V_11;
+		switch (L_52)
+		{
+			case 0:
+			{
+				goto IL_0173;
+			}
+			case 1:
+			{
+				goto IL_023f;
+			}
+			case 2:
+			{
+				goto IL_0251;
+			}
+			case 3:
+			{
+				goto IL_0263;
+			}
+			case 4:
+			{
+				goto IL_0275;
+			}
+		}
+	}
+	{
+		goto IL_0287;
+	}
+
+IL_0173:
+	{
+		String_t* L_53 = V_6;
+		NullCheck(L_53);
+		bool L_54;
+		L_54 = String_StartsWith_mDE2FF98CAFFD13F88EDEB6C40158DDF840BFCF12(L_53, _stringLiteral218F5A08519088A96BE3C1074984C53EA49F1CCA, /*hidden argument*/NULL);
+		if (!L_54)
+		{
+			goto IL_0197;
+		}
+	}
+	{
+		String_t* L_55 = V_5;
+		NullCheck(L_55);
+		String_t* L_56;
+		L_56 = String_Substring_mB6B87FD76552BBF6D4E2B9F07F857FE051DCE190(L_55, 7, /*hidden argument*/NULL);
+		__this->set_db_file_5(L_56);
+		goto IL_023a;
+	}
+
+IL_0197:
+	{
+		String_t* L_57 = V_6;
+		NullCheck(L_57);
+		bool L_58;
+		L_58 = String_StartsWith_mDE2FF98CAFFD13F88EDEB6C40158DDF840BFCF12(L_57, _stringLiteral9A62305734B1A5D8C56B0791FEB96BCDDD1CD15E, /*hidden argument*/NULL);
+		if (!L_58)
+		{
+			goto IL_01bb;
+		}
+	}
+	{
+		String_t* L_59 = V_5;
+		NullCheck(L_59);
+		String_t* L_60;
+		L_60 = String_Substring_mB6B87FD76552BBF6D4E2B9F07F857FE051DCE190(L_59, 5, /*hidden argument*/NULL);
+		__this->set_db_file_5(L_60);
+		goto IL_023a;
+	}
+
+IL_01bb:
+	{
+		String_t* L_61 = V_6;
+		NullCheck(L_61);
+		bool L_62;
+		L_62 = String_StartsWith_mDE2FF98CAFFD13F88EDEB6C40158DDF840BFCF12(L_61, _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1, /*hidden argument*/NULL);
+		if (!L_62)
+		{
+			goto IL_01d9;
+		}
+	}
+	{
+		String_t* L_63 = V_5;
+		__this->set_db_file_5(L_63);
+		goto IL_023a;
+	}
+
+IL_01d9:
+	{
+		String_t* L_64 = V_6;
+		NullCheck(L_64);
+		bool L_65;
+		L_65 = String_StartsWith_mEA750A0572C706249CDD826681741B7DD733381E(L_64, _stringLiteral4AB0148932BC6F04ABC10C5A7FCA8268C12803A1, 3, /*hidden argument*/NULL);
+		if (!L_65)
+		{
+			goto IL_022f;
+		}
+	}
+	{
+		AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A * L_66;
+		L_66 = AppDomain_get_CurrentDomain_mC2FE307811914289CBBDEFEFF6175FCE2E96A55E(/*hidden argument*/NULL);
+		NullCheck(L_66);
+		AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8 * L_67;
+		L_67 = AppDomain_get_SetupInformation_m45DBC7C2D8892E4993D9B1AE39A3EA5F839FD99E(L_66, /*hidden argument*/NULL);
+		V_7 = L_67;
+		IL2CPP_RUNTIME_CLASS_INIT(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
+		Il2CppChar L_68 = ((Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields*)il2cpp_codegen_static_fields_for(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var))->get_DirectorySeparatorChar_2();
+		Il2CppChar L_69 = L_68;
+		RuntimeObject * L_70 = Box(Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_il2cpp_TypeInfo_var, &L_69);
+		String_t* L_71 = V_6;
+		NullCheck(L_71);
+		String_t* L_72;
+		L_72 = String_Substring_mB6B87FD76552BBF6D4E2B9F07F857FE051DCE190(L_71, ((int32_t)15), /*hidden argument*/NULL);
+		String_t* L_73;
+		L_73 = String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66(_stringLiteral9CD611E4263DAED3CF79312C8723B54F04B87C80, L_70, L_72, /*hidden argument*/NULL);
+		V_8 = L_73;
+		AppDomainSetup_tF2C6AD0D3A09543EAC7388BD3F6500E8527F63A8 * L_74 = V_7;
+		NullCheck(L_74);
+		String_t* L_75;
+		L_75 = AppDomainSetup_get_ApplicationBase_m819DC36F6F1DAFF007FFEFBE43969BCAAA3E1DB0(L_74, /*hidden argument*/NULL);
+		String_t* L_76 = V_8;
+		String_t* L_77;
+		L_77 = Path_Combine_mC22E47A9BB232F02ED3B6B5F6DD53338D37782EF(L_75, L_76, /*hidden argument*/NULL);
+		__this->set_db_file_5(L_77);
+		goto IL_023a;
+	}
+
+IL_022f:
+	{
+		InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB * L_78 = (InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mC012CE552988309733C896F3FEA8249171E4402E(L_78, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral85E42CBEA6DB3EB66A8B7FBF62E1E7A459746305)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_78, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteConnection_SetConnectionString_m78023990B36009EA31D38A6F50D2A83154F3F2E7_RuntimeMethod_var)));
+	}
+
+IL_023a:
+	{
+		goto IL_0287;
+	}
+
+IL_023f:
+	{
+		String_t* L_79 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var);
+		int32_t L_80;
+		L_80 = Convert_ToInt32_mA1C10AB2A7C95E9DCAC473D1D88C74D60FA240ED(L_79, /*hidden argument*/NULL);
+		__this->set_db_mode_6(L_80);
+		goto IL_0287;
+	}
+
+IL_0251:
+	{
+		String_t* L_81 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var);
+		int32_t L_82;
+		L_82 = Convert_ToInt32_mA1C10AB2A7C95E9DCAC473D1D88C74D60FA240ED(L_81, /*hidden argument*/NULL);
+		__this->set_db_version_7(L_82);
+		goto IL_0287;
+	}
+
+IL_0263:
+	{
+		String_t* L_83 = V_5;
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_84;
+		L_84 = Encoding_GetEncoding_mD5352F1522341280E9025D16463E63916549F9E3(L_83, /*hidden argument*/NULL);
+		__this->set_encoding_10(L_84);
+		goto IL_0287;
+	}
+
+IL_0275:
+	{
+		String_t* L_85 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var);
+		int32_t L_86;
+		L_86 = Convert_ToInt32_mA1C10AB2A7C95E9DCAC473D1D88C74D60FA240ED(L_85, /*hidden argument*/NULL);
+		__this->set_busy_timeout_11(L_86);
+		goto IL_0287;
+	}
+
+IL_0287:
+	{
+		int32_t L_87 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_87, (int32_t)1));
+	}
+
+IL_028b:
+	{
+		int32_t L_88 = V_1;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_89 = V_0;
+		NullCheck(L_89);
+		if ((((int32_t)L_88) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_89)->max_length))))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		String_t* L_90 = __this->get_db_file_5();
+		if (L_90)
+		{
+			goto IL_02aa;
+		}
+	}
+	{
+		InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB * L_91 = (InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mC012CE552988309733C896F3FEA8249171E4402E(L_91, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral40459E82C4E7EB843C48BDF464CD9981D893BD8F)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_91, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteConnection_SetConnectionString_m78023990B36009EA31D38A6F50D2A83154F3F2E7_RuntimeMethod_var)));
+	}
+
+IL_02aa:
+	{
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteConnection::StartExec()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection_StartExec_mB6D85C48B597AACB2D3E603100A25886E8B0E100 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_StartExec_mB6D85C48B597AACB2D3E603100A25886E8B0E100_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_StartExec_mB6D85C48B597AACB2D3E603100A25886E8B0E100_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		__this->set_state_9(4);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteConnection::EndExec()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection_EndExec_m1B71FE695A8013BCED44FFC797823D197ED77CBD (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_EndExec_m1B71FE695A8013BCED44FFC797823D197ED77CBD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_EndExec_m1B71FE695A8013BCED44FFC797823D197ED77CBD_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		__this->set_state_9(1);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteConnection::Close()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection_Close_m501F49077F676ED812FF9C6F10C823FF226868B0 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_Close_m501F49077F676ED812FF9C6F10C823FF226868B0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_Close_m501F49077F676ED812FF9C6F10C823FF226868B0_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->get_state_9();
+		if ((((int32_t)L_0) == ((int32_t)1)))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000d:
+	{
+		__this->set_state_9(0);
+		int32_t L_1;
+		L_1 = SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline(__this, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)3))))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		intptr_t L_2 = __this->get_sqlite_handle_8();
+		Sqlite_sqlite3_close_m37251E201D4AA3C1241BDD84ED982B28202BAC08((intptr_t)L_2, /*hidden argument*/NULL);
+		goto IL_003b;
+	}
+
+IL_0030:
+	{
+		intptr_t L_3 = __this->get_sqlite_handle_8();
+		Sqlite_sqlite_close_m02F9CE14F1F1B9FF4F656A26664F2F1C111E7556((intptr_t)L_3, /*hidden argument*/NULL);
+	}
+
+IL_003b:
+	{
+		__this->set_sqlite_handle_8((intptr_t)(0));
+		return;
+	}
+}
+// System.Data.Common.DbCommand Mono.Data.SqliteClient.SqliteConnection::CreateDbCommand()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DbCommand_tB125F25AD82F85EA3DC7AA8C0556C4788E5D72CC * SqliteConnection_CreateDbCommand_m9F2E0246836FE2E9954CDDD36923C1346279D5DA (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_CreateDbCommand_m9F2E0246836FE2E9954CDDD36923C1346279D5DA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_CreateDbCommand_m9F2E0246836FE2E9954CDDD36923C1346279D5DA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * L_0 = (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC *)il2cpp_codegen_object_new(SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC_il2cpp_TypeInfo_var);
+		SqliteCommand__ctor_m2370D22FD9E24D3D3856EECF763727A9332D3377(L_0, (String_t*)NULL, __this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteConnection::Open()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteConnection_Open_mAEBA1431FD08ABC090ADB8CBA543AA2E162ED312 (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_Open_mAEBA1431FD08ABC090ADB8CBA543AA2E162ED312_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
+	int32_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_Open_mAEBA1431FD08ABC090ADB8CBA543AA2E162ED312_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
+	{
+		String_t* L_0 = __this->get_conn_str_4();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB * L_1 = (InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mC012CE552988309733C896F3FEA8249171E4402E(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAA1BD856BF4C631F29ECEBD6F9435466DC0DC410)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteConnection_Open_mAEBA1431FD08ABC090ADB8CBA543AA2E162ED312_RuntimeMethod_var)));
+	}
+
+IL_0016:
+	{
+		int32_t L_2 = __this->get_state_9();
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0022:
+	{
+		V_0 = (intptr_t)(0);
+		int32_t L_3;
+		L_3 = SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline(__this, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
+		{
+			goto IL_00ac;
+		}
+	}
+
+IL_0034:
+	try
+	{ // begin try (depth: 1)
+		STORE_TRY_ID(methodExecutionContext, 0);
+		{
+			String_t* L_4 = __this->get_db_file_5();
+			int32_t L_5 = __this->get_db_mode_6();
+			intptr_t L_6;
+			L_6 = Sqlite_sqlite_open_mFF5736EFB1204EC4ACF3745E661A8A566A57DD95(L_4, L_5, (intptr_t*)(&V_0), /*hidden argument*/NULL);
+			__this->set_sqlite_handle_8((intptr_t)L_6);
+			intptr_t L_7 = V_0;
+			bool L_8;
+			L_8 = IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8((intptr_t)L_7, (intptr_t)(0), /*hidden argument*/NULL);
+			if (!L_8)
+			{
+				goto IL_0071;
+			}
+		}
+
+IL_005d:
+		{
+			intptr_t L_9 = V_0;
+			IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var)));
+			String_t* L_10;
+			L_10 = Marshal_PtrToStringAnsi_m75BAFD813E1B985A654946F05159CFA46E34F5AA((intptr_t)L_9, /*hidden argument*/NULL);
+			V_1 = L_10;
+			intptr_t L_11 = V_0;
+			Sqlite_sqliteFree_m0DA0466B9075011C1DE906C1EE9B877A3FD44419((intptr_t)L_11, /*hidden argument*/NULL);
+			String_t* L_12 = V_1;
+			ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 * L_13 = (ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407_il2cpp_TypeInfo_var)));
+			ApplicationException__ctor_mF8E9704C91C2F1912909448E5BABFE9EC61D4E8F(L_13, L_12, /*hidden argument*/NULL);
+			IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteConnection_Open_mAEBA1431FD08ABC090ADB8CBA543AA2E162ED312_RuntimeMethod_var)));
+		}
+
+IL_0071:
+		{
+			goto IL_0090;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DllNotFoundException_tD2224C1993151B8CCF9938FD62649816CF977596_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0076;
+		}
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&EntryPointNotFoundException_tD0666CDCBD81C969BAAC14899569BFED2E05F9DC_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0083;
+		}
+		throw e;
+	}
+
+CATCH_0076:
+	{ // begin catch(System.DllNotFoundException)
+		STORE_TRY_ID(methodExecutionContext, -1);
+		__this->set_db_version_7(3);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0090;
+	} // end catch (depth: 1)
+
+CATCH_0083:
+	{ // begin catch(System.EntryPointNotFoundException)
+		STORE_TRY_ID(methodExecutionContext, -1);
+		__this->set_db_version_7(3);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0090;
+	} // end catch (depth: 1)
+
+IL_0090:
+	{
+		int32_t L_14 = __this->get_busy_timeout_11();
+		if (!L_14)
+		{
+			goto IL_00ac;
+		}
+	}
+	{
+		intptr_t L_15 = __this->get_sqlite_handle_8();
+		int32_t L_16 = __this->get_busy_timeout_11();
+		Sqlite_sqlite_busy_timeout_m148E49C7F09BF772F6D8DD97175B848C7D6619E4((intptr_t)L_15, L_16, /*hidden argument*/NULL);
+	}
+
+IL_00ac:
+	{
+		int32_t L_17;
+		L_17 = SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline(__this, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_17) == ((uint32_t)3))))
+		{
+			goto IL_0108;
+		}
+	}
+	{
+		String_t* L_18 = __this->get_db_file_5();
+		intptr_t* L_19 = __this->get_address_of_sqlite_handle_8();
+		int32_t L_20;
+		L_20 = Sqlite_sqlite3_open16_m5E6AF85ED5C1ADB2B49D1BE8BDF96BB2E06FAD85(L_18, (intptr_t*)L_19, /*hidden argument*/NULL);
+		V_2 = L_20;
+		int32_t L_21 = V_2;
+		if ((!(((uint32_t)L_21) == ((uint32_t)1))))
+		{
+			goto IL_00e7;
+		}
+	}
+	{
+		intptr_t L_22 = __this->get_sqlite_handle_8();
+		intptr_t L_23;
+		L_23 = Sqlite_sqlite3_errmsg16_m4DAC563C7852B9FF5EF75BA2540465754A4EEAB7((intptr_t)L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var)));
+		String_t* L_24;
+		L_24 = Marshal_PtrToStringUni_m4CA386E4B7F073C4FC9F73F8CADC7249655CD645((intptr_t)L_23, /*hidden argument*/NULL);
+		ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 * L_25 = (ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407_il2cpp_TypeInfo_var)));
+		ApplicationException__ctor_mF8E9704C91C2F1912909448E5BABFE9EC61D4E8F(L_25, L_24, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_25, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteConnection_Open_mAEBA1431FD08ABC090ADB8CBA543AA2E162ED312_RuntimeMethod_var)));
+	}
+
+IL_00e7:
+	{
+		int32_t L_26 = __this->get_busy_timeout_11();
+		if (!L_26)
+		{
+			goto IL_0103;
+		}
+	}
+	{
+		intptr_t L_27 = __this->get_sqlite_handle_8();
+		int32_t L_28 = __this->get_busy_timeout_11();
+		Sqlite_sqlite3_busy_timeout_m92F556918BDD447B5F390CC0BAB6C86EC82C2307((intptr_t)L_27, L_28, /*hidden argument*/NULL);
+	}
+
+IL_0103:
+	{
+		goto IL_0108;
+	}
+
+IL_0108:
+	{
+		__this->set_state_9(1);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Mono.Data.SqliteClient.SqliteDataReader::.ctor(Mono.Data.SqliteClient.SqliteCommand,System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteDataReader__ctor_mB2D09F3C29E238C1B631550D411B06C18A045C33 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * ___cmd0, intptr_t ___pVm1, int32_t ___version2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader__ctor_mB2D09F3C29E238C1B631550D411B06C18A045C33_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader__ctor_mB2D09F3C29E238C1B631550D411B06C18A045C33_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		DbDataReader__ctor_m828A5CA10B067C9A5D4C5FAB01F8AEB110054DF3(__this, /*hidden argument*/NULL);
+		SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * L_0 = ___cmd0;
+		__this->set_command_1(L_0);
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_1 = (ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 *)il2cpp_codegen_object_new(ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575_il2cpp_TypeInfo_var);
+		ArrayList__ctor_m6847CFECD6BDC2AD10A4AC9852A572B88B8D6B1B(L_1, /*hidden argument*/NULL);
+		__this->set_rows_2(L_1);
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_2 = (Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC *)il2cpp_codegen_object_new(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m2D9C25FB57ACD33B0DF8391D38A165975A1D9A91(L_2, /*hidden argument*/NULL);
+		__this->set_column_names_sens_4(L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_il2cpp_TypeInfo_var);
+		StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * L_3;
+		L_3 = StringComparer_get_InvariantCultureIgnoreCase_m091360FF9FE3516559AFF706AF431E6FD4CCF2C2_inline(/*hidden argument*/NULL);
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_4 = (Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC *)il2cpp_codegen_object_new(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m112ADCD5297836A75FD5BFB576F7B14174FCC802(L_4, L_3, /*hidden argument*/NULL);
+		__this->set_column_names_insens_5(L_4);
+		__this->set_closed_7((bool)0);
+		__this->set_current_row_6((-1));
+		__this->set_reading_8((bool)1);
+		intptr_t L_5 = ___pVm1;
+		int32_t L_6 = ___version2;
+		SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * L_7 = ___cmd0;
+		SqliteDataReader_ReadpVm_m16B4AF70FE7F0BC232B7C902F32CCB9DB7D9FE0D(__this, (intptr_t)L_5, L_6, L_7, /*hidden argument*/NULL);
+		SqliteDataReader_ReadingDone_m064B51F206282C3A3D8A5AE139D8A8C5B7B7A2AC(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Mono.Data.SqliteClient.SqliteDataReader::get_FieldCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteDataReader_get_FieldCount_mE83806333A638C20DE5E4015EB6EAB35469854A2 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_get_FieldCount_mE83806333A638C20DE5E4015EB6EAB35469854A2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_get_FieldCount_mE83806333A638C20DE5E4015EB6EAB35469854A2_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_0 = __this->get_columns_3();
+		NullCheck(L_0);
+		return ((int32_t)((int32_t)(((RuntimeArray*)L_0)->max_length)));
+	}
+}
+// System.Boolean Mono.Data.SqliteClient.SqliteDataReader::get_IsClosed()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteDataReader_get_IsClosed_mC8F14D127CD786554C99CE8B8477B67E8AAAEDF9 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_get_IsClosed_mC8F14D127CD786554C99CE8B8477B67E8AAAEDF9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_get_IsClosed_mC8F14D127CD786554C99CE8B8477B67E8AAAEDF9_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		bool L_0 = __this->get_closed_7();
+		return L_0;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteDataReader::ReadpVm(System.IntPtr,System.Int32,Mono.Data.SqliteClient.SqliteCommand)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteDataReader_ReadpVm_m16B4AF70FE7F0BC232B7C902F32CCB9DB7D9FE0D (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, intptr_t ___pVm0, int32_t ___version1, SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * ___cmd2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_ReadpVm_m16B4AF70FE7F0BC232B7C902F32CCB9DB7D9FE0D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0BA8CB3B900ECEF5E697192B8CDA6B626EB0CE72);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1D7B559D2443B7B91D8C57B59220774176D04300);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB0A1C47352664275E2D7F477FA4C62FC016B575F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE7650EB4C8EF6F4B045B8E8747677ECDDEF6AA10);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	intptr_t V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	intptr_t V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* V_4 = NULL;
+	bool V_5 = false;
+	int32_t V_6 = 0;
+	intptr_t V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	int32_t V_8 = 0;
+	String_t* V_9 = NULL;
+	intptr_t V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* V_11 = NULL;
+	int32_t V_12 = 0;
+	intptr_t V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	int64_t V_14 = 0;
+	int32_t V_15 = 0;
+	intptr_t V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* V_17 = NULL;
+	int32_t V_18 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_ReadpVm_m16B4AF70FE7F0BC232B7C902F32CCB9DB7D9FE0D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		V_3 = (bool)1;
+		V_4 = (Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32*)NULL;
+	}
+
+IL_0005:
+	{
+		CHECK_PAUSE_POINT;
+		SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * L_0 = ___cmd2;
+		intptr_t L_1 = ___pVm0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = SqliteCommand_ExecuteStatement_m5A4F7C7A988E1A69F4C8662D1446FE92A3D8F8AE(L_0, (intptr_t)L_1, (int32_t*)(&V_0), (intptr_t*)(&V_1), (intptr_t*)(&V_2), /*hidden argument*/NULL);
+		V_5 = L_2;
+		bool L_3 = V_3;
+		if (!L_3)
+		{
+			goto IL_0187;
+		}
+	}
+	{
+		V_3 = (bool)0;
+		int32_t L_4 = ___version1;
+		if ((!(((uint32_t)L_4) == ((uint32_t)3))))
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		int32_t L_5 = V_0;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_6 = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, (uint32_t)L_5);
+		__this->set_decltypes_10(L_6);
+		int32_t L_7 = V_0;
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_8 = (Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32*)(Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32*)SZArrayNew(Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32_il2cpp_TypeInfo_var, (uint32_t)L_7);
+		V_4 = L_8;
+		V_6 = 0;
+		goto IL_00eb;
+	}
+
+IL_003f:
+	{
+		CHECK_PAUSE_POINT;
+		intptr_t L_9 = ___pVm0;
+		int32_t L_10 = V_6;
+		intptr_t L_11;
+		L_11 = Sqlite_sqlite3_column_decltype16_m9A12E6F1B8F41821C023FE67B15F2788D7932988((intptr_t)L_9, L_10, /*hidden argument*/NULL);
+		V_7 = (intptr_t)L_11;
+		intptr_t L_12 = V_7;
+		bool L_13;
+		L_13 = IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8((intptr_t)L_12, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_13)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_14 = __this->get_decltypes_10();
+		int32_t L_15 = V_6;
+		intptr_t L_16 = V_7;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		String_t* L_17;
+		L_17 = Marshal_PtrToStringUni_m4CA386E4B7F073C4FC9F73F8CADC7249655CD645((intptr_t)L_16, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_il2cpp_TypeInfo_var);
+		CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98 * L_18;
+		L_18 = CultureInfo_get_InvariantCulture_m9FAAFAF8A00091EE1FCB7098AD3F163ECDF02164(/*hidden argument*/NULL);
+		NullCheck(L_17);
+		String_t* L_19;
+		L_19 = String_ToLower_m31AAE50F084C9F7ECE9201944F237D2310C79235(L_17, L_18, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		ArrayElementTypeCheck (L_14, L_19);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(L_15), (String_t*)L_19);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_20 = __this->get_decltypes_10();
+		int32_t L_21 = V_6;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		String_t* L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		bool L_24;
+		L_24 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_23, _stringLiteral0BA8CB3B900ECEF5E697192B8CDA6B626EB0CE72, /*hidden argument*/NULL);
+		if (L_24)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_25 = __this->get_decltypes_10();
+		int32_t L_26 = V_6;
+		NullCheck(L_25);
+		int32_t L_27 = L_26;
+		String_t* L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		bool L_29;
+		L_29 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_28, _stringLiteralB0A1C47352664275E2D7F477FA4C62FC016B575F, /*hidden argument*/NULL);
+		if (!L_29)
+		{
+			goto IL_00af;
+		}
+	}
+
+IL_00a4:
+	{
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_30 = V_4;
+		int32_t L_31 = V_6;
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (int32_t)1);
+		goto IL_00e5;
+	}
+
+IL_00af:
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_32 = __this->get_decltypes_10();
+		int32_t L_33 = V_6;
+		NullCheck(L_32);
+		int32_t L_34 = L_33;
+		String_t* L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		bool L_36;
+		L_36 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_35, _stringLiteral1D7B559D2443B7B91D8C57B59220774176D04300, /*hidden argument*/NULL);
+		if (L_36)
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_37 = __this->get_decltypes_10();
+		int32_t L_38 = V_6;
+		NullCheck(L_37);
+		int32_t L_39 = L_38;
+		String_t* L_40 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_39));
+		bool L_41;
+		L_41 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_40, _stringLiteralE7650EB4C8EF6F4B045B8E8747677ECDDEF6AA10, /*hidden argument*/NULL);
+		if (!L_41)
+		{
+			goto IL_00e5;
+		}
+	}
+
+IL_00df:
+	{
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_42 = V_4;
+		int32_t L_43 = V_6;
+		NullCheck(L_42);
+		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(L_43), (int32_t)2);
+	}
+
+IL_00e5:
+	{
+		int32_t L_44 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add((int32_t)L_44, (int32_t)1));
+	}
+
+IL_00eb:
+	{
+		int32_t L_45 = V_6;
+		int32_t L_46 = V_0;
+		if ((((int32_t)L_45) < ((int32_t)L_46)))
+		{
+			goto IL_003f;
+		}
+	}
+
+IL_00f3:
+	{
+		int32_t L_47 = V_0;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_48 = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, (uint32_t)L_47);
+		__this->set_columns_3(L_48);
+		V_8 = 0;
+		goto IL_017f;
+	}
+
+IL_0107:
+	{
+		CHECK_PAUSE_POINT;
+		int32_t L_49 = ___version1;
+		if ((!(((uint32_t)L_49) == ((uint32_t)2))))
+		{
+			goto IL_0137;
+		}
+	}
+	{
+		intptr_t L_50 = V_2;
+		int32_t L_51 = V_8;
+		int32_t L_52;
+		L_52 = IntPtr_get_Size_mD8038A1C440DE87E685F4D879DC80A6704D9C77B(/*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		intptr_t L_53;
+		L_53 = Marshal_ReadIntPtr_mD346139A9C1580DC394446F749B49BD4E06FDA5F((intptr_t)L_50, ((int32_t)il2cpp_codegen_multiply((int32_t)L_51, (int32_t)L_52)), /*hidden argument*/NULL);
+		V_10 = (intptr_t)L_53;
+		intptr_t L_54 = V_10;
+		SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * L_55 = ___cmd2;
+		NullCheck(L_55);
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_56;
+		L_56 = SqliteCommand_get_Connection_mB77B8039C94F54974733BE438ACAB932DFA4C67F_inline(L_55, /*hidden argument*/NULL);
+		NullCheck(L_56);
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_57;
+		L_57 = SqliteConnection_get_Encoding_mF525ACEB8976522154441A2B59D650DA573C8983_inline(L_56, /*hidden argument*/NULL);
+		String_t* L_58;
+		L_58 = Sqlite_HeapToString_m903FD8CB0B0768F70B04E1D7D53E1F4DD7061C42((intptr_t)L_54, L_57, /*hidden argument*/NULL);
+		V_9 = L_58;
+		goto IL_0146;
+	}
+
+IL_0137:
+	{
+		intptr_t L_59 = ___pVm0;
+		int32_t L_60 = V_8;
+		intptr_t L_61;
+		L_61 = Sqlite_sqlite3_column_name16_m331FC95B5CEEF66B053E3FF26D12D172A2BCDB37((intptr_t)L_59, L_60, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		String_t* L_62;
+		L_62 = Marshal_PtrToStringUni_m4CA386E4B7F073C4FC9F73F8CADC7249655CD645((intptr_t)L_61, /*hidden argument*/NULL);
+		V_9 = L_62;
+	}
+
+IL_0146:
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_63 = __this->get_columns_3();
+		int32_t L_64 = V_8;
+		String_t* L_65 = V_9;
+		NullCheck(L_63);
+		ArrayElementTypeCheck (L_63, L_65);
+		(L_63)->SetAt(static_cast<il2cpp_array_size_t>(L_64), (String_t*)L_65);
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_66 = __this->get_column_names_sens_4();
+		String_t* L_67 = V_9;
+		int32_t L_68 = V_8;
+		int32_t L_69 = L_68;
+		RuntimeObject * L_70 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_69);
+		NullCheck(L_66);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(25 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_66, L_67, L_70);
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_71 = __this->get_column_names_insens_5();
+		String_t* L_72 = V_9;
+		int32_t L_73 = V_8;
+		int32_t L_74 = L_73;
+		RuntimeObject * L_75 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_74);
+		NullCheck(L_71);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(25 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_71, L_72, L_75);
+		int32_t L_76 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add((int32_t)L_76, (int32_t)1));
+	}
+
+IL_017f:
+	{
+		int32_t L_77 = V_8;
+		int32_t L_78 = V_0;
+		if ((((int32_t)L_77) < ((int32_t)L_78)))
+		{
+			goto IL_0107;
+		}
+	}
+
+IL_0187:
+	{
+		bool L_79 = V_5;
+		if (L_79)
+		{
+			goto IL_0193;
+		}
+	}
+	{
+		goto IL_0333;
+	}
+
+IL_0193:
+	{
+		int32_t L_80 = V_0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_81 = (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)SZArrayNew(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var, (uint32_t)L_80);
+		V_11 = L_81;
+		V_12 = 0;
+		goto IL_0318;
+	}
+
+IL_01a3:
+	{
+		CHECK_PAUSE_POINT;
+		int32_t L_82 = ___version1;
+		if ((!(((uint32_t)L_82) == ((uint32_t)2))))
+		{
+			goto IL_01d6;
+		}
+	}
+	{
+		intptr_t L_83 = V_1;
+		int32_t L_84 = V_12;
+		int32_t L_85;
+		L_85 = IntPtr_get_Size_mD8038A1C440DE87E685F4D879DC80A6704D9C77B(/*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		intptr_t L_86;
+		L_86 = Marshal_ReadIntPtr_mD346139A9C1580DC394446F749B49BD4E06FDA5F((intptr_t)L_83, ((int32_t)il2cpp_codegen_multiply((int32_t)L_84, (int32_t)L_85)), /*hidden argument*/NULL);
+		V_13 = (intptr_t)L_86;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_87 = V_11;
+		int32_t L_88 = V_12;
+		intptr_t L_89 = V_13;
+		SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * L_90 = ___cmd2;
+		NullCheck(L_90);
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_91;
+		L_91 = SqliteCommand_get_Connection_mB77B8039C94F54974733BE438ACAB932DFA4C67F_inline(L_90, /*hidden argument*/NULL);
+		NullCheck(L_91);
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_92;
+		L_92 = SqliteConnection_get_Encoding_mF525ACEB8976522154441A2B59D650DA573C8983_inline(L_91, /*hidden argument*/NULL);
+		String_t* L_93;
+		L_93 = Sqlite_HeapToString_m903FD8CB0B0768F70B04E1D7D53E1F4DD7061C42((intptr_t)L_89, L_92, /*hidden argument*/NULL);
+		NullCheck(L_87);
+		ArrayElementTypeCheck (L_87, L_93);
+		(L_87)->SetAt(static_cast<il2cpp_array_size_t>(L_88), (RuntimeObject *)L_93);
+		goto IL_0312;
+	}
+
+IL_01d6:
+	{
+		intptr_t L_94 = ___pVm0;
+		int32_t L_95 = V_12;
+		int32_t L_96;
+		L_96 = Sqlite_sqlite3_column_type_m50FB6F9AF3C305ED5198B2DA0215C4656E86C69A((intptr_t)L_94, L_95, /*hidden argument*/NULL);
+		V_18 = L_96;
+		int32_t L_97 = V_18;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_97, (int32_t)1)))
+		{
+			case 0:
+			{
+				goto IL_0202;
+			}
+			case 1:
+			{
+				goto IL_0275;
+			}
+			case 2:
+			{
+				goto IL_028c;
+			}
+			case 3:
+			{
+				goto IL_02c7;
+			}
+			case 4:
+			{
+				goto IL_02fc;
+			}
+		}
+	}
+	{
+		goto IL_0307;
+	}
+
+IL_0202:
+	{
+		intptr_t L_98 = ___pVm0;
+		int32_t L_99 = V_12;
+		int64_t L_100;
+		L_100 = Sqlite_sqlite3_column_int64_m973D46F18BF62A21E5A4F5266E1B71043D754525((intptr_t)L_98, L_99, /*hidden argument*/NULL);
+		V_14 = L_100;
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_101 = V_4;
+		int32_t L_102 = V_12;
+		NullCheck(L_101);
+		int32_t L_103 = L_102;
+		int32_t L_104 = (L_101)->GetAt(static_cast<il2cpp_array_size_t>(L_103));
+		if ((!(((uint32_t)L_104) == ((uint32_t)1))))
+		{
+			goto IL_0243;
+		}
+	}
+	{
+		int64_t L_105 = V_14;
+		if ((((int64_t)L_105) < ((int64_t)((int64_t)((int64_t)((int32_t)-2147483648LL))))))
+		{
+			goto IL_0243;
+		}
+	}
+	{
+		int64_t L_106 = V_14;
+		if ((((int64_t)L_106) > ((int64_t)((int64_t)((int64_t)((int32_t)2147483647LL))))))
+		{
+			goto IL_0243;
+		}
+	}
+	{
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_107 = V_11;
+		int32_t L_108 = V_12;
+		int64_t L_109 = V_14;
+		int32_t L_110 = ((int32_t)((int32_t)L_109));
+		RuntimeObject * L_111 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_110);
+		NullCheck(L_107);
+		ArrayElementTypeCheck (L_107, L_111);
+		(L_107)->SetAt(static_cast<il2cpp_array_size_t>(L_108), (RuntimeObject *)L_111);
+		goto IL_0270;
+	}
+
+IL_0243:
+	{
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_112 = V_4;
+		int32_t L_113 = V_12;
+		NullCheck(L_112);
+		int32_t L_114 = L_113;
+		int32_t L_115 = (L_112)->GetAt(static_cast<il2cpp_array_size_t>(L_114));
+		if ((!(((uint32_t)L_115) == ((uint32_t)2))))
+		{
+			goto IL_0264;
+		}
+	}
+	{
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_116 = V_11;
+		int32_t L_117 = V_12;
+		int64_t L_118 = V_14;
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var);
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_119;
+		L_119 = DateTime_FromFileTime_mDA04D67C55893D90DEB6419D27BE549AAC70A140(L_118, /*hidden argument*/NULL);
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_120 = L_119;
+		RuntimeObject * L_121 = Box(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var, &L_120);
+		NullCheck(L_116);
+		ArrayElementTypeCheck (L_116, L_121);
+		(L_116)->SetAt(static_cast<il2cpp_array_size_t>(L_117), (RuntimeObject *)L_121);
+		goto IL_0270;
+	}
+
+IL_0264:
+	{
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_122 = V_11;
+		int32_t L_123 = V_12;
+		int64_t L_124 = V_14;
+		int64_t L_125 = L_124;
+		RuntimeObject * L_126 = Box(Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_il2cpp_TypeInfo_var, &L_125);
+		NullCheck(L_122);
+		ArrayElementTypeCheck (L_122, L_126);
+		(L_122)->SetAt(static_cast<il2cpp_array_size_t>(L_123), (RuntimeObject *)L_126);
+	}
+
+IL_0270:
+	{
+		goto IL_0312;
+	}
+
+IL_0275:
+	{
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_127 = V_11;
+		int32_t L_128 = V_12;
+		intptr_t L_129 = ___pVm0;
+		int32_t L_130 = V_12;
+		double L_131;
+		L_131 = Sqlite_sqlite3_column_double_m069E5BD9971746E31ADAD905FC9B47BD45EF4795((intptr_t)L_129, L_130, /*hidden argument*/NULL);
+		double L_132 = L_131;
+		RuntimeObject * L_133 = Box(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var, &L_132);
+		NullCheck(L_127);
+		ArrayElementTypeCheck (L_127, L_133);
+		(L_127)->SetAt(static_cast<il2cpp_array_size_t>(L_128), (RuntimeObject *)L_133);
+		goto IL_0312;
+	}
+
+IL_028c:
+	{
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_134 = V_11;
+		int32_t L_135 = V_12;
+		intptr_t L_136 = ___pVm0;
+		int32_t L_137 = V_12;
+		intptr_t L_138;
+		L_138 = Sqlite_sqlite3_column_text16_m502344165EDF126E315A74BC55AB1EE48F9F8C05((intptr_t)L_136, L_137, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		String_t* L_139;
+		L_139 = Marshal_PtrToStringUni_m4CA386E4B7F073C4FC9F73F8CADC7249655CD645((intptr_t)L_138, /*hidden argument*/NULL);
+		NullCheck(L_134);
+		ArrayElementTypeCheck (L_134, L_139);
+		(L_134)->SetAt(static_cast<il2cpp_array_size_t>(L_135), (RuntimeObject *)L_139);
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_140 = V_4;
+		int32_t L_141 = V_12;
+		NullCheck(L_140);
+		int32_t L_142 = L_141;
+		int32_t L_143 = (L_140)->GetAt(static_cast<il2cpp_array_size_t>(L_142));
+		if ((!(((uint32_t)L_143) == ((uint32_t)2))))
+		{
+			goto IL_02c2;
+		}
+	}
+	{
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_144 = V_11;
+		int32_t L_145 = V_12;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_146 = V_11;
+		int32_t L_147 = V_12;
+		NullCheck(L_146);
+		int32_t L_148 = L_147;
+		RuntimeObject * L_149 = (L_146)->GetAt(static_cast<il2cpp_array_size_t>(L_148));
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var);
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_150;
+		L_150 = DateTime_Parse_m15F41E956747FC3E7EEBB24E45AA8733C1966989(((String_t*)CastclassSealed((RuntimeObject*)L_149, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_151 = L_150;
+		RuntimeObject * L_152 = Box(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var, &L_151);
+		NullCheck(L_144);
+		ArrayElementTypeCheck (L_144, L_152);
+		(L_144)->SetAt(static_cast<il2cpp_array_size_t>(L_145), (RuntimeObject *)L_152);
+	}
+
+IL_02c2:
+	{
+		goto IL_0312;
+	}
+
+IL_02c7:
+	{
+		intptr_t L_153 = ___pVm0;
+		int32_t L_154 = V_12;
+		int32_t L_155;
+		L_155 = Sqlite_sqlite3_column_bytes16_m31706E846411B294E7CE6F994A2B6D894445A887((intptr_t)L_153, L_154, /*hidden argument*/NULL);
+		V_15 = L_155;
+		intptr_t L_156 = ___pVm0;
+		int32_t L_157 = V_12;
+		intptr_t L_158;
+		L_158 = Sqlite_sqlite3_column_blob_mCF629D8D360C67B57AE07084E305C74747E1644E((intptr_t)L_156, L_157, /*hidden argument*/NULL);
+		V_16 = (intptr_t)L_158;
+		int32_t L_159 = V_15;
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_160 = (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*)(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*)SZArrayNew(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_il2cpp_TypeInfo_var, (uint32_t)L_159);
+		V_17 = L_160;
+		intptr_t L_161 = V_16;
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_162 = V_17;
+		int32_t L_163 = V_15;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		Marshal_Copy_m057A8067BF7212A361510EA26B24022990A07AC0((intptr_t)L_161, L_162, 0, L_163, /*hidden argument*/NULL);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_164 = V_11;
+		int32_t L_165 = V_12;
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_166 = V_17;
+		NullCheck(L_164);
+		ArrayElementTypeCheck (L_164, L_166);
+		(L_164)->SetAt(static_cast<il2cpp_array_size_t>(L_165), (RuntimeObject *)L_166);
+		goto IL_0312;
+	}
+
+IL_02fc:
+	{
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_167 = V_11;
+		int32_t L_168 = V_12;
+		NullCheck(L_167);
+		ArrayElementTypeCheck (L_167, NULL);
+		(L_167)->SetAt(static_cast<il2cpp_array_size_t>(L_168), (RuntimeObject *)NULL);
+		goto IL_0312;
+	}
+
+IL_0307:
+	{
+		ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 * L_169 = (ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407_il2cpp_TypeInfo_var)));
+		ApplicationException__ctor_mF8E9704C91C2F1912909448E5BABFE9EC61D4E8F(L_169, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral34809DE2AF8C211C4AFD423B678EA4FE9C979661)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_169, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteDataReader_ReadpVm_m16B4AF70FE7F0BC232B7C902F32CCB9DB7D9FE0D_RuntimeMethod_var)));
+	}
+
+IL_0312:
+	{
+		int32_t L_170 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_add((int32_t)L_170, (int32_t)1));
+	}
+
+IL_0318:
+	{
+		int32_t L_171 = V_12;
+		int32_t L_172 = V_0;
+		if ((((int32_t)L_171) < ((int32_t)L_172)))
+		{
+			goto IL_01a3;
+		}
+	}
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_173 = __this->get_rows_2();
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_174 = V_11;
+		NullCheck(L_173);
+		int32_t L_175;
+		L_175 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(29 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_173, (RuntimeObject *)(RuntimeObject *)L_174);
+		goto IL_0005;
+	}
+
+IL_0333:
+	{
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteDataReader::ReadingDone()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteDataReader_ReadingDone_m064B51F206282C3A3D8A5AE139D8A8C5B7B7A2AC (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_ReadingDone_m064B51F206282C3A3D8A5AE139D8A8C5B7B7A2AC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_ReadingDone_m064B51F206282C3A3D8A5AE139D8A8C5B7B7A2AC_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * L_0 = __this->get_command_1();
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = SqliteCommand_NumChanges_mD5E4F9280B608005BC030C69FF0CCD3480FEDFD4(L_0, /*hidden argument*/NULL);
+		__this->set_records_affected_9(L_1);
+		__this->set_reading_8((bool)0);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteDataReader::Close()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteDataReader_Close_m2C8A9579991AE740D789C3817E7D000B0F46D6E8 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_Close_m2C8A9579991AE740D789C3817E7D000B0F46D6E8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_Close_m2C8A9579991AE740D789C3817E7D000B0F46D6E8_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		__this->set_closed_7((bool)1);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteDataReader::Dispose(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteDataReader_Dispose_m042AF43AFA5F7B148D84CD088F33E042F96E1A42 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, bool ___disposing0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_Dispose_m042AF43AFA5F7B148D84CD088F33E042F96E1A42_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_Dispose_m042AF43AFA5F7B148D84CD088F33E042F96E1A42_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		bool L_0 = ___disposing0;
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		VirtActionInvoker0::Invoke(21 /* System.Void Mono.Data.SqliteClient.SqliteDataReader::Close() */, __this);
+	}
+
+IL_000c:
+	{
+		return;
+	}
+}
+// System.Collections.IEnumerator Mono.Data.SqliteClient.SqliteDataReader::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqliteDataReader_GetEnumerator_mBCD2ED6AB41E080A1CBD255F7B5341636AC21089 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_GetEnumerator_mBCD2ED6AB41E080A1CBD255F7B5341636AC21089_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_GetEnumerator_mBCD2ED6AB41E080A1CBD255F7B5341636AC21089_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0 * L_0 = (DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0 *)il2cpp_codegen_object_new(DbEnumerator_tF1B417168537A88D6265BB196F18405AA4D34AD0_il2cpp_TypeInfo_var);
+		DbEnumerator__ctor_mF119906D6677EEF51005C9148E5ED43AC7D964C2(L_0, __this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Boolean Mono.Data.SqliteClient.SqliteDataReader::NextResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteDataReader_NextResult_m950246136B40CD0AEEC6EB9AE3E54724FEBE59EC (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_NextResult_m950246136B40CD0AEEC6EB9AE3E54724FEBE59EC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_NextResult_m950246136B40CD0AEEC6EB9AE3E54724FEBE59EC_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->get_current_row_6();
+		__this->set_current_row_6(((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)1)));
+		int32_t L_1 = __this->get_current_row_6();
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_2 = __this->get_rows_2();
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_2);
+		return (bool)((((int32_t)L_1) < ((int32_t)L_3))? 1 : 0);
+	}
+}
+// System.Boolean Mono.Data.SqliteClient.SqliteDataReader::Read()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteDataReader_Read_m0668643CA9D2A818C45A14E819FA09F7F6D8AF9C (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_Read_m0668643CA9D2A818C45A14E819FA09F7F6D8AF9C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_Read_m0668643CA9D2A818C45A14E819FA09F7F6D8AF9C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		bool L_0;
+		L_0 = VirtFuncInvoker0< bool >::Invoke(31 /* System.Boolean Mono.Data.SqliteClient.SqliteDataReader::NextResult() */, __this);
+		return L_0;
+	}
+}
+// System.String Mono.Data.SqliteClient.SqliteDataReader::GetDataTypeName(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqliteDataReader_GetDataTypeName_m274D7A5BD798E1900232DD775C70E5C9354EDC0C (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, int32_t ___i0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_GetDataTypeName_m274D7A5BD798E1900232DD775C70E5C9354EDC0C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBFCC6EE94F1B7AA05A04750903E25F93A7188AE0);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_GetDataTypeName_m274D7A5BD798E1900232DD775C70E5C9354EDC0C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_0 = __this->get_decltypes_10();
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_1 = __this->get_decltypes_10();
+		int32_t L_2 = ___i0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		String_t* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		if (!L_4)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_5 = __this->get_decltypes_10();
+		int32_t L_6 = ___i0;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		String_t* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		return L_8;
+	}
+
+IL_0021:
+	{
+		return _stringLiteralBFCC6EE94F1B7AA05A04750903E25F93A7188AE0;
+	}
+}
+// System.Type Mono.Data.SqliteClient.SqliteDataReader::GetFieldType(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * SqliteDataReader_GetFieldType_m95673D28938C89F7EBC25C0A4F7EF7AB3030CA36 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, int32_t ___i0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_GetFieldType_m95673D28938C89F7EBC25C0A4F7EF7AB3030CA36_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	RuntimeObject * V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_GetFieldType_m95673D28938C89F7EBC25C0A4F7EF7AB3030CA36_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->get_current_row_6();
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((!(((uint32_t)L_1) == ((uint32_t)(-1)))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_2 = __this->get_rows_2();
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_2);
+		if (L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_4 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5;
+		L_5 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_0029:
+	{
+		int32_t L_6 = V_0;
+		if ((!(((uint32_t)L_6) == ((uint32_t)(-1)))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		V_0 = 0;
+	}
+
+IL_0032:
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_7 = __this->get_rows_2();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		RuntimeObject * L_9;
+		L_9 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_7, L_8);
+		int32_t L_10 = ___i0;
+		NullCheck(((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_9, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)));
+		int32_t L_11 = L_10;
+		RuntimeObject * L_12 = (((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_9, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)))->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		V_1 = L_12;
+		RuntimeObject * L_13 = V_1;
+		if (!L_13)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		RuntimeObject * L_14 = V_1;
+		NullCheck(L_14);
+		Type_t * L_15;
+		L_15 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_14, /*hidden argument*/NULL);
+		return L_15;
+	}
+
+IL_0053:
+	{
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_16 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_17;
+		L_17 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_16, /*hidden argument*/NULL);
+		return L_17;
+	}
+}
+// System.Int16 Mono.Data.SqliteClient.SqliteDataReader::GetInt16(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t SqliteDataReader_GetInt16_m680067F2C629A6B230D551492A5F7F8F15689E5B (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, int32_t ___i0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_GetInt16_m680067F2C629A6B230D551492A5F7F8F15689E5B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_GetInt16_m680067F2C629A6B230D551492A5F7F8F15689E5B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_rows_2();
+		int32_t L_1 = __this->get_current_row_6();
+		NullCheck(L_0);
+		RuntimeObject * L_2;
+		L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_0, L_1);
+		int32_t L_3 = ___i0;
+		NullCheck(((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_2, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)));
+		int32_t L_4 = L_3;
+		RuntimeObject * L_5 = (((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_2, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)))->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var);
+		int16_t L_6;
+		L_6 = Convert_ToInt16_mAA2FFC6486323ABB30E8D9B387FB3B56250BBFCC(L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
+// System.Int32 Mono.Data.SqliteClient.SqliteDataReader::GetInt32(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteDataReader_GetInt32_mE174501AC71744D5DFC79958F81066311D0E6206 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, int32_t ___i0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_GetInt32_mE174501AC71744D5DFC79958F81066311D0E6206_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_GetInt32_mE174501AC71744D5DFC79958F81066311D0E6206_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_rows_2();
+		int32_t L_1 = __this->get_current_row_6();
+		NullCheck(L_0);
+		RuntimeObject * L_2;
+		L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_0, L_1);
+		int32_t L_3 = ___i0;
+		NullCheck(((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_2, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)));
+		int32_t L_4 = L_3;
+		RuntimeObject * L_5 = (((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_2, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)))->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_mFFEDED67681E3EC8705BCA890BBC206514431B4A(L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
+// System.String Mono.Data.SqliteClient.SqliteDataReader::GetName(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqliteDataReader_GetName_mA731E7C88CB1393855BF747778D1C2AA41588524 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, int32_t ___i0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_GetName_mA731E7C88CB1393855BF747778D1C2AA41588524_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_GetName_mA731E7C88CB1393855BF747778D1C2AA41588524_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_0 = __this->get_columns_3();
+		int32_t L_1 = ___i0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		String_t* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return L_3;
+	}
+}
+// System.String Mono.Data.SqliteClient.SqliteDataReader::GetString(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqliteDataReader_GetString_mFA9EF94F08D6E4C77E11CF3F917C5BA0014E8620 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, int32_t ___i0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_GetString_mFA9EF94F08D6E4C77E11CF3F917C5BA0014E8620_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_GetString_mFA9EF94F08D6E4C77E11CF3F917C5BA0014E8620_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_rows_2();
+		int32_t L_1 = __this->get_current_row_6();
+		NullCheck(L_0);
+		RuntimeObject * L_2;
+		L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_0, L_1);
+		int32_t L_3 = ___i0;
+		NullCheck(((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_2, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)));
+		int32_t L_4 = L_3;
+		RuntimeObject * L_5 = (((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_2, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)))->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		NullCheck(L_5);
+		String_t* L_6;
+		L_6 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_5);
+		return L_6;
+	}
+}
+// System.Int32 Mono.Data.SqliteClient.SqliteDataReader::GetValues(System.Object[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteDataReader_GetValues_mCF37A002BC1120DD10ECFD47E846371643EE2564 (SqliteDataReader_t2CBF0B7B65ADAC60EC554855F87297D2B6F8B585 * __this, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___values0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteDataReader_GetValues_mCF37A002BC1120DD10ECFD47E846371643EE2564_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteDataReader_GetValues_mCF37A002BC1120DD10ECFD47E846371643EE2564_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_0 = ___values0;
+		NullCheck(L_0);
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_1 = __this->get_columns_3();
+		NullCheck(L_1);
+		IL2CPP_RUNTIME_CLASS_INIT(Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = Math_Min_m4C6E1589800A3AA57C1F430C3903847E8D7B4574(((int32_t)((int32_t)(((RuntimeArray*)L_0)->max_length))), ((int32_t)((int32_t)(((RuntimeArray*)L_1)->max_length))), /*hidden argument*/NULL);
+		V_0 = L_2;
+		V_1 = 0;
+		goto IL_0061;
+	}
+
+IL_0018:
+	{
+		CHECK_PAUSE_POINT;
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_3 = __this->get_rows_2();
+		int32_t L_4 = __this->get_current_row_6();
+		NullCheck(L_3);
+		RuntimeObject * L_5;
+		L_5 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_3, L_4);
+		int32_t L_6 = V_1;
+		NullCheck(((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_5, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)));
+		int32_t L_7 = L_6;
+		RuntimeObject * L_8 = (((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_5, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)))->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		if (!L_8)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_9 = ___values0;
+		int32_t L_10 = V_1;
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_11 = __this->get_rows_2();
+		int32_t L_12 = __this->get_current_row_6();
+		NullCheck(L_11);
+		RuntimeObject * L_13;
+		L_13 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_11, L_12);
+		int32_t L_14 = V_1;
+		NullCheck(((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_13, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)));
+		int32_t L_15 = L_14;
+		RuntimeObject * L_16 = (((ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)Castclass((RuntimeObject*)L_13, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var)))->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		NullCheck(L_9);
+		ArrayElementTypeCheck (L_9, L_16);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (RuntimeObject *)L_16);
+		goto IL_005d;
+	}
+
+IL_0055:
+	{
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_17 = ___values0;
+		int32_t L_18 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28_il2cpp_TypeInfo_var);
+		DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28 * L_19 = ((DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28_StaticFields*)il2cpp_codegen_static_fields_for(DBNull_t0CFB3A03916C4AE0938C140E6A5487CEC8169C28_il2cpp_TypeInfo_var))->get_Value_0();
+		NullCheck(L_17);
+		ArrayElementTypeCheck (L_17, L_19);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(L_18), (RuntimeObject *)L_19);
+	}
+
+IL_005d:
+	{
+		int32_t L_20 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_20, (int32_t)1));
+	}
+
+IL_0061:
+	{
+		int32_t L_21 = V_1;
+		int32_t L_22 = V_0;
+		if ((((int32_t)L_21) < ((int32_t)L_22)))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		int32_t L_23 = V_0;
+		return L_23;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Mono.Data.SqliteClient.SqliteExecutionException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteExecutionException__ctor_m3A3B66D4A49F04B2EA59BB300C31D6347D9AFC37 (SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteExecutionException__ctor_m3A3B66D4A49F04B2EA59BB300C31D6347D9AFC37_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral57A934726E1ABC46ADF2AC8C318B9EA9E3737734);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteExecutionException__ctor_m3A3B66D4A49F04B2EA59BB300C31D6347D9AFC37_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteExecutionException__ctor_mE9C1E2F542B576520BE2F74E26594E02DA496AE3(__this, _stringLiteral57A934726E1ABC46ADF2AC8C318B9EA9E3737734, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteExecutionException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteExecutionException__ctor_mE9C1E2F542B576520BE2F74E26594E02DA496AE3 (SqliteExecutionException_tBEA740C0E5DEF076A22B49F6A6C4DF861CB00826 * __this, String_t* ___message0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteExecutionException__ctor_mE9C1E2F542B576520BE2F74E26594E02DA496AE3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteExecutionException__ctor_mE9C1E2F542B576520BE2F74E26594E02DA496AE3_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = ___message0;
+		ApplicationException__ctor_mF8E9704C91C2F1912909448E5BABFE9EC61D4E8F(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String Mono.Data.SqliteClient.SqliteParameter::get_ParameterName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqliteParameter_get_ParameterName_m15CBAC7272DA5FC3C2EB216F24CB066D2EDA8999 (SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_get_ParameterName_m15CBAC7272DA5FC3C2EB216F24CB066D2EDA8999_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameter_get_ParameterName_m15CBAC7272DA5FC3C2EB216F24CB066D2EDA8999_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = __this->get_name_1();
+		return L_0;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteParameter::set_ParameterName(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameter_set_ParameterName_m3C713C4CAE387BC74DD8EAA3D9B8D52E9E9B0090 (SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_set_ParameterName_m3C713C4CAE387BC74DD8EAA3D9B8D52E9E9B0090_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameter_set_ParameterName_m3C713C4CAE387BC74DD8EAA3D9B8D52E9E9B0090_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = ___value0;
+		__this->set_name_1(L_0);
+		return;
+	}
+}
+// System.Object Mono.Data.SqliteClient.SqliteParameter::get_Value()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * SqliteParameter_get_Value_m76D08FC48771D6160CF63F25E582BE466030E901 (SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_get_Value_m76D08FC48771D6160CF63F25E582BE466030E901_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameter_get_Value_m76D08FC48771D6160CF63F25E582BE466030E901_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject * L_0 = __this->get_param_value_2();
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection__ctor_m5CDB4E61EBDFE9AD1D46E91C610AAC96C7181F0E (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection__ctor_m5CDB4E61EBDFE9AD1D46E91C610AAC96C7181F0E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection__ctor_m5CDB4E61EBDFE9AD1D46E91C610AAC96C7181F0E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = (ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 *)il2cpp_codegen_object_new(ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575_il2cpp_TypeInfo_var);
+		ArrayList__ctor_m6847CFECD6BDC2AD10A4AC9852A572B88B8D6B1B(L_0, /*hidden argument*/NULL);
+		__this->set_numeric_param_list_1(L_0);
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_1 = (Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC *)il2cpp_codegen_object_new(Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m2D9C25FB57ACD33B0DF8391D38A165975A1D9A91(L_1, /*hidden argument*/NULL);
+		__this->set_named_param_hash_2(L_1);
+		DbParameterCollection__ctor_mD775A4D557C57801A6029E3495146B6372E0CE02(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::CheckSqliteParam(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_CheckSqliteParam_m03C31337D8EFB5C8310C18E1438A421D13765B37 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_CheckSqliteParam_m03C31337D8EFB5C8310C18E1438A421D13765B37_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_CheckSqliteParam_m03C31337D8EFB5C8310C18E1438A421D13765B37_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject * L_0 = ___value0;
+		if (((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)IsInstClass((RuntimeObject*)L_0, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		InvalidCastException_tD99F9FF94C3859C78E90F68C2F77A1558BCAF463 * L_1 = (InvalidCastException_tD99F9FF94C3859C78E90F68C2F77A1558BCAF463 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidCastException_tD99F9FF94C3859C78E90F68C2F77A1558BCAF463_il2cpp_TypeInfo_var)));
+		InvalidCastException__ctor_m50103CBF0C211B93BF46697875413A10B5A5C5A3(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2DCB4520E1C185B41BB3802B36713A4F9EC300E5)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteParameterCollection_CheckSqliteParam_m03C31337D8EFB5C8310C18E1438A421D13765B37_RuntimeMethod_var)));
+	}
+
+IL_0016:
+	{
+		RuntimeObject * L_2 = ___value0;
+		V_0 = ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)IsInstClass((RuntimeObject*)L_2, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var));
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_3 = V_0;
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Data.SqliteClient.SqliteParameter::get_ParameterName() */, L_3);
+		if (!L_4)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_5 = V_0;
+		NullCheck(L_5);
+		String_t* L_6;
+		L_6 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Data.SqliteClient.SqliteParameter::get_ParameterName() */, L_5);
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_6, /*hidden argument*/NULL);
+		if (L_7)
+		{
+			goto IL_0044;
+		}
+	}
+
+IL_0038:
+	{
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_8 = V_0;
+		String_t* L_9;
+		L_9 = SqliteParameterCollection_GenerateParameterName_m3092583911FDFA444DCA87958003F4AEA41580AC(__this, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		VirtActionInvoker1< String_t* >::Invoke(7 /* System.Void Mono.Data.SqliteClient.SqliteParameter::set_ParameterName(System.String) */, L_8, L_9);
+	}
+
+IL_0044:
+	{
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::RecreateNamedHash()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_RecreateNamedHash_m8A426FC3F58A72AF5CBC44DB194A4A10A4EA9C66 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_RecreateNamedHash_m8A426FC3F58A72AF5CBC44DB194A4A10A4EA9C66_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_RecreateNamedHash_m8A426FC3F58A72AF5CBC44DB194A4A10A4EA9C66_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		V_0 = 0;
+		goto IL_0032;
+	}
+
+IL_0007:
+	{
+		CHECK_PAUSE_POINT;
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_0 = __this->get_named_param_hash_2();
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_1 = __this->get_numeric_param_list_1();
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		RuntimeObject * L_3;
+		L_3 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_1, L_2);
+		NullCheck(((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)CastclassClass((RuntimeObject*)L_3, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var)));
+		String_t* L_4;
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Data.SqliteClient.SqliteParameter::get_ParameterName() */, ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)CastclassClass((RuntimeObject*)L_3, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var)));
+		int32_t L_5 = V_0;
+		int32_t L_6 = L_5;
+		RuntimeObject * L_7 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_6);
+		NullCheck(L_0);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(25 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_0, L_4, L_7);
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_8, (int32_t)1));
+	}
+
+IL_0032:
+	{
+		int32_t L_9 = V_0;
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_10 = __this->get_numeric_param_list_1();
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_10);
+		if ((((int32_t)L_9) < ((int32_t)L_11)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.String Mono.Data.SqliteClient.SqliteParameterCollection::GenerateParameterName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqliteParameterCollection_GenerateParameterName_m3092583911FDFA444DCA87958003F4AEA41580AC (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_GenerateParameterName_m3092583911FDFA444DCA87958003F4AEA41580AC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	String_t* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_GenerateParameterName_m3092583911FDFA444DCA87958003F4AEA41580AC_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0;
+		L_0 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::get_Count() */, __this);
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)1));
+		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
+		V_1 = L_1;
+		goto IL_003e;
+	}
+
+IL_0014:
+	{
+		CHECK_PAUSE_POINT;
+		String_t* L_2;
+		L_2 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(&V_0), /*hidden argument*/NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		String_t* L_4 = V_1;
+		int32_t L_5;
+		L_5 = VirtFuncInvoker1< int32_t, String_t* >::Invoke(36 /* System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::IndexOf(System.String) */, __this, L_4);
+		if ((!(((uint32_t)L_5) == ((uint32_t)(-1)))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		V_0 = (-1);
+		goto IL_003e;
+	}
+
+IL_003a:
+	{
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_6, (int32_t)1));
+	}
+
+IL_003e:
+	{
+		int32_t L_7 = V_0;
+		if ((((int32_t)L_7) > ((int32_t)0)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		String_t* L_8 = V_1;
+		return L_8;
+	}
+}
+// System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::isPrefixed(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteParameterCollection_isPrefixed_mD2A6838DB480763E862FCF400934E3F133276B72 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, String_t* ___parameterName0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_isPrefixed_mD2A6838DB480763E862FCF400934E3F133276B72_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_isPrefixed_mD2A6838DB480763E862FCF400934E3F133276B72_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	int32_t G_B4_0 = 0;
+	int32_t G_B6_0 = 0;
+	{
+		String_t* L_0 = ___parameterName0;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_0, /*hidden argument*/NULL);
+		if ((((int32_t)L_1) <= ((int32_t)1)))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		String_t* L_2 = ___parameterName0;
+		NullCheck(L_2);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_m9B1A5E4C8D70AA33A60F03735AF7B77AB9DBBA70(L_2, 0, /*hidden argument*/NULL);
+		if ((((int32_t)L_3) == ((int32_t)((int32_t)58))))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		String_t* L_4 = ___parameterName0;
+		NullCheck(L_4);
+		Il2CppChar L_5;
+		L_5 = String_get_Chars_m9B1A5E4C8D70AA33A60F03735AF7B77AB9DBBA70(L_4, 0, /*hidden argument*/NULL);
+		G_B4_0 = ((((int32_t)L_5) == ((int32_t)((int32_t)36)))? 1 : 0);
+		goto IL_0028;
+	}
+
+IL_0027:
+	{
+		G_B4_0 = 1;
+	}
+
+IL_0028:
+	{
+		G_B6_0 = G_B4_0;
+		goto IL_002b;
+	}
+
+IL_002a:
+	{
+		G_B6_0 = 0;
+	}
+
+IL_002b:
+	{
+		return (bool)G_B6_0;
+	}
+}
+// System.Data.Common.DbParameter Mono.Data.SqliteClient.SqliteParameterCollection::GetParameter(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * SqliteParameterCollection_GetParameter_mE8DA436DA0BE8BF2C3AAF37E0D98FB1A7800068E (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, int32_t ___parameterIndex0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_GetParameter_mE8DA436DA0BE8BF2C3AAF37E0D98FB1A7800068E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_GetParameter_mE8DA436DA0BE8BF2C3AAF37E0D98FB1A7800068E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0;
+		L_0 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::get_Count() */, __this);
+		int32_t L_1 = ___parameterIndex0;
+		if ((((int32_t)L_0) < ((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)1)))))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_2 = __this->get_numeric_param_list_1();
+		int32_t L_3 = ___parameterIndex0;
+		NullCheck(L_2);
+		RuntimeObject * L_4;
+		L_4 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_2, L_3);
+		return ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)CastclassClass((RuntimeObject*)L_4, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var));
+	}
+
+IL_0020:
+	{
+		String_t* L_5;
+		L_5 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(&___parameterIndex0), /*hidden argument*/NULL);
+		String_t* L_6;
+		L_6 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDD88E702DF24C95E646911BB9F8A30895F324632)), L_5, /*hidden argument*/NULL);
+		IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD * L_7 = (IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD_il2cpp_TypeInfo_var)));
+		IndexOutOfRangeException__ctor_mC5747EC0E0F49AAD1AD782ACC7A0CCD80D192FEF(L_7, L_6, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteParameterCollection_GetParameter_mE8DA436DA0BE8BF2C3AAF37E0D98FB1A7800068E_RuntimeMethod_var)));
+	}
+}
+// System.Data.Common.DbParameter Mono.Data.SqliteClient.SqliteParameterCollection::GetParameter(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * SqliteParameterCollection_GetParameter_m26CC57C0010FAA5515124E440B19A2685A4D4A1D (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, String_t* ___parameterName0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_GetParameter_m26CC57C0010FAA5515124E440B19A2685A4D4A1D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_GetParameter_m26CC57C0010FAA5515124E440B19A2685A4D4A1D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = ___parameterName0;
+		bool L_1;
+		L_1 = VirtFuncInvoker1< bool, String_t* >::Invoke(29 /* System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::Contains(System.String) */, __this, L_0);
+		if (!L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_2 = __this->get_named_param_hash_2();
+		String_t* L_3 = ___parameterName0;
+		NullCheck(L_2);
+		RuntimeObject * L_4;
+		L_4 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(24 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_2, L_3);
+		DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * L_5;
+		L_5 = DbParameterCollection_get_Item_m5323131A014AFC17F21DA0BECB22482F33BE0332(__this, ((*(int32_t*)((int32_t*)UnBox(L_4, Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_0024:
+	{
+		String_t* L_6 = ___parameterName0;
+		bool L_7;
+		L_7 = SqliteParameterCollection_isPrefixed_mD2A6838DB480763E862FCF400934E3F133276B72(__this, L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		String_t* L_8 = ___parameterName0;
+		NullCheck(L_8);
+		String_t* L_9;
+		L_9 = String_Substring_mB6B87FD76552BBF6D4E2B9F07F857FE051DCE190(L_8, 1, /*hidden argument*/NULL);
+		bool L_10;
+		L_10 = VirtFuncInvoker1< bool, String_t* >::Invoke(29 /* System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::Contains(System.String) */, __this, L_9);
+		if (!L_10)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_11 = __this->get_named_param_hash_2();
+		String_t* L_12 = ___parameterName0;
+		NullCheck(L_12);
+		String_t* L_13;
+		L_13 = String_Substring_mB6B87FD76552BBF6D4E2B9F07F857FE051DCE190(L_12, 1, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		RuntimeObject * L_14;
+		L_14 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(24 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_11, L_13);
+		DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * L_15;
+		L_15 = DbParameterCollection_get_Item_m5323131A014AFC17F21DA0BECB22482F33BE0332(__this, ((*(int32_t*)((int32_t*)UnBox(L_14, Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		return L_15;
+	}
+
+IL_0060:
+	{
+		String_t* L_16 = ___parameterName0;
+		String_t* L_17;
+		L_17 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralEB425272F15000B0768E90D527E79C72582C7427)), L_16, /*hidden argument*/NULL);
+		IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD * L_18 = (IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD_il2cpp_TypeInfo_var)));
+		IndexOutOfRangeException__ctor_mC5747EC0E0F49AAD1AD782ACC7A0CCD80D192FEF(L_18, L_17, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_18, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteParameterCollection_GetParameter_m26CC57C0010FAA5515124E440B19A2685A4D4A1D_RuntimeMethod_var)));
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::SetParameter(System.Int32,System.Data.Common.DbParameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_SetParameter_m06BA9BF65DDB9C36F8C57692C7D0ACB9D8673841 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, int32_t ___parameterIndex0, DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * ___parameter1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_SetParameter_m06BA9BF65DDB9C36F8C57692C7D0ACB9D8673841_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_SetParameter_m06BA9BF65DDB9C36F8C57692C7D0ACB9D8673841_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0;
+		L_0 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::get_Count() */, __this);
+		int32_t L_1 = ___parameterIndex0;
+		if ((((int32_t)L_0) < ((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)1)))))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_2 = __this->get_numeric_param_list_1();
+		int32_t L_3 = ___parameterIndex0;
+		DbParameter_tFFCB778C7DBB767FAF0AA0FA9CDAAE9091499FE3 * L_4 = ___parameter1;
+		NullCheck(L_2);
+		VirtActionInvoker2< int32_t, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.ArrayList::set_Item(System.Int32,System.Object) */, L_2, L_3, L_4);
+		goto IL_0037;
+	}
+
+IL_0020:
+	{
+		String_t* L_5;
+		L_5 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(&___parameterIndex0), /*hidden argument*/NULL);
+		String_t* L_6;
+		L_6 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDD88E702DF24C95E646911BB9F8A30895F324632)), L_5, /*hidden argument*/NULL);
+		IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD * L_7 = (IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IndexOutOfRangeException_tDC9EF7A0346CE39E54DA1083F07BE6DFC3CE2EDD_il2cpp_TypeInfo_var)));
+		IndexOutOfRangeException__ctor_mC5747EC0E0F49AAD1AD782ACC7A0CCD80D192FEF(L_7, L_6, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteParameterCollection_SetParameter_m06BA9BF65DDB9C36F8C57692C7D0ACB9D8673841_RuntimeMethod_var)));
+	}
+
+IL_0037:
+	{
+		return;
+	}
+}
+// System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteParameterCollection_get_Count_m38B1A02B4F3C09F7911F2FE4DD6617FF0B0B403E (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_get_Count_m38B1A02B4F3C09F7911F2FE4DD6617FF0B0B403E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_get_Count_m38B1A02B4F3C09F7911F2FE4DD6617FF0B0B403E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_numeric_param_list_1();
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_0);
+		return L_1;
+	}
+}
+// System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::get_IsFixedSize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteParameterCollection_get_IsFixedSize_m990C2015E861FA08F5C990C9ECB80C4F926F386B (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_get_IsFixedSize_m990C2015E861FA08F5C990C9ECB80C4F926F386B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_get_IsFixedSize_m990C2015E861FA08F5C990C9ECB80C4F926F386B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_numeric_param_list_1();
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = VirtFuncInvoker0< bool >::Invoke(23 /* System.Boolean System.Collections.ArrayList::get_IsFixedSize() */, L_0);
+		return L_1;
+	}
+}
+// System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::get_IsReadOnly()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteParameterCollection_get_IsReadOnly_m3F1361D6BCEC89F2251EE5C1A03675BE1878B551 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_get_IsReadOnly_m3F1361D6BCEC89F2251EE5C1A03675BE1878B551_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_get_IsReadOnly_m3F1361D6BCEC89F2251EE5C1A03675BE1878B551_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_numeric_param_list_1();
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = VirtFuncInvoker0< bool >::Invoke(24 /* System.Boolean System.Collections.ArrayList::get_IsReadOnly() */, L_0);
+		return L_1;
+	}
+}
+// System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::get_IsSynchronized()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteParameterCollection_get_IsSynchronized_m7FA7C63E5D6216508BF8E5CDC7677A7B99680D47 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_get_IsSynchronized_m7FA7C63E5D6216508BF8E5CDC7677A7B99680D47_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_get_IsSynchronized_m7FA7C63E5D6216508BF8E5CDC7677A7B99680D47_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_numeric_param_list_1();
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = VirtFuncInvoker0< bool >::Invoke(25 /* System.Boolean System.Collections.ArrayList::get_IsSynchronized() */, L_0);
+		return L_1;
+	}
+}
+// System.Object Mono.Data.SqliteClient.SqliteParameterCollection::get_SyncRoot()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * SqliteParameterCollection_get_SyncRoot_m09ED30CEB1E59F126FD11CD2681E42BDEAE9C3BB (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_get_SyncRoot_m09ED30CEB1E59F126FD11CD2681E42BDEAE9C3BB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_get_SyncRoot_m09ED30CEB1E59F126FD11CD2681E42BDEAE9C3BB_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_numeric_param_list_1();
+		NullCheck(L_0);
+		RuntimeObject * L_1;
+		L_1 = VirtFuncInvoker0< RuntimeObject * >::Invoke(26 /* System.Object System.Collections.ArrayList::get_SyncRoot() */, L_0);
+		return L_1;
+	}
+}
+// System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::Add(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteParameterCollection_Add_mC88B6DA034A84D1141557C7FC1713F8B97BC46BB (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_Add_mC88B6DA034A84D1141557C7FC1713F8B97BC46BB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_Add_mC88B6DA034A84D1141557C7FC1713F8B97BC46BB_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject * L_0 = ___value0;
+		SqliteParameterCollection_CheckSqliteParam_m03C31337D8EFB5C8310C18E1438A421D13765B37(__this, L_0, /*hidden argument*/NULL);
+		RuntimeObject * L_1 = ___value0;
+		V_0 = ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)IsInstClass((RuntimeObject*)L_1, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var));
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_2 = __this->get_named_param_hash_2();
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_3 = V_0;
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Data.SqliteClient.SqliteParameter::get_ParameterName() */, L_3);
+		NullCheck(L_2);
+		bool L_5;
+		L_5 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(20 /* System.Boolean System.Collections.Hashtable::Contains(System.Object) */, L_2, L_4);
+		if (!L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		DuplicateNameException_t4305734127CC4324A913DE2E4CD9B38697E80C3C * L_6 = (DuplicateNameException_t4305734127CC4324A913DE2E4CD9B38697E80C3C *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DuplicateNameException_t4305734127CC4324A913DE2E4CD9B38697E80C3C_il2cpp_TypeInfo_var)));
+		DuplicateNameException__ctor_m238DD46B4F973CEA2F8C4AB7D5A37A5E527D93B7(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD8EBD7967F74FCB93694E539E94675EBBD4BF0F8)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteParameterCollection_Add_mC88B6DA034A84D1141557C7FC1713F8B97BC46BB_RuntimeMethod_var)));
+	}
+
+IL_002f:
+	{
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_7 = __this->get_named_param_hash_2();
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_8 = V_0;
+		NullCheck(L_8);
+		String_t* L_9;
+		L_9 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Data.SqliteClient.SqliteParameter::get_ParameterName() */, L_8);
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_10 = __this->get_numeric_param_list_1();
+		RuntimeObject * L_11 = ___value0;
+		NullCheck(L_10);
+		int32_t L_12;
+		L_12 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(29 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_10, L_11);
+		int32_t L_13 = L_12;
+		RuntimeObject * L_14 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_13);
+		NullCheck(L_7);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(25 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_7, L_9, L_14);
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_15 = __this->get_named_param_hash_2();
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_16 = V_0;
+		NullCheck(L_16);
+		String_t* L_17;
+		L_17 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Data.SqliteClient.SqliteParameter::get_ParameterName() */, L_16);
+		NullCheck(L_15);
+		RuntimeObject * L_18;
+		L_18 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(24 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_15, L_17);
+		return ((*(int32_t*)((int32_t*)UnBox(L_18, Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var))));
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::Clear()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_Clear_mB760CAF67968877C7479059B74EB1D8D248FA6EA (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_Clear_mB760CAF67968877C7479059B74EB1D8D248FA6EA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_Clear_mB760CAF67968877C7479059B74EB1D8D248FA6EA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_numeric_param_list_1();
+		NullCheck(L_0);
+		VirtActionInvoker0::Invoke(31 /* System.Void System.Collections.ArrayList::Clear() */, L_0);
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_1 = __this->get_named_param_hash_2();
+		NullCheck(L_1);
+		VirtActionInvoker0::Invoke(18 /* System.Void System.Collections.Hashtable::Clear() */, L_1);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::CopyTo(System.Array,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_CopyTo_mCD2BB75B3275C4CE306EA33809C97D1CCEA593D8 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, RuntimeArray * ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_CopyTo_mCD2BB75B3275C4CE306EA33809C97D1CCEA593D8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_CopyTo_mCD2BB75B3275C4CE306EA33809C97D1CCEA593D8_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_numeric_param_list_1();
+		RuntimeArray * L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck(L_0);
+		VirtActionInvoker2< RuntimeArray *, int32_t >::Invoke(35 /* System.Void System.Collections.ArrayList::CopyTo(System.Array,System.Int32) */, L_0, L_1, L_2);
+		return;
+	}
+}
+// System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::Contains(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteParameterCollection_Contains_m14DBD2738A084C514815FC2E335DE50846FA61A8 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_Contains_m14DBD2738A084C514815FC2E335DE50846FA61A8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_Contains_m14DBD2738A084C514815FC2E335DE50846FA61A8_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1;
+		L_1 = SqliteParameterCollection_Contains_m62517C17077CFD2BC850A5AB403EF496B6767C24(__this, ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)CastclassClass((RuntimeObject*)L_0, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::Contains(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteParameterCollection_Contains_mCF1EA1FE612593C7AD883318D448046246FFF89E (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, String_t* ___parameterName0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_Contains_mCF1EA1FE612593C7AD883318D448046246FFF89E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_Contains_mCF1EA1FE612593C7AD883318D448046246FFF89E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_0 = __this->get_named_param_hash_2();
+		String_t* L_1 = ___parameterName0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(20 /* System.Boolean System.Collections.Hashtable::Contains(System.Object) */, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::Contains(Mono.Data.SqliteClient.SqliteParameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqliteParameterCollection_Contains_m62517C17077CFD2BC850A5AB403EF496B6767C24 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * ___param0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_Contains_m62517C17077CFD2BC850A5AB403EF496B6767C24_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_Contains_m62517C17077CFD2BC850A5AB403EF496B6767C24_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_0 = ___param0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Data.SqliteClient.SqliteParameter::get_ParameterName() */, L_0);
+		bool L_2;
+		L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(29 /* System.Boolean Mono.Data.SqliteClient.SqliteParameterCollection::Contains(System.String) */, __this, L_1);
+		return L_2;
+	}
+}
+// System.Collections.IEnumerator Mono.Data.SqliteClient.SqliteParameterCollection::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqliteParameterCollection_GetEnumerator_m67E8DF93561359415111D53F60A5E68CFDA33C8F (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_GetEnumerator_m67E8DF93561359415111D53F60A5E68CFDA33C8F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_GetEnumerator_m67E8DF93561359415111D53F60A5E68CFDA33C8F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_numeric_param_list_1();
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = VirtFuncInvoker0< RuntimeObject* >::Invoke(37 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_0);
+		return L_1;
+	}
+}
+// System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::IndexOf(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteParameterCollection_IndexOf_m7F01C695E1231A84A03FC365F18751EA68CBD21B (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, RuntimeObject * ___param0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_IndexOf_m7F01C695E1231A84A03FC365F18751EA68CBD21B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_IndexOf_m7F01C695E1231A84A03FC365F18751EA68CBD21B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject * L_0 = ___param0;
+		int32_t L_1;
+		L_1 = SqliteParameterCollection_IndexOf_m8864DCFD632B6DAB35853B905570A05294A01F09(__this, ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)CastclassClass((RuntimeObject*)L_0, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::IndexOf(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteParameterCollection_IndexOf_m1FFCA8D408C146993DD7095263DC483CA1BBC5F6 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, String_t* ___parameterName0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_IndexOf_m1FFCA8D408C146993DD7095263DC483CA1BBC5F6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_IndexOf_m1FFCA8D408C146993DD7095263DC483CA1BBC5F6_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = ___parameterName0;
+		bool L_1;
+		L_1 = SqliteParameterCollection_isPrefixed_mD2A6838DB480763E862FCF400934E3F133276B72(__this, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		String_t* L_2 = ___parameterName0;
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = String_Substring_mB6B87FD76552BBF6D4E2B9F07F857FE051DCE190(L_2, 1, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_4 = __this->get_named_param_hash_2();
+		String_t* L_5 = V_0;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(20 /* System.Boolean System.Collections.Hashtable::Contains(System.Object) */, L_4, L_5);
+		if (!L_6)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_7 = __this->get_named_param_hash_2();
+		String_t* L_8 = V_0;
+		NullCheck(L_7);
+		RuntimeObject * L_9;
+		L_9 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(24 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_7, L_8);
+		return ((*(int32_t*)((int32_t*)UnBox(L_9, Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var))));
+	}
+
+IL_0037:
+	{
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_10 = __this->get_named_param_hash_2();
+		String_t* L_11 = ___parameterName0;
+		NullCheck(L_10);
+		bool L_12;
+		L_12 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(20 /* System.Boolean System.Collections.Hashtable::Contains(System.Object) */, L_10, L_11);
+		if (!L_12)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_13 = __this->get_named_param_hash_2();
+		String_t* L_14 = ___parameterName0;
+		NullCheck(L_13);
+		RuntimeObject * L_15;
+		L_15 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(24 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_13, L_14);
+		return ((*(int32_t*)((int32_t*)UnBox(L_15, Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var))));
+	}
+
+IL_005a:
+	{
+		return (-1);
+	}
+}
+// System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::IndexOf(Mono.Data.SqliteClient.SqliteParameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqliteParameterCollection_IndexOf_m8864DCFD632B6DAB35853B905570A05294A01F09 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * ___param0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_IndexOf_m8864DCFD632B6DAB35853B905570A05294A01F09_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_IndexOf_m8864DCFD632B6DAB35853B905570A05294A01F09_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_0 = ___param0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Data.SqliteClient.SqliteParameter::get_ParameterName() */, L_0);
+		int32_t L_2;
+		L_2 = VirtFuncInvoker1< int32_t, String_t* >::Invoke(36 /* System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::IndexOf(System.String) */, __this, L_1);
+		return L_2;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::Insert(System.Int32,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_Insert_m4FA0B258D1198C302A844303AA50FB8A73CC04AE (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_Insert_m4FA0B258D1198C302A844303AA50FB8A73CC04AE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_Insert_m4FA0B258D1198C302A844303AA50FB8A73CC04AE_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject * L_0 = ___value1;
+		SqliteParameterCollection_CheckSqliteParam_m03C31337D8EFB5C8310C18E1438A421D13765B37(__this, L_0, /*hidden argument*/NULL);
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_1 = __this->get_numeric_param_list_1();
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_1);
+		int32_t L_3 = ___index0;
+		if ((!(((uint32_t)L_2) == ((uint32_t)L_3))))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		RuntimeObject * L_4 = ___value1;
+		int32_t L_5;
+		L_5 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(27 /* System.Int32 Mono.Data.SqliteClient.SqliteParameterCollection::Add(System.Object) */, __this, L_4);
+		return;
+	}
+
+IL_0021:
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_6 = __this->get_numeric_param_list_1();
+		int32_t L_7 = ___index0;
+		RuntimeObject * L_8 = ___value1;
+		NullCheck(L_6);
+		VirtActionInvoker2< int32_t, RuntimeObject * >::Invoke(39 /* System.Void System.Collections.ArrayList::Insert(System.Int32,System.Object) */, L_6, L_7, L_8);
+		SqliteParameterCollection_RecreateNamedHash_m8A426FC3F58A72AF5CBC44DB194A4A10A4EA9C66(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::Remove(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_Remove_mB9B8EFB19C044C9047EFB1FF5FBB26449091CF45 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_Remove_mB9B8EFB19C044C9047EFB1FF5FBB26449091CF45_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_Remove_mB9B8EFB19C044C9047EFB1FF5FBB26449091CF45_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject * L_0 = ___value0;
+		SqliteParameterCollection_CheckSqliteParam_m03C31337D8EFB5C8310C18E1438A421D13765B37(__this, L_0, /*hidden argument*/NULL);
+		RuntimeObject * L_1 = ___value0;
+		SqliteParameterCollection_RemoveAt_m6C52042C6897FE095BCE072A88D2672C93BEF393(__this, ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)CastclassClass((RuntimeObject*)L_1, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::RemoveAt(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_RemoveAt_mAFCECCE1A86F799A0C5BF76D034541C766CCC755 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_RemoveAt_mAFCECCE1A86F799A0C5BF76D034541C766CCC755_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_RemoveAt_mAFCECCE1A86F799A0C5BF76D034541C766CCC755_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = __this->get_numeric_param_list_1();
+		int32_t L_1 = ___index0;
+		NullCheck(L_0);
+		RuntimeObject * L_2;
+		L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_0, L_1);
+		NullCheck(((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)CastclassClass((RuntimeObject*)L_2, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var)));
+		String_t* L_3;
+		L_3 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Data.SqliteClient.SqliteParameter::get_ParameterName() */, ((SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE *)CastclassClass((RuntimeObject*)L_2, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE_il2cpp_TypeInfo_var)));
+		VirtActionInvoker1< String_t* >::Invoke(40 /* System.Void Mono.Data.SqliteClient.SqliteParameterCollection::RemoveAt(System.String) */, __this, L_3);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::RemoveAt(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_RemoveAt_mC1762147FB22E6D1BFD08A677828BCD4A7E609CD (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, String_t* ___parameterName0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_RemoveAt_mC1762147FB22E6D1BFD08A677828BCD4A7E609CD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_RemoveAt_mC1762147FB22E6D1BFD08A677828BCD4A7E609CD_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_0 = __this->get_named_param_hash_2();
+		String_t* L_1 = ___parameterName0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(20 /* System.Boolean System.Collections.Hashtable::Contains(System.Object) */, L_0, L_1);
+		if (L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		String_t* L_3 = ___parameterName0;
+		String_t* L_4;
+		L_4 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE10CE76A36830983737AFC7AB5662B41A8D7111B)), L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0BE11E57278B4DB1404B685496A04A9ACD355655)), /*hidden argument*/NULL);
+		ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 * L_5 = (ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407_il2cpp_TypeInfo_var)));
+		ApplicationException__ctor_mF8E9704C91C2F1912909448E5BABFE9EC61D4E8F(L_5, L_4, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqliteParameterCollection_RemoveAt_mC1762147FB22E6D1BFD08A677828BCD4A7E609CD_RuntimeMethod_var)));
+	}
+
+IL_0027:
+	{
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_6 = __this->get_numeric_param_list_1();
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_7 = __this->get_named_param_hash_2();
+		String_t* L_8 = ___parameterName0;
+		NullCheck(L_7);
+		RuntimeObject * L_9;
+		L_9 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(24 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_7, L_8);
+		NullCheck(L_6);
+		VirtActionInvoker1< int32_t >::Invoke(42 /* System.Void System.Collections.ArrayList::RemoveAt(System.Int32) */, L_6, ((*(int32_t*)((int32_t*)UnBox(L_9, Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var)))));
+		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_10 = __this->get_named_param_hash_2();
+		String_t* L_11 = ___parameterName0;
+		NullCheck(L_10);
+		VirtActionInvoker1< RuntimeObject * >::Invoke(32 /* System.Void System.Collections.Hashtable::Remove(System.Object) */, L_10, L_11);
+		SqliteParameterCollection_RecreateNamedHash_m8A426FC3F58A72AF5CBC44DB194A4A10A4EA9C66(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Mono.Data.SqliteClient.SqliteParameterCollection::RemoveAt(Mono.Data.SqliteClient.SqliteParameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteParameterCollection_RemoveAt_m6C52042C6897FE095BCE072A88D2672C93BEF393 (SqliteParameterCollection_tAF71A3EBA9D8D1C01502CABEAE024C2A34D3B236 * __this, SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * ___param0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteParameterCollection_RemoveAt_m6C52042C6897FE095BCE072A88D2672C93BEF393_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteParameterCollection_RemoveAt_m6C52042C6897FE095BCE072A88D2672C93BEF393_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteParameter_t80C83BFF7095CE77D2BB77E70BF88A9CDC2D10EE * L_0 = ___param0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Mono.Data.SqliteClient.SqliteParameter::get_ParameterName() */, L_0);
+		VirtActionInvoker1< String_t* >::Invoke(40 /* System.Void Mono.Data.SqliteClient.SqliteParameterCollection::RemoveAt(System.String) */, __this, L_1);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Mono.Data.SqliteClient.SqliteSyntaxException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqliteSyntaxException__ctor_mA0032B5695AD023A02E16A553C1F66624565D731 (SqliteSyntaxException_tB92508EB582FC96CA42A679099FE4E6D39D1B028 * __this, String_t* ___message0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteSyntaxException__ctor_mA0032B5695AD023A02E16A553C1F66624565D731_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteSyntaxException__ctor_mA0032B5695AD023A02E16A553C1F66624565D731_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = ___message0;
+		ApplicationException__ctor_mF8E9704C91C2F1912909448E5BABFE9EC61D4E8F(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline (String_t* __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->get_m_stringLength_0();
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_inline (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_get_Version_m21AEF6958B0088BB6208405D00AB201C761F4B52_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->get_db_version_7();
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_inline (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_get_Handle_mEBA15679578A4ABA7F6C539C0BCA26CF647A6CDF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		intptr_t L_0 = __this->get_sqlite_handle_8();
+		return (intptr_t)L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * SqliteConnection_get_Encoding_mF525ACEB8976522154441A2B59D650DA573C8983_inline (SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteConnection_get_Encoding_mF525ACEB8976522154441A2B59D650DA573C8983_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteConnection_get_Encoding_mF525ACEB8976522154441A2B59D650DA573C8983_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_0 = __this->get_encoding_10();
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * StringComparer_get_InvariantCultureIgnoreCase_m091360FF9FE3516559AFF706AF431E6FD4CCF2C2_inline (const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringComparer_get_InvariantCultureIgnoreCase_m091360FF9FE3516559AFF706AF431E6FD4CCF2C2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StringComparer_get_InvariantCultureIgnoreCase_m091360FF9FE3516559AFF706AF431E6FD4CCF2C2_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_il2cpp_TypeInfo_var);
+		StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * L_0 = ((StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_StaticFields*)il2cpp_codegen_static_fields_for(StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_il2cpp_TypeInfo_var))->get__invariantCultureIgnoreCase_1();
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * SqliteCommand_get_Connection_mB77B8039C94F54974733BE438ACAB932DFA4C67F_inline (SqliteCommand_t0FD21F4F5B0E4FB69AA870C642226F5E2310D3CC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqliteCommand_get_Connection_mB77B8039C94F54974733BE438ACAB932DFA4C67F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SqliteCommand_get_Connection_mB77B8039C94F54974733BE438ACAB932DFA4C67F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		SqliteConnection_tEA70DB47723484D5C2E4E0C2EF1E550A6B6EE180 * L_0 = __this->get_parent_conn_4();
+		return L_0;
+	}
+}
