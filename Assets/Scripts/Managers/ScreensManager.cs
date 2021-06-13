@@ -36,8 +36,15 @@ public class ScreensManager : MonoBehaviour
             Destroy(base.gameObject);
         else
             ScreensManager.instance = this;
-
-        currentSceen = mainScreen;
+        if(SaveController.IsFirstTime())
+        {
+            currentSceen = mainScreen;
+        }else
+        {
+            SaveController.CreateSaveDirectory();
+            currentSceen = mainScreen;
+        }
+        
     }
 
     // Start is called before the first frame update

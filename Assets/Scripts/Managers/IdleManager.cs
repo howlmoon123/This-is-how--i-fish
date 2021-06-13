@@ -114,6 +114,12 @@ public class IdleManager : MonoBehaviour
         OnApplicationPause(true);
     }
 
+    public void PressQuitButtons()
+    {
+        Debug.LogError("Pressed Quit Button");
+        Application.Quit();
+    }
+
     public void BuyLength()
     {
         length -= 10;

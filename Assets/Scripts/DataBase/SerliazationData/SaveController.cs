@@ -112,8 +112,18 @@ public class SaveController : MonoBehaviour
         PrintPlayer(profile);
     }
 
+    public static bool IsFirstTime()
+    {
+        return File.Exists(Application.persistentDataPath + "/Saves/PlayerProfile.howlersave");
+    }
+
     public void PrintPlayer(PlayerProfile playerProfile)
     {
         Debug.LogError("Profile Name " + playerProfile.name + " Length: " + playerProfile.length  + " Strength: " + playerProfile.strength + " Offline: " + playerProfile.offLine +  " Wallet " + playerProfile.wallet);
+    }
+
+    public static void CreateSaveDirectory()
+    {
+        Directory.CreateDirectory(Application.persistentDataPath + "/Saves");
     }
 }
