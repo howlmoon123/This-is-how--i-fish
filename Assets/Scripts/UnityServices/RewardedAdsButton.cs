@@ -7,16 +7,22 @@ using UnityEngine.Advertisements;
 [RequireComponent(typeof(Button))]
 public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
 {
-    string gameId = "4162228";
+    public string gameId = "4162228";
+    public string vungleAdId = "60c03ba6405dcfbef23216bf";
+    public string vungleAdPlacementId = "COLLECT2X-5391544";
+    public bool isPlayale = false;
+   
 
 #if UNITY_IOS
      gameId = "4162229";
 #elif UNITY_ANDROID
      gameId = "4162228";
+#elif WINDOWS_UWP
+    gameId = vungleAdId;
 #endif
 
 
-    Button myButton;
+    public Button myButton;
     public string mySurfacingId = "rewardedVideo";
 
     private void Start()
@@ -29,15 +35,41 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
 
         // Map the ShowRewardedVideo function to the button’s click listener:
         if (myButton) myButton.onClick.AddListener(ShowRewardedVideo);
+        if (Application.platform == RuntimePlatform.WindowsPlayer)
+        {
+            // Initialize the Ads listener and service:
+            Advertisement.AddListener(this);
+            Advertisement.Initialize(gameId, true);
+            Vungle.onAdStartedEvent += (vungleAdPlacementId) =>
+            {
 
-        // Initialize the Ads listener and service:
-        Advertisement.AddListener(this);
-        Advertisement.Initialize(gameId, true);
+            };
+            Vungle.onAdFinishedEvent += (vungleAdPlacementId, args) =>
+            {
+
+            };
+
+            Vungle.adPlayableEvent += (vungleAdPlacementId, args) =>
+            {
+                isPlayale = args;
+            };
+        }
     }
 
     void ShowRewardedVideo()
     {
-        Advertisement.Show(mySurfacingId);
+        if (Application.platform == RuntimePlatform.WindowsPlayer)
+        {
+            Vungle.loadAd(vungleAdPlacementId);
+            Vungle.adPlayableEvent += (vungleAdPlacementId, isPlayale) =>
+            {
+                myButton.interactable = isPlayale;
+            };
+        }
+        else if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+        {
+            Advertisement.Show(mySurfacingId);
+        }
     }
 
     public void OnUnityAdsDidError(string message)
