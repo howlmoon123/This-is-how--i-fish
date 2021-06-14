@@ -11,15 +11,11 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
     public string vungleAdId = "60c03ba6405dcfbef23216bf";
     public string vungleAdPlacementId = "COLLECT2X-5391544";
     public bool isPlayale = false;
-   
 
-#if UNITY_IOS
-     gameId = "4162229";
-#elif UNITY_ANDROID
-     gameId = "4162228";
-#elif WINDOWS_UWP
-    gameId = vungleAdId;
-#endif
+
+
+  
+
 
 
     public Button myButton;
@@ -29,6 +25,7 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
     {
         //Vungle Id is 60c03ba6405dcfbef23216bf
         //Vungle placement Id  COLLECT2X-5391544ty
+        gameId = vungleAdId;
 
         myButton = GetComponent<Button>();
         myButton.interactable = Advertisement.IsReady(mySurfacingId);
@@ -37,41 +34,43 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
         if (myButton) myButton.onClick.AddListener(ShowRewardedVideo);
         if (Application.platform == RuntimePlatform.WindowsPlayer)
         {
+            Debug.LogError("WINDOWQ");
             // Initialize the Ads listener and service:
-            Advertisement.AddListener(this);
-            Advertisement.Initialize(gameId, true);
-            Vungle.onAdStartedEvent += (vungleAdPlacementId) =>
-            {
+            //    Advertisement.AddListener(this);
+            //    Advertisement.Initialize(gameId, true);
+            /*       Vungle.onAdStartedEvent += (vungleAdPlacementId) =>
+                   {
 
-            };
-            Vungle.onAdFinishedEvent += (vungleAdPlacementId, args) =>
-            {
+                   };
+                   Vungle.onAdFinishedEvent += (vungleAdPlacementId, args) =>
+                   {
 
-            };
+                   };
 
-            Vungle.adPlayableEvent += (vungleAdPlacementId, args) =>
+                   Vungle.adPlayableEvent += (vungleAdPlacementId, args) =>
+                   {
+                       isPlayale = args;
+                   };
+               }
+            */
+        }
+
+        void ShowRewardedVideo()
+        {
+            if (Application.platform == RuntimePlatform.WindowsPlayer)
             {
-                isPlayale = args;
-            };
+                //  Vungle.loadAd(vungleAdPlacementId);
+                //  Vungle.adPlayableEvent += (vungleAdPlacementId, isPlayale) =>
+                //   {
+                //      myButton.interactable = isPlayale;
+                //   };
+            }//
+            else if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+            {
+                Advertisement.Show(mySurfacingId);
+            }
         }
     }
-
-    void ShowRewardedVideo()
-    {
-        if (Application.platform == RuntimePlatform.WindowsPlayer)
-        {
-            Vungle.loadAd(vungleAdPlacementId);
-            Vungle.adPlayableEvent += (vungleAdPlacementId, isPlayale) =>
-            {
-                myButton.interactable = isPlayale;
-            };
-        }
-        else if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
-        {
-            Advertisement.Show(mySurfacingId);
-        }
-    }
-
     public void OnUnityAdsDidError(string message)
     {
         Debug.LogError(message);

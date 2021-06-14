@@ -701,6 +701,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730fdb29b4e6ccc40ada062434e4280a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameId: 4162228
+  vungleAdId: 60c03ba6405dcfbef23216bf
+  vungleAdPlacementId: COLLECT2X-5391544
+  isPlayale: 0
+  myButton: {fileID: 0}
   mySurfacingId: rewardedVideo
 --- !u!1 &440673989
 GameObject:
