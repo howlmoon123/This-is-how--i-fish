@@ -1,0 +1,8 @@
+#include "il2cpp-config.h"
+#include "C:\Users\Latitude E5420\UnityProjects\2021Idle\Idle_Path\Fish-Idle\Idle-Fish\Win_UWP1\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\BlobReader.cpp"
+#include "C:\Users\Latitude E5420\UnityProjects\2021Idle\Idle_Path\Fish-Idle\Idle-Fish\Win_UWP1\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\Debugger.cpp"
+#include "C:\Users\Latitude E5420\UnityProjects\2021Idle\Idle_Path\Fish-Idle\Idle-Fish\Win_UWP1\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\NativeDelegateMethodCache.cpp"
+#include "C:\Users\Latitude E5420\UnityProjects\2021Idle\Idle_Path\Fish-Idle\Idle-Fish\Win_UWP1\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\NativeSymbol.cpp"
+#include "C:\Users\Latitude E5420\UnityProjects\2021Idle\Idle_Path\Fish-Idle\Idle-Fish\Win_UWP1\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\VmStringUtils.cpp"
+#include "C:\Users\Latitude E5420\UnityProjects\2021Idle\Idle_Path\Fish-Idle\Idle-Fish\Win_UWP1\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\icalls\mscorlib\System.Threading\Interlocked.cpp"
+#include "C:\Users\Latitude E5420\UnityProjects\2021Idle\Idle_Path\Fish-Idle\Idle-Fish\Win_UWP1\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\icalls\mscorlib\System\Math.cpp"

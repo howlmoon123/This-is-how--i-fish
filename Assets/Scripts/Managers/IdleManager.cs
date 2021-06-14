@@ -114,6 +114,12 @@ public class IdleManager : MonoBehaviour
         OnApplicationPause(true);
     }
 
+    public void IQuit()
+    {
+        Debug.Log("Click quit event setup");
+        OnApplicationQuit();
+    }
+
     public void BuyLength()
     {
         length -= 10;
